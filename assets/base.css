@@ -4272,3 +4272,8 @@ a.contents.user-select-text[ref="productTitleLink"] P {
 slideshow-container[ref="slideshowContainer"] button {
     display: none !important;
 }
+.slideshow-controls__thumbnails button {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
