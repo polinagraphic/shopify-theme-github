@@ -4258,3 +4258,82 @@ text-component {
     font-size: max(1rem, 100%);
   }
 }
+/* === Product gallery: vertical thumbnails on the left === */
+.product-information__media .media-gallery {
+  display: grid;
+  grid-template-columns: 84px 1fr; /* left rail, main image */
+  gap: 16px;
+  align-items: start;
+}
+
+/* Thumbnail wrapper */
+.product-information__media .media-gallery__thumbnails,
+.product-information__media .thumbnail-list,
+.product-information__media .thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: calc(100vh - var(--header-height, 80px) - 220px);
+  overflow: auto;
+  scrollbar-width: thin;
+  padding-right: 2px;
+}
+
+/* Thumbnail items */
+.product-information__media .media-gallery__thumbnail,
+.product-information__media .thumbnail,
+.product-information__media .thumbnail-list__item {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: none;
+  background: none;
+  padding: 0;
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+.product-information__media .media-gallery__thumbnail img,
+.product-information__media .thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Highlight active thumb */
+.product-information__media .media-gallery__thumbnail[aria-current="true"],
+.product-information__media .thumbnail.is-active,
+.product-information__media .thumbnail[aria-selected="true"] {
+  opacity: 1;
+  outline: 2px solid var(--color-foreground, #222);
+}
+
+/* Clean arrows */
+.product-information__media .slideshow__button,
+.product-information__media .slider-button,
+.product-information__media .media-gallery__arrow {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Mobile view: thumbs under main image */
+@media (max-width: 749px) {
+  .product-information__media .media-gallery {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .product-information__media .media-gallery__thumbnails,
+  .product-information__media .thumbnail-list,
+  .product-information__media .thumbnails {
+    flex-direction: row;
+    max-height: none;
+    overflow: auto hidden;
+  }
+  .product-information__media .media-gallery__thumbnail,
+  .product-information__media .thumbnail,
+  .product-information__media .thumbnail-list__item {
+    width: 72px;
+    min-width: 72px;
+  }
+}
