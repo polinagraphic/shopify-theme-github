@@ -4258,3 +4258,14 @@ text-component {
     font-size: max(1rem, 100%);
   }
 }
+/* PDP page Fixes */
+details.details[data-testid="accordion-details"] summary.details__header {
+    font-size: 14px;
+}
+quantity-selector-component.quantity-selector button {
+  border: none;
+  box-shadow:none;
+}
+a.contents.user-select-text[ref="productTitleLink"] P {
+    font-size: 38px;
+}
