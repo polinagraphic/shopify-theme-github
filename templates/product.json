@@ -283,13 +283,52 @@
                 "accordion_row_mjzmwF": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "What’s included?",
+                    "heading": "Why You'll Love It",
                     "open_by_default": true,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
                     "text_qmcWQU": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<ul><li>Reusable, mess-free play</li><li>Great for bedtime or quiet play</li><li>Lightweight and travel-friendly</li></ul><p>A unique creative set for drawing with light in the dark. Kids can bring their ideas to life with glowing sketches that fade, ready for the next creation. Screen-free and reusable, it’s an easy way to keep playtime calm and engaging. The set is lightweight and portable, making it simple to use at home, during bedtime routines, or on the go.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_qmcWQU"
+                  ]
+                },
+                "accordion_row_GkQwbL": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What's included?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_bjDJG3": {
                       "type": "text",
                       "settings": {
                         "text": "<ul><li>fluoresent drawing board x 1</li><li>uv light pen</li><li>board holder x 1</li><li>stencil x 1</li><li>instructions stickers</li></ul>",
@@ -316,7 +355,7 @@
                     }
                   },
                   "block_order": [
-                    "text_qmcWQU"
+                    "text_bjDJG3"
                   ]
                 },
                 "accordion_row_QQUW3P": {
@@ -370,7 +409,7 @@
                     "text_Xn9kWV": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>All of our <strong>Draw with Light sets</strong> have been tested by a <strong>CPSC-accepted third-party laboratory</strong> and passed all required U.S. safety standards.</p><p>They meet <strong>ASTM F963 toy safety standards</strong> (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the <strong>CPSIA requirements</strong> for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through <strong>photoluminescence</strong>, which simply stores light and releases it in the dark.</p>",
+                        "text": "<p>All of our Draw with Light sets have been tested by a CPSC-accepted third-party laboratory and passed all required U.S. safety standards.</p><p>They meet ASTM F963 toy safety standards (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the CPSIA requirements for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through photoluminescence, which simply stores light and releases it in the dark.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -400,6 +439,7 @@
               },
               "block_order": [
                 "accordion_row_mjzmwF",
+                "accordion_row_GkQwbL",
                 "accordion_row_QQUW3P",
                 "accordion_row_Dka8fD"
               ]
