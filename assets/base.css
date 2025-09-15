@@ -4265,11 +4265,11 @@ details.details[data-testid="accordion-details"] summary.details__header {
 quantity-selector-component.quantity-selector button {
   border: none !important;
   box-shadow:none !important;
+      background: none !important;
 }
 a.contents.user-select-text[ref="productTitleLink"] P {
     font-size: 38px;
 }
-
 .slideshow-controls__thumbnails button {
     border: none !important;
     box-shadow: none !important;
@@ -4281,6 +4281,9 @@ a.contents.user-select-text[ref="productTitleLink"] P {
 quantity-selector-component.quantity-selector button.button:hover {
     transform: none !important;
     box-shadow: none !important;
+}
+.quantity-selector{
+  background-color: #fff !important;
 }
 .quantity-selector:hover{
   background-color: #fff !important;
