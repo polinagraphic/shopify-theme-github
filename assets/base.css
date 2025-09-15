@@ -4295,5 +4295,5 @@ quantity-selector-component.quantity-selector button.button:hover {
     color: #fff !important;
 }
 .product-information__grid--limit-details .product-details>.group-block {
-     max-width: 100%;
+     max-width: 100% !important;
 }
