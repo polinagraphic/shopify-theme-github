@@ -4288,3 +4288,9 @@ quantity-selector-component.quantity-selector button.button:hover {
 .quantity-selector:hover{
   background-color: #fff !important;
 }
+.product-information slideshow-arrows .slideshow-control {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #fff !important;
+}
