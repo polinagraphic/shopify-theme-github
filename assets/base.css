@@ -4261,6 +4261,7 @@ text-component {
 /* PDP page Fixes */
 details.details[data-testid="accordion-details"] summary.details__header {
     font-size: 14px;
+        font-family: 'Plus Jakarta Sans';
 }
 quantity-selector-component.quantity-selector button {
   border: none !important;
@@ -4303,5 +4304,9 @@ add-to-cart-component[ref="addToCartButtonContainer"] button:hover
      max-width: 100% !important;
 }
 add-to-cart-component[ref="addToCartButtonContainer"] button {
+    box-shadow: none !important;
+}
+
+.slideshow-controls__thumbnails button:hover {
     box-shadow: none !important;
 }
