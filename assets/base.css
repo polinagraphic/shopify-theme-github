@@ -4269,9 +4269,7 @@ quantity-selector-component.quantity-selector button {
 a.contents.user-select-text[ref="productTitleLink"] P {
     font-size: 38px;
 }
-slideshow-container[ref="slideshowContainer"] button {
-    display: none !important;
-}
+
 .slideshow-controls__thumbnails button {
     border: none !important;
     box-shadow: none !important;
