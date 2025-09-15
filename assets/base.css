@@ -4297,3 +4297,6 @@ quantity-selector-component.quantity-selector button.button:hover {
 .product-information__grid--limit-details .product-details>.group-block {
      max-width: 100% !important;
 }
+add-to-cart-component[ref="addToCartButtonContainer"] button {
+    box-shadow: none !important;
+}
