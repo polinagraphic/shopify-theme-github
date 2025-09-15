@@ -4278,3 +4278,10 @@ a.contents.user-select-text[ref="productTitleLink"] P {
     outline: none !important;
     width: 120px !important;
 }
+quantity-selector-component.quantity-selector button.button:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+.quantity-selector:hover{
+  background-color: #fff !important;
+}
