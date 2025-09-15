@@ -4310,3 +4310,6 @@ add-to-cart-component[ref="addToCartButtonContainer"] button {
 .slideshow-controls__thumbnails button:hover {
     box-shadow: none !important;
 }
+.slideshow-controls__thumbnails .slideshow-control:is([aria-selected=true]) {
+    border: 1px solid #592898 !important;
+}
