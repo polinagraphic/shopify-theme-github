@@ -424,7 +424,7 @@
         "image_n8kBYQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Story_02.jpg",
+            "image": "shopify://shop_images/Story_02_85c31f41-9569-44cb-a3eb-e2e83fa31b0d.png",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
@@ -728,7 +728,7 @@
         "image_QRU7xB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Story_03.jpg",
+            "image": "shopify://shop_images/Vector_8_Stroke.png",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
