@@ -612,21 +612,58 @@
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-  const thumbsSwiper = new Swiper(".thumbs-slider", {
-    slidesPerView: 5,
-    spaceBetween: 10,
-    freeMode: true,
-    watchSlidesProgress: true,
+document.addEventListener("DOMContentLoaded", function () {
+  const mainImage = document.querySelector(".mobile-gallery-main img");
+  const thumbnailsWrapper = document.querySelector(".mobile-gallery-thumbnails");
+  const thumbnails = Array.from(thumbnailsWrapper.querySelectorAll("img"));
+
+  let currentIndex = 0;
+
+  function setActiveThumbnail(index) {
+    thumbnails.forEach(t => t.classList.remove("active"));
+    thumbnails[index].classList.add("active");
+
+    // Scroll thumbnail list so active thumb moves to first position
+    thumbnailsWrapper.scrollTo({
+      left: thumbnails[index].offsetLeft,
+      behavior: "smooth"
+    });
+  }
+
+  function showImage(index) {
+    if (index < 0) index = thumbnails.length - 1;
+    if (index >= thumbnails.length) index = 0;
+    currentIndex = index;
+
+    const newSrc = thumbnails[currentIndex].getAttribute("data-large");
+    mainImage.src = newSrc;
+    setActiveThumbnail(currentIndex);
+  }
+
+  // Thumbnail click
+  thumbnails.forEach((thumb, index) => {
+    thumb.addEventListener("click", () => {
+      showImage(index);
+    });
   });
 
-  const mainSwiper = new Swiper(".main-slider", {
-    spaceBetween: 10,
-    loop: true,
-    thumbs: {
-      swiper: thumbsSwiper,
-    },
+  // Swipe/drag support for main image
+  let startX = 0;
+  mainImage.addEventListener("touchstart", (e) => {
+    startX = e.touches[0].clientX;
   });
+
+  mainImage.addEventListener("touchend", (e) => {
+    let endX = e.changedTouches[0].clientX;
+    if (endX < startX - 50) {
+      showImage(currentIndex + 1); // swipe left → next
+    } else if (endX > startX + 50) {
+      showImage(currentIndex - 1); // swipe right → prev
+    }
+  });
+
+  // Init
+  showImage(0);
 });
 
 </script>
