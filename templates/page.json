@@ -222,7 +222,7 @@
         "color_scheme": "scheme-2",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/Story_Section.jpg",
+        "background_image": "shopify://shop_images/Story_Section_2d6ca4d5-3f0e-4be1-ab18-cb074c22d59a.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -364,7 +364,7 @@
         "image_GfX8wy": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Story_01.jpg",
+            "image": "shopify://shop_images/Story_01_d9282316-85cb-45af-bd69-5b5df59541f3.png",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
