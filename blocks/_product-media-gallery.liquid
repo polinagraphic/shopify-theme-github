@@ -615,7 +615,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const mainImage = document.querySelector(".mobile-gallery-main img");
   const thumbnailsWrapper = document.querySelector(".mobile-gallery-thumbnails");
-  let thumbnails = Array.from(thumbnailsWrapper.querySelectorAll("img"));
+  const thumbnails = Array.from(thumbnailsWrapper.querySelectorAll("img"));
 
   let currentIndex = 0;
 
@@ -633,22 +633,24 @@ document.addEventListener("DOMContentLoaded", function () {
     mainImage.src = newSrc;
 
     setActiveThumbnail(currentIndex);
+    scrollThumbnailIntoView(index);
   }
 
-  // Reorder thumbnails so clicked one becomes first
-  function moveThumbnailToFirst(index) {
-    const clickedThumb = thumbnails[index];
-    thumbnailsWrapper.prepend(clickedThumb); // move in DOM
-    thumbnails = Array.from(thumbnailsWrapper.querySelectorAll("img")); // refresh array
-    currentIndex = 0; // since clicked thumb is now first
-    setActiveThumbnail(0);
+  function scrollThumbnailIntoView(index) {
+    const thumb = thumbnails[index];
+    if (!thumb) return;
+
+    // Move the strip so clicked thumbnail aligns left
+    thumbnailsWrapper.scrollTo({
+      left: thumb.offsetLeft,
+      behavior: "smooth"
+    });
   }
 
   // Thumbnail click
   thumbnails.forEach((thumb, index) => {
     thumb.addEventListener("click", () => {
       showImage(index);
-      moveThumbnailToFirst(index);
     });
   });
 
