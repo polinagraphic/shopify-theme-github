@@ -2122,7 +2122,7 @@
         "text_qb9GNG": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>FOLLOW US @GLOWHEROES</strong></p>",
+            "text": "<p><strong>follow us @glowheroes</strong></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
