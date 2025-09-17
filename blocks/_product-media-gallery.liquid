@@ -599,16 +599,30 @@
   </div>
 </div>
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   const mainImage = document.querySelector(".mobile-main-image img");
-  const thumbs = document.querySelectorAll(".mobile-thumb");
+  const thumbsContainer = document.querySelector(".mobile-thumbnails");
 
-  thumbs.forEach(thumb => {
-    thumb.addEventListener("click", () => {
-      mainImage.src = thumb.dataset.large;
-    });
+  if (!mainImage || !thumbsContainer) return;
+
+  thumbsContainer.addEventListener("click", (e) => {
+    const thumb = e.target.closest(".mobile-thumb");
+    if (!thumb) return;
+
+    // Update main image
+    mainImage.src = thumb.dataset.large;
+
+    // Remove active class from all
+    thumbsContainer.querySelectorAll(".mobile-thumb").forEach(t => t.classList.remove("active"));
+
+    // Add active class to clicked one
+    thumb.classList.add("active");
+
+    // Move clicked thumbnail to the first position
+    thumbsContainer.prepend(thumb);
   });
 });
+
 
 </script>
 {% stylesheet %}
