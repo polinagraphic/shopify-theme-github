@@ -244,3 +244,27 @@ onDocumentLoaded(() => {
     mutationObserver.observe(headerGroup, { childList: true });
   }
 });
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const mainImage = document.querySelector(".mobile-main-image");
+  const thumbnails = document.querySelectorAll(".mobile-thumbnail");
+
+  thumbnails.forEach((thumb, i) => {
+    thumb.addEventListener("click", () => {
+      // Remove active class from all
+      thumbnails.forEach(t => t.classList.remove("active"));
+      thumb.classList.add("active");
+
+      // Replace main image
+      const newContent = thumb.innerHTML;
+      mainImage.innerHTML = newContent;
+    });
+  });
+
+  // Set first as active
+  if (thumbnails.length) thumbnails[0].classList.add("active");
+});
