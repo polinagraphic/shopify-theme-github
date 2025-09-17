@@ -2042,7 +2042,7 @@
               "settings": {
                 "text": "<h3>become a glow hero yourself</h3>",
                 "width": "100%",
-                "max_width": "narrow",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "h2",
                 "font": "var(--font-body--family)",
