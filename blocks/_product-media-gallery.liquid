@@ -581,75 +581,86 @@
     </script>
   {%- endif -%}
 </media-gallery>
+{{ 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' | stylesheet_tag }}
+{{ 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js' | script_tag }}
 <div class="mobile-gallery">
-  <div class="mobile-main-image">
-    {% if product.featured_image %}
-      <img src="{{ product.featured_image | image_url: width: 800 }}" alt="{{ product.featured_image.alt | escape }}">
-    {% endif %}
+  <!-- Main image slider -->
+  <div class="swiper main-slider">
+    <div class="swiper-wrapper">
+      {% for media in product.media %}
+        {% if media.media_type == "image" %}
+          <div class="swiper-slide">
+            <img src="{{ media | image_url: width: 800 }}" alt="{{ media.alt | escape }}">
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 
-  <div class="mobile-thumbnails">
-    {% for image in product.images %}
-      <img 
-        src="{{ image | image_url: width: 200 }}" 
-        alt="{{ image.alt | escape }}" 
-        class="mobile-thumb"
-        data-large="{{ image | image_url: width: 800 }}">
-    {% endfor %}
+  <!-- Thumbnails slider -->
+  <div class="swiper thumbs-slider">
+    <div class="swiper-wrapper">
+      {% for media in product.media %}
+        {% if media.media_type == "image" %}
+          <div class="swiper-slide">
+            <img src="{{ media | image_url: width: 200 }}" alt="{{ media.alt | escape }}">
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
+
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const mainImage = document.querySelector(".mobile-main-image img");
-  const thumbsContainer = document.querySelector(".mobile-thumbnails");
+  document.addEventListener("DOMContentLoaded", () => {
+  const thumbsSwiper = new Swiper(".thumbs-slider", {
+    slidesPerView: 5,
+    spaceBetween: 10,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
 
-  if (!mainImage || !thumbsContainer) return;
-
-  thumbsContainer.addEventListener("click", (e) => {
-    const thumb = e.target.closest(".mobile-thumb");
-    if (!thumb) return;
-
-    // Update main image
-    mainImage.src = thumb.dataset.large;
-
-    // Remove active class from all
-    thumbsContainer.querySelectorAll(".mobile-thumb").forEach(t => t.classList.remove("active"));
-
-    // Add active class to clicked one
-    thumb.classList.add("active");
-
-    // Move clicked thumbnail to the first position
-    thumbsContainer.prepend(thumb);
+  const mainSwiper = new Swiper(".main-slider", {
+    spaceBetween: 10,
+    loop: true,
+    thumbs: {
+      swiper: thumbsSwiper,
+    },
   });
 });
-
 
 </script>
 {% stylesheet %}
 .mobile-gallery {
-  display: none;
+  max-width: 100%;
 }
-@media (max-width: 749px) {
-  .mobile-gallery {
-    display: block;
-  }
-  .mobile-main-image img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  .mobile-thumbnails {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-  }
-  .mobile-thumbnails img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 6px;
-    cursor: pointer;
-  }
+
+.main-slider {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.main-slider img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.thumbs-slider {
+  width: 100%;
+}
+
+.thumbs-slider img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 0.6;
+  transition: opacity 0.3s, border 0.3s;
+}
+
+.thumbs-slider .swiper-slide-thumb-active img {
+  opacity: 1;
+  border: 2px solid #000;
 }
 
   .dialog-zoomed-gallery {
