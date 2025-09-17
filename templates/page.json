@@ -120,7 +120,7 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/Header_Photo_001.jpg",
+        "image_1": "shopify://shop_images/GH_Header_01_22680736-8f5f-4b97-8e11-0935d4407efd.jpg",
         "media_type_2": "image",
         "link": "",
         "open_in_new_tab": false,
@@ -129,7 +129,7 @@
         "horizontal_alignment": "space-between",
         "vertical_alignment": "flex-end",
         "align_baseline": true,
-        "horizontal_alignment_flex_direction_column": "center",
+        "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 24,
         "section_width": "page-width",
