@@ -478,6 +478,32 @@
             {% endif %}
           </scroll-hint>
         </div>
+        {% if sorted_media.size > 1 %}
+  <div class="mobile-media-gallery">
+    <!-- Main Image -->
+    <div class="mobile-main-image">
+      {%- render 'product-media',
+        media: sorted_media.first,
+        sizes: '100vw',
+        is_main_product_media: true
+      -%}
+    </div>
+
+    <!-- Thumbnails -->
+    <div class="mobile-thumbnails">
+      {% for media in sorted_media %}
+        <div class="mobile-thumbnail" data-index="{{ forloop.index0 }}">
+          {%- render 'product-media',
+            media: media,
+            sizes: '150px',
+            is_main_product_media: false
+          -%}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
         <ul
           class="dialog-zoomed-gallery list-unstyled"
         >
