@@ -1804,7 +1804,7 @@
                     "text_YeqEGT": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our <strong>Draw with Light sets</strong> are a hit with kids ages <strong>3 to 12</strong> — though we’ll admit, plenty of parents and older siblings can’t resist jumping in, too. The magic of drawing with light feels fun for everyone.</p>",
+                        "text": "<p>Our Draw with Light sets are a hit with kids ages 3 to 12 — though we’ll admit, plenty of parents and older siblings can’t resist jumping in, too. The magic of drawing with light feels fun for everyone.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1834,7 +1834,7 @@
                 "accordion_row_a7keMH": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Is drawing with light or glow-in-the-dark play harmful to the eyes?",
+                    "heading": "Is drawing with light harmful to the eyes?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -1882,7 +1882,7 @@
                     "text_DgNWVM": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>The glow comes from a process called <strong>photoluminescence</strong>. We use a special <strong>photoluminescent film, powder, and ink</strong> that absorb light (from daylight or a lamp) and then release it in the dark. The more light the surface absorbs, the brighter it glows once the lights go out.</p>",
+                        "text": "<p><strong>The glow comes from a process called photoluminescence.</strong> We use a special photoluminescent film, powder, and ink that absorb light (from daylight or a lamp) and then release it in the dark. The more light the surface absorbs, the brighter it glows once the lights go out.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1921,7 +1921,7 @@
                     "text_mVbExR": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are completely safe. All of our <strong>Draw with Light sets</strong> have been tested by a <strong>CPSC-accepted third-party laboratory</strong> and passed all required U.S. safety standards.</p><p>They meet <strong>ASTM F963 toy safety standards</strong> (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the <strong>CPSIA requirements</strong> for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through <strong>photoluminescence</strong>, which simply stores light and releases it in the dark.</p>",
+                        "text": "<p>Our products are completely safe. <strong>All of our Draw with Light sets have been tested by a CPSC-accepted third-party laboratory and passed all required U.S. safety standards.</strong></p><p>They meet ASTM F963 toy safety standards (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the CPSIA requirements for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through photoluminescence, which simply stores light and releases it in the dark.</p><p><strong>Questions? You can also email us directly at hey.glowheroes@gmail.com</strong></p><p></p><p></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1960,7 +1960,7 @@
                     "text_9dRH6m": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>For the best results, make sure to draw in <strong>complete darkness or a dimly lit room</strong>. During the day, store the board in a dark place to keep the surface ready for glowing.</p><p>If the problem continues, check the <strong>batteries in the light pen</strong> and replace them following the instructions included in your set.</p>",
+                        "text": "<p>For the best results, make sure to draw in complete darkness or a dimly lit room. During the day, store the board in a dark place to keep the surface ready for glowing.</p><p>If the problem continues, check the batteries in the light pen and replace them following the instructions included in your set.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
