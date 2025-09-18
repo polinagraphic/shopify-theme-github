@@ -4326,5 +4326,5 @@ add-to-cart-component[ref="addToCartButtonContainer"] button {
   }
 }
 media-gallery slideshow-component slideshow-arrows {
-      mix-blend-mode: darken !important;
+      mix-blend-mode: normal !important;
 }
