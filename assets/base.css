@@ -4295,10 +4295,17 @@ add-to-cart-component[ref="addToCartButtonContainer"] button:hover
   background-color: #fff !important;
 }
 .product-information slideshow-arrows .slideshow-control {
-    background: transparent !important;
+    background: #592898 !important;
     border: none !important;
     box-shadow: none !important;
     color: #fff !important;
+    width: 7%;
+    height: 7% !important;
+    min-height: 7% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
 }
 .product-information__grid--limit-details .product-details>.group-block {
      max-width: 100% !important;
@@ -4317,4 +4324,7 @@ add-to-cart-component[ref="addToCartButtonContainer"] button {
   media-gallery {
     display: none !important;
   }
+}
+.slideshow-arrows {
+      mix-blend-mode: darken !important;
 }
