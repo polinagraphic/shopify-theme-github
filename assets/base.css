@@ -4340,3 +4340,6 @@ quantity-selector-component.quantity-selector button,
 input[type="number"][ref="quantityInput"] {
     color: #592898 !important;
 }
+.product-information slideshow-arrows {
+    padding: 20px;
+}
