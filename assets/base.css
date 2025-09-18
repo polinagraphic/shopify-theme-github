@@ -4336,3 +4336,7 @@ media-gallery slideshow-component slideshow-arrows {
 span.add-to-cart-text {
     color: #fff;
 }
+quantity-selector-component.quantity-selector button,
+input[type="number"][ref="quantityInput"] {
+    color: #592898 !important;
+}
