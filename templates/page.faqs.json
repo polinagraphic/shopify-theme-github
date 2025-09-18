@@ -210,6 +210,337 @@
         "padding-block-end": 72
       }
     },
+    "section_XP6ADD": {
+      "type": "section",
+      "blocks": {
+        "text_gYrtGA": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>FAQ</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_R6Qdw9": {
+          "type": "group",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_HPpP7t": {
+              "type": "accordion",
+              "name": "t:names.accordion",
+              "settings": {
+                "icon": "caret",
+                "dividers": true,
+                "type_preset": "h6",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "accordion_row_7wjqek": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What ages are your products suitable for?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_yFUdcq": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Our Draw with Light sets are a hit with kids ages 3 to 12 — though we’ll admit, plenty of parents and older siblings can’t resist jumping in, too. The magic of drawing with light feels fun for everyone.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_yFUdcq"
+                  ]
+                },
+                "accordion_row_Mhkade": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Is drawing with light harmful to the eyes?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_KnJH39": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>No — it’s safe. The light pens are gentle on the eyes and designed for kids to use comfortably. For the best experience, we recommend drawing for up to <strong>30 minutes a day</strong> in a dimly lit room.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_KnJH39"
+                  ]
+                },
+                "accordion_row_D73HFc": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How does the drawing appear? What makes it glow in the dark?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_3LwPDi": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p><strong>The glow comes from a process called photoluminescence.</strong> We use a special photoluminescent film, powder, and ink that absorb light (from daylight or a lamp) and then release it in the dark. The more light the surface absorbs, the brighter it glows once the lights go out.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_3LwPDi"
+                  ]
+                },
+                "accordion_row_wqVhPP": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How can I be sure your products are safe for children?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_iK9DXB": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Our products are completely safe. <strong>All of our Draw with Light sets have been tested by a CPSC-accepted third-party laboratory and passed all required U.S. safety standards.</strong></p><p>They meet ASTM F963 toy safety standards (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the CPSIA requirements for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through photoluminescence, which simply stores light and releases it in the dark.</p><p><strong>Questions? You can also email us directly at hey.glowheroes@gmail.com</strong></p><p></p><p></p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_iK9DXB"
+                  ]
+                },
+                "accordion_row_pqLPmD": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What should I do if the light pen doesn’t work or nothing shows up on the board?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_7TtX3R": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>For the best results, make sure to draw in complete darkness or a dimly lit room. During the day, store the board in a dark place to keep the surface ready for glowing.</p><p>If the problem continues, check the batteries in the light pen and replace them following the instructions included in your set.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_7TtX3R"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_row_7wjqek",
+                "accordion_row_Mhkade",
+                "accordion_row_D73HFc",
+                "accordion_row_wqVhPP",
+                "accordion_row_pqLPmD"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_HPpP7t"
+          ]
+        }
+      },
+      "block_order": [
+        "text_gYrtGA",
+        "group_R6Qdw9"
+      ],
+      "name": "t:names.image_with_text",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "flex-start",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image": "shopify://shop_images/Gradient-1_0f522fb5-3efe-455e-85f2-f3d65207f5d3.jpg",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 80,
+        "padding-block-end": 80
+      }
+    },
     "form": {
       "type": "section",
       "blocks": {
@@ -282,6 +613,7 @@
   "order": [
     "main",
     "hero_t6zKew",
+    "section_XP6ADD",
     "form"
   ]
 }
