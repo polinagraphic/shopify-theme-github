@@ -1292,10 +1292,10 @@ button.shopify-payment-button__button--unbranded {
   text-transform: var(--button-text-case-primary);
   border-radius: var(--style-border-radius-buttons-primary);
 }
-
+/* 
 .button:not(.button-secondary, .button-unstyled) {
   outline-color: var(--button-background-color);
-}
+} */
 
 .button-secondary {
   font-family: var(--button-font-family-secondary);
