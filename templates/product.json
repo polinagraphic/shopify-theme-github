@@ -173,6 +173,10 @@
                 "price_tVjtKg"
               ]
             },
+            "judge_me_reviews_preview_badge_zgxtYR": {
+              "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+              "settings": {}
+            },
             "text_aEtTtq": {
               "type": "text",
               "name": "Product description",
@@ -447,6 +451,7 @@
           },
           "block_order": [
             "group_icgrde",
+            "judge_me_reviews_preview_badge_zgxtYR",
             "text_aEtTtq",
             "divider_VJhene",
             "variant_picker_R3rGDr",
