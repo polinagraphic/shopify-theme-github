@@ -1879,7 +1879,7 @@
                 "accordion_row_MDzKTc": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "How does the drawing appear? What makes it glow in the dark?",
+                    "heading": "What makes it glow in the dark?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -1918,7 +1918,7 @@
                 "accordion_row_98fU9k": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "How can I be sure your products are safe for children?",
+                    "heading": "Are your products safe for children?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -1957,7 +1957,7 @@
                 "accordion_row_ATFnGE": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "What should I do if the light pen doesn’t work or nothing shows up on the board?",
+                    "heading": "What should I do if the light pen doesn’t work?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
