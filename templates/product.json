@@ -1099,7 +1099,7 @@
               "settings": {
                 "text": "<p><strong>For kids,</strong> it’s perfect for curious minds who love to explore, create, and discover new things. It turns playtime into an adventure, sparking imagination and keeping children engaged in fun, screen-free activities.<br/><br/><strong>For parents,</strong> it offers peace of mind with tools that are safe, reliable, and designed to foster creativity. It’s an easy way to encourage a child’s growth while giving them a playful outlet that supports learning and self-expression.<br/><br/><strong>For teachers,</strong> it works as a classroom resource to help students focus, build confidence, and express themselves creatively. It’s more than just a toy—it’s a tool that supports emotional growth and makes learning interactive and fun.</p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
