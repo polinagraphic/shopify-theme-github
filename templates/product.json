@@ -1624,7 +1624,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 80,
-        "padding-block-end": 80
+        "padding-block-end": 0
       }
     },
     "section_yg9CMj": {
@@ -1975,7 +1975,7 @@
         "color_scheme": "scheme-1",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/Gradient_897be579-fc47-438b-8f45-7281e6891f21.jpg",
+        "background_image": "shopify://shop_images/Gradient_7ea838ea-1c96-4992-bc69-31576ce6c472.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
