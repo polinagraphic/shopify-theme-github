@@ -741,6 +741,7 @@
             "image_Uq3Drq": {
               "type": "image",
               "name": "t:names.image",
+              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/2.svg",
                 "link": "",
@@ -749,6 +750,29 @@
                 "custom_width": 20,
                 "width_mobile": "custom",
                 "custom_width_mobile": 20,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "image_tyFBrM": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Kids_01.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
                 "height": "fit",
                 "border": "none",
                 "border_width": 1,
@@ -859,6 +883,7 @@
           },
           "block_order": [
             "image_Uq3Drq",
+            "image_tyFBrM",
             "group_bCgBJR"
           ]
         },
@@ -902,9 +927,33 @@
             "padding-inline-end": 20
           },
           "blocks": {
+            "image_9VpWkx": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Kids_01.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "image_eVKxPx": {
               "type": "image",
               "name": "t:names.image",
+              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/1.svg",
                 "link": "",
@@ -1022,6 +1071,7 @@
             }
           },
           "block_order": [
+            "image_9VpWkx",
             "image_eVKxPx",
             "group_6fpwxa"
           ]
@@ -1066,9 +1116,33 @@
             "padding-inline-end": 20
           },
           "blocks": {
+            "image_YLzfkY": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Kids_01.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "image_LnyNE7": {
               "type": "image",
               "name": "t:names.image",
+              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/3.svg",
                 "link": "",
@@ -1186,6 +1260,7 @@
             }
           },
           "block_order": [
+            "image_YLzfkY",
             "image_LnyNE7",
             "group_wn9XCh"
           ]
