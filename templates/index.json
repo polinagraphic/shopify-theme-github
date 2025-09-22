@@ -379,66 +379,6 @@
         "padding-block-end": 80
       }
     },
-    "section_pXECkJ": {
-      "type": "section",
-      "blocks": {
-        "image_aF6dUT": {
-          "type": "image",
-          "name": "t:names.image",
-          "settings": {
-            "image": "shopify://shop_images/Glowster_Lumi.png",
-            "link": "",
-            "image_ratio": "adapt",
-            "width": "custom",
-            "custom_width": 50,
-            "width_mobile": "custom",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "image_aF6dUT"
-      ],
-      "disabled": true,
-      "name": "t:names.icons_with_text",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "section_GRrkCE": {
       "type": "section",
       "blocks": {
@@ -1302,6 +1242,65 @@
         "padding-block-end": 80
       }
     },
+    "section_pXECkJ": {
+      "type": "section",
+      "blocks": {
+        "image_aF6dUT": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/Glowster_Lumi.png",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "custom",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "image_aF6dUT"
+      ],
+      "name": "t:names.icons_with_text",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "section_4BgQ7r": {
       "type": "section",
       "blocks": {
@@ -1459,7 +1458,7 @@
         "color_scheme": "scheme-2",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/Gradient_6.jpg",
+        "background_image": "shopify://shop_images/Gradient-2.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -2267,10 +2266,10 @@
   "order": [
     "hero_jVaWmY",
     "section_PGKnYj",
-    "section_pXECkJ",
     "section_GRrkCE",
     "section_Hgwfzq",
     "section_cJay7P",
+    "section_pXECkJ",
     "section_4BgQ7r",
     "marquee_8XehEW",
     "1757036744f91087f3",
