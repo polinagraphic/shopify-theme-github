@@ -1995,7 +1995,7 @@
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
       "settings": {
-        "custom_liquid": "{% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', product: product %}",
+        "custom_liquid": "<!-- Start of Judge.me code -->\n<div style='clear:both'></div>\n<div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-product-title='{{ product.title | escape }}' data-id='{{ product.id }}'>\n  {{ product.metafields.judgeme.widget }}\n</div>\n<!-- End of Judge.me code -->",
         "color_scheme": "",
         "section_width": "page-width",
         "padding-block-start": 0,
