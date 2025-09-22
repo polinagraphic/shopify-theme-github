@@ -589,7 +589,7 @@
           "settings": {
             "text": "<h2>Created to inspire play, connection, and confidence</h2>",
             "width": "fit-content",
-            "max_width": "normal",
+            "max_width": "narrow",
             "alignment": "left",
             "type_preset": "h3",
             "font": "var(--font-body--family)",
@@ -741,7 +741,6 @@
             "image_Uq3Drq": {
               "type": "image",
               "name": "t:names.image",
-              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/2.svg",
                 "link": "",
@@ -765,6 +764,7 @@
             "image_tyFBrM": {
               "type": "image",
               "name": "t:names.image",
+              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/Kids_01.png",
                 "link": "",
@@ -930,6 +930,7 @@
             "image_9VpWkx": {
               "type": "image",
               "name": "t:names.image",
+              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/Kids_01.png",
                 "link": "",
@@ -953,7 +954,6 @@
             "image_eVKxPx": {
               "type": "image",
               "name": "t:names.image",
-              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/1.svg",
                 "link": "",
@@ -1119,6 +1119,7 @@
             "image_YLzfkY": {
               "type": "image",
               "name": "t:names.image",
+              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/Kids_01.png",
                 "link": "",
@@ -1142,7 +1143,6 @@
             "image_LnyNE7": {
               "type": "image",
               "name": "t:names.image",
-              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/3.svg",
                 "link": "",
@@ -1419,7 +1419,7 @@
         "image_VY8Gbq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Kids_Drawing.png",
+            "image": "shopify://shop_images/Kids_Image.png",
             "link": "",
             "image_ratio": "landscape",
             "width": "fill",
@@ -1459,7 +1459,7 @@
         "color_scheme": "scheme-2",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/Gradient_03.jpg",
+        "background_image": "shopify://shop_images/Gradient-2_31a1ca9d-1ec1-4028-9fe6-8c567e5c7d4f.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -1508,7 +1508,7 @@
       "name": "t:names.marquee_section",
       "settings": {
         "movement_direction": "normal",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-4",
         "padding-block-start": 80,
         "padding-block-end": 24,
         "gap_between_elements": 24
@@ -1560,7 +1560,7 @@
         "section_width": "full-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
