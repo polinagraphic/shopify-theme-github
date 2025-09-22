@@ -1991,6 +1991,17 @@
         "padding-block-end": 80
       }
     },
+    "custom_liquid_YVMydT": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "{% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', product: product %}",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "section_jE4qGB": {
       "type": "section",
       "blocks": {
@@ -2193,48 +2204,6 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
-    },
-    "1758487689a3f51010": {
-      "type": "_blocks",
-      "blocks": {
-        "judge_me_reviews_review_widget_cTUmMW": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_cTUmMW"
-      ],
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
     }
   },
   "order": [
@@ -2248,8 +2217,8 @@
     "section_yg9CMj",
     "175695838535898478",
     "section_Wi7386",
+    "custom_liquid_YVMydT",
     "section_jE4qGB",
-    "product_recommendations_qggXJq",
-    "1758487689a3f51010"
+    "product_recommendations_qggXJq"
   ]
 }
