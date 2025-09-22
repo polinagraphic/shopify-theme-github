@@ -298,7 +298,7 @@
                       "settings": {
                         "text": "<ul><li>Reusable, mess-free play</li><li>Great for bedtime or quiet play</li><li>Lightweight and travel-friendly</li></ul><p>With our Draw with Light sets, children can draw in the dark, dream up stories, and let their creativity run free. Screen-free and reusable, it’s an easy way to keep playtime calm and engaging. The set is lightweight and portable, making it simple to use at home, during bedtime routines, or on the go.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -337,7 +337,7 @@
                       "settings": {
                         "text": "<ul><li>fluoresent drawing board x 1</li><li>uv light pen</li><li>board holder x 1</li><li>stencil x 1</li><li>instructions stickers</li></ul>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -376,7 +376,7 @@
                       "settings": {
                         "text": "<ol><li>Place the board into the holder and turn off the lights</li><li>Use the UV light pen to draw directly on the board</li><li>Try out different shapes with the stencil</li><li>Watch your drawings glow brightly in the dark</li><li>Wait a few minutes for the glow to fade, then draw again</li></ol>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -415,7 +415,7 @@
                       "settings": {
                         "text": "<p>All of our Draw with Light sets have been tested by a CPSC-accepted third-party laboratory and passed all required U.S. safety standards.</p><p>They meet ASTM F963 toy safety standards (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the CPSIA requirements for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through photoluminescence, which simply stores light and releases it in the dark.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -1636,6 +1636,7 @@
           "settings": {
             "source": "uploaded",
             "video": "shopify://files/videos/About Us Video.mov",
+            "video_url": "",
             "video_autoplay": true,
             "video_loop": true,
             "alt": "",
@@ -1937,6 +1938,7 @@
           "settings": {
             "source": "uploaded",
             "video": "shopify://files/videos/About Us Video.mov",
+            "video_url": "",
             "video_autoplay": true,
             "video_loop": true,
             "alt": "",
