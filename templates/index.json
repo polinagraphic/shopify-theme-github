@@ -934,6 +934,7 @@
         "group_bXCVhi",
         "group_mt8QDe"
       ],
+      "disabled": true,
       "name": "t:names.icons_with_text",
       "settings": {
         "content_direction": "row",
@@ -993,6 +994,7 @@
       "block_order": [
         "image_aF6dUT"
       ],
+      "disabled": true,
       "name": "t:names.icons_with_text",
       "settings": {
         "content_direction": "column",
@@ -1087,13 +1089,13 @@
             "video_autoplay": true,
             "video_loop": true,
             "alt": "",
-            "custom_width": 80,
+            "custom_width": 90,
             "custom_width_mobile": 100,
             "aspect_ratio": "auto",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 20,
+            "border_radius": 10,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -1123,6 +1125,7 @@
         "color_scheme": "scheme-1",
         "background_media": "none",
         "video_position": "cover",
+        "background_image": "shopify://shop_images/Gradient_897be579-fc47-438b-8f45-7281e6891f21.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -2044,7 +2047,7 @@
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
-                "type_preset": "h2",
+                "type_preset": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
