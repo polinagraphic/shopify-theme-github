@@ -55,11 +55,11 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Bring ideas to life</h2>",
+                "text": "<h2>Turn off the lights & watch creativity shine</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h2",
+                "type_preset": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -80,7 +80,7 @@
             "text_pCLL76": {
               "type": "text",
               "settings": {
-                "text": "<p>With the reusable, mess-free Draw with Light set for kids</p>",
+                "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
