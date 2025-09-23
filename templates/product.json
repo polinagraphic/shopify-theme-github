@@ -2262,7 +2262,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Turn Off the Lights & Watch the Glow</h2>",
+                "text": "<h2>Fun That Builds Real Skills</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2312,6 +2312,7 @@
             "button_nEJwKb": {
               "type": "button",
               "name": "t:names.button",
+              "disabled": true,
               "settings": {
                 "label": "Shop now",
                 "link": "shopify://products/draw-with-light-set",
