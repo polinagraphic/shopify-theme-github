@@ -673,7 +673,7 @@
             "overlay_style": "solid",
             "gradient_direction": "to top",
             "padding-block-start": 20,
-            "padding-block-end": 20,
+            "padding-block-end": 30,
             "padding-inline-start": 20,
             "padding-inline-end": 20
           },
@@ -903,7 +903,7 @@
             "overlay_style": "solid",
             "gradient_direction": "to top",
             "padding-block-start": 20,
-            "padding-block-end": 20,
+            "padding-block-end": 30,
             "padding-inline-start": 20,
             "padding-inline-end": 20
           },
@@ -1133,7 +1133,7 @@
             "overlay_style": "solid",
             "gradient_direction": "to top",
             "padding-block-start": 20,
-            "padding-block-end": 20,
+            "padding-block-end": 30,
             "padding-inline-start": 20,
             "padding-inline-end": 20
           },
