@@ -543,7 +543,7 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 0,
-            "padding-block-end": 20,
+            "padding-block-end": 40,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -1970,7 +1970,7 @@
       "name": "t:names.marquee_section",
       "settings": {
         "movement_direction": "normal",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-1",
         "padding-block-start": 80,
         "padding-block-end": 24,
         "gap_between_elements": 24
@@ -2025,7 +2025,7 @@
         "color_scheme": "scheme-4",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/Gradient_02_bb700782-0a79-44e7-8c87-694868fbc21e.jpg",
+        "background_image": "shopify://shop_images/Gradient-2_31a1ca9d-1ec1-4028-9fe6-8c567e5c7d4f.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
