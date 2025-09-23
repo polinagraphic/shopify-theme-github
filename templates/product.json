@@ -2648,9 +2648,8 @@
             },
             "text_XWdL7K": {
               "type": "text",
-              "disabled": true,
               "settings": {
-                "text": "<p><strong>- Polina, Founder</strong></p>",
+                "text": "<p><strong>- Polina S., Founder</strong></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
