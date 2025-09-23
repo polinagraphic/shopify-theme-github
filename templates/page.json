@@ -814,7 +814,7 @@
         "text_7TKaJx": {
           "type": "text",
           "settings": {
-            "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively.</p>",
+            "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
