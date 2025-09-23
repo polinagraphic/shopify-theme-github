@@ -1571,7 +1571,7 @@
                 "text_zmPN8U": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Helps kids feel less afraid of the dark</h2>",
+                    "text": "<h2>Makes the dark less scary</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1590,6 +1590,20 @@
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "spacer_KPPahq": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "pixel",
+                    "percent_size": 100,
+                    "pixel_size": 20,
+                    "custom_mobile_size": true,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 100,
+                    "pixel_size_mobile": 120
                   },
                   "blocks": {}
                 },
@@ -1618,7 +1632,7 @@
                   },
                   "blocks": {}
                 },
-                "spacer_KPPahq": {
+                "spacer_rRXJE3": {
                   "type": "spacer",
                   "name": "t:names.spacer",
                   "settings": {
@@ -1660,8 +1674,9 @@
               },
               "block_order": [
                 "text_zmPN8U",
-                "text_H796gL",
                 "spacer_KPPahq",
+                "text_H796gL",
+                "spacer_rRXJE3",
                 "text_HfEqFz"
               ]
             }
@@ -1824,6 +1839,20 @@
                   },
                   "blocks": {}
                 },
+                "spacer_a9NAei": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "pixel",
+                    "percent_size": 100,
+                    "pixel_size": 20,
+                    "custom_mobile_size": true,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 100,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
+                },
                 "text_48EN73": {
                   "type": "text",
                   "settings": {
@@ -1849,7 +1878,7 @@
                   },
                   "blocks": {}
                 },
-                "spacer_a9NAei": {
+                "spacer_RCyfDi": {
                   "type": "spacer",
                   "name": "t:names.spacer",
                   "settings": {
@@ -1891,8 +1920,9 @@
               },
               "block_order": [
                 "text_mLKagi",
-                "text_48EN73",
                 "spacer_a9NAei",
+                "text_48EN73",
+                "spacer_RCyfDi",
                 "text_emEXJ3"
               ]
             }
@@ -2055,6 +2085,20 @@
                   },
                   "blocks": {}
                 },
+                "spacer_Ynt9Xb": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "pixel",
+                    "percent_size": 100,
+                    "pixel_size": 20,
+                    "custom_mobile_size": true,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 100,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
+                },
                 "text_Hpzy9g": {
                   "type": "text",
                   "settings": {
@@ -2080,7 +2124,7 @@
                   },
                   "blocks": {}
                 },
-                "spacer_Ynt9Xb": {
+                "spacer_LtMUCc": {
                   "type": "spacer",
                   "name": "t:names.spacer",
                   "settings": {
@@ -2122,8 +2166,9 @@
               },
               "block_order": [
                 "text_hB3NHN",
-                "text_Hpzy9g",
                 "spacer_Ynt9Xb",
+                "text_Hpzy9g",
+                "spacer_LtMUCc",
                 "text_qppYW7"
               ]
             }
