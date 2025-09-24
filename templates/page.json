@@ -814,7 +814,7 @@
         "text_7TKaJx": {
           "type": "text",
           "settings": {
-            "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively.</p>",
+            "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -830,7 +830,7 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 0,
-            "padding-block-end": 32,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -873,7 +873,7 @@
         "vertical_alignment_flex_direction_column": "center",
         "gap": 16,
         "section_width": "page-width",
-        "section_height": "full-screen",
+        "section_height": "large",
         "section_height_custom": 50,
         "color_scheme": "scheme-5",
         "toggle_overlay": true,

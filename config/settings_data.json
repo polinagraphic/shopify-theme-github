@@ -89,6 +89,11 @@
           "debugging_global_script": "",
           "enable_reelPops": true
         }
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -173,7 +178,7 @@
       "scheme-3": {
         "settings": {
           "background": "#592898",
-          "foreground_heading": "#592898",
+          "foreground_heading": "#ffffff",
           "foreground": "#ffffff",
           "primary": "#592898",
           "primary_hover": "#000000",
