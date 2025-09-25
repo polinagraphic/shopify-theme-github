@@ -4336,6 +4336,9 @@ media-gallery slideshow-component slideshow-arrows {
     outline: 1px solid #00c05a !important;
 } */
 
+.button[id^=BuyButtons-ProductSubmitButton-] span.add-to-cart-text { 
+  color: #00c05a !important;
+}
 .button[id^=BuyButtons-ProductSubmitButton-] {
     background-color: #fff !important;
     color: #00c05a !important;
@@ -4347,9 +4350,9 @@ media-gallery slideshow-component slideshow-arrows {
   background-color: #F0FCCC !important;
     color: #00c05a !important;
 }
-span.add-to-cart-text {
+/* span.add-to-cart-text {
     color: #fff;
-}
+} */
 quantity-selector-component.quantity-selector button,
 input[type="number"][ref="quantityInput"] {
     color: #592898 !important;
