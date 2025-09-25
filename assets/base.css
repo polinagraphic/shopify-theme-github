@@ -4363,3 +4363,6 @@ quantity-selector-component.quantity-selector button.button:hover {
       color: #592898 !important;
     background: #fff !important;
 }
+add-to-cart-component[ref=addToCartButtonContainer] button:hover span {
+    color: #00C059 !important;
+}
