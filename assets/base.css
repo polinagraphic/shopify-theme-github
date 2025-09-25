@@ -4352,7 +4352,7 @@ a.contents.user-select-text[ref=productTitleLink] P {
     font-family: BowlbyOne, sans-serif !important;
 }
  media-gallery.spacing-style.sticky-content.media-gallery--carousel.media-gallery--hint{
-  display: block !important;
+  display: block;
  }
 @media (max-width: 1024px) { 
  media-gallery.spacing-style.sticky-content.media-gallery--carousel.media-gallery--hint{
