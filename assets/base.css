@@ -4330,11 +4330,11 @@ add-to-cart-component[ref="addToCartButtonContainer"] button {
 media-gallery slideshow-component slideshow-arrows {
       mix-blend-mode: normal !important;
 }
-.button[id^=BuyButtons-ProductSubmitButton-] {
+/* .button[id^=BuyButtons-ProductSubmitButton-] {
       background: #00c05a !important;
           border: none !important;
     outline: 1px solid #00c05a !important;
-}
+} */
 span.add-to-cart-text {
     color: #fff;
 }
