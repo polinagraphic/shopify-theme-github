@@ -4390,6 +4390,6 @@ add-to-cart-component[ref="addToCartButtonContainer"] button.button.button.quick
 .product-grid-view-zoom-out--details+a.contents.user-select-text[ref=productTitleLink] + product-price.text-block span.price {
     font-size: 16px;
 }
-.product-form-buttons.spacing-style .accelerated-checkout-block {
-    display: none;
+.product-form-buttons.spacing-style .accelerated-checkout-block[ref="acceleratedCheckoutButtonContainer"] {
+    display: none !important;
 }
