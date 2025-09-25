@@ -814,10 +814,9 @@ h3,
   color: var(--color, var(--font-h3-color));
 }
 
+
 @media screen and (max-width: 1200px) {
-  media-gallery.spacing-style.sticky-content.media-gallery--carousel.media-gallery--hint{
-    display: none;
-  }
+ 
   input.h3,
   textarea.h3,
   select.h3 {
@@ -4351,4 +4350,12 @@ a.contents.user-select-text[ref=productTitleLink] P {
     font-weight: 700;
     text-transform: uppercase;
     font-family: BowlbyOne, sans-serif !important;
+}
+ media-gallery.spacing-style.sticky-content.media-gallery--carousel.media-gallery--hint{
+  display: block !important;
+ }
+@media (max-width: 1024px) { 
+ media-gallery.spacing-style.sticky-content.media-gallery--carousel.media-gallery--hint{
+    display: none;
+  }
 }
