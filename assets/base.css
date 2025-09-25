@@ -4359,3 +4359,7 @@ a.contents.user-select-text[ref=productTitleLink] P {
     display: none;
   }
 }
+quantity-selector-component.quantity-selector button.button:hover {
+      color: #592898 !important;
+    background: #fff !important;
+}
