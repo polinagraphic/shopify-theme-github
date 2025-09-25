@@ -4399,6 +4399,7 @@ a.contents[ref="cardGalleryLink"] slideshow-component button.slideshow-control {
     color: #fff !important;
     width: 10%;
     height: 7% !important;
+        opacity: 1 !important;
     min-height: 10% !important;
     display: flex !important;
     align-items: center !important;
