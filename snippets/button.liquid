@@ -9,7 +9,14 @@
 {%- enddoc -%}
 
 {% assign block_settings = block.settings %}
-
+{%  style  %} 
+{% if block_settings.style_class == 'button' %}
+  .size-style {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+  }
+{% endif %}
+{% endstyle %}
 <a
   {% if link == blank %}
     role="link"
