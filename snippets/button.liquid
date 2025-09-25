@@ -11,8 +11,7 @@
 {% assign block_settings = block.settings %}
 {%  style  %} 
 {% if block_settings.style_class == 'button' %}
- .hero__content-wrapper.layout-panel-flex.layout-panel-flex--column.mobile-column.section-content-wrapper.page-width
- .group-block.group-block--height-fit.group-block--width-custom.border-style.spacing-style.size-style .size-style {
+ .size-style {
     background-color: var(--color-primary);
     color: var(--color-on-primary);
   }
@@ -26,7 +25,7 @@
     href="{{ link }}"
   {% endif %}
   class="
-    size-style
+    size-style my_custom_class for_buttons
     {{ block_settings.style_class }}
     {{ block_settings.style_class }}--{{ block.id }}
   "
