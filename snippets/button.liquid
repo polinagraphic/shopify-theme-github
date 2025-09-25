@@ -10,8 +10,8 @@
 
 {% assign block_settings = block.settings %}
 {%  style  %} 
-a.size-style.my_custom_class.for_buttons.button-secondary:hover, 
-a.size-style.my_custom_class.for_buttons.button:hover { 
+a.size-style.my_custom_class.for_buttons.button-secondary--{{ block.id }}:hover, 
+a.size-style.my_custom_class.for_buttons.button--{{ block.id }}:hover { 
   background-color: #F0FCCC !important;
 }
 a.size-style.my_custom_class.for_buttons.button {
