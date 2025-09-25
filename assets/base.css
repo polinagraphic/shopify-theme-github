@@ -4344,6 +4344,7 @@ media-gallery slideshow-component slideshow-arrows {
     transform: translate(-1px, -1px) !important;
     box-shadow: 5px 5px 0 0 #592898 !important;
     border: 1px solid #592898 !important;
+         font-family: 'BowlbyOne', sans-serif !important;
   }
 .button[id^=BuyButtons-ProductSubmitButton-]:hover { 
   background-color: #F0FCCC !important;
