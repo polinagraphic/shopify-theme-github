@@ -4335,6 +4335,18 @@ media-gallery slideshow-component slideshow-arrows {
           border: none !important;
     outline: 1px solid #00c05a !important;
 } */
+
+.button[id^=BuyButtons-ProductSubmitButton-] {
+    background-color: #fff !important;
+    color: #00c05a !important;
+    transform: translate(-1px, -1px) !important;
+    box-shadow: 5px 5px 0 0 #592898 !important;
+    border: 1px solid #592898 !important;
+  }
+.button[id^=BuyButtons-ProductSubmitButton-]:hover { 
+  background-color: #F0FCCC !important;
+    color: #00c05a !important;
+}
 span.add-to-cart-text {
     color: #fff;
 }
