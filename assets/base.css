@@ -4392,3 +4392,17 @@ add-to-cart-component[ref="addToCartButtonContainer"] button.button.button.quick
 .product-form-buttons.spacing-style .accelerated-checkout-block[ref="acceleratedCheckoutButtonContainer"] {
     display: none !important;
 }
+a.contents[ref="cardGalleryLink"] slideshow-component button.slideshow-control {
+    background: #592898 !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    width: 10%;
+    height: 7% !important;
+    min-height: 10% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    margin: 0 10px;
+}
