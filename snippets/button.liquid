@@ -11,13 +11,14 @@
 {% assign block_settings = block.settings %}
 {%  style  %} 
 a.size-style.my_custom_class.for_buttons.button-secondary--{{ block.id }}:hover, 
-a.size-style.my_custom_class.for_buttons.button--{{ block.id }}:hover,
-.button[id^=BuyButtons-ProductSubmitButton-]:hover { 
+a.size-style.my_custom_class.for_buttons.button--{{ block.id }}:hover { 
   background-color: #F0FCCC !important;
     color: #00c05a !important;
 }
-a.size-style.my_custom_class.for_buttons.button,
-.button[id^=BuyButtons-ProductSubmitButton-] {
+a.size-style.my_custom_class.for_buttons.button span.add-to-cart-text { 
+   color: #00c05a !important;
+}
+a.size-style.my_custom_class.for_buttons.button {
     background-color: #fff !important;
     color: #00c05a !important;
     transform: translate(-1px, -1px) !important;
