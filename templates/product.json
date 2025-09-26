@@ -1434,6 +1434,7 @@
                   "blocks": {
                     "text_i8neNT": {
                       "type": "text",
+                      "disabled": true,
                       "settings": {
                         "text": "<h2>Develops Fine Motor Skills</h2>",
                         "width": "100%",
@@ -1588,6 +1589,7 @@
                   "blocks": {
                     "text_Trb3hp": {
                       "type": "text",
+                      "disabled": true,
                       "settings": {
                         "text": "<h2>Encourage Creative Thinking</h2>",
                         "width": "100%",
@@ -1742,6 +1744,7 @@
                   "blocks": {
                     "text_Yj4TF7": {
                       "type": "text",
+                      "disabled": true,
                       "settings": {
                         "text": "<h2>Strengthens Focus & Patience</h2>",
                         "width": "100%",
