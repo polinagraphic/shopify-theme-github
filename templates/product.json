@@ -1511,12 +1511,12 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_DpKqxr": {
+                "text_cKiRiB": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>Develops Fine Motor Skills</strong></p>",
-                    "width": "fit-content",
-                    "max_width": "narrow",
+                    "text": "<h2>Develops Fine Motor Skills</h2>",
+                    "width": "100%",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "h5",
                     "font": "var(--font-body--family)",
@@ -1563,7 +1563,7 @@
                 }
               },
               "block_order": [
-                "text_DpKqxr",
+                "text_cKiRiB",
                 "text_yU3fQV"
               ]
             },
@@ -1607,12 +1607,12 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_fikPBF": {
+                "text_C7QHjg": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>Encourage Creative Thinking</strong></p>",
-                    "width": "fit-content",
-                    "max_width": "narrow",
+                    "text": "<h2>Encourage Creative Thinking</h2>",
+                    "width": "100%",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "h5",
                     "font": "var(--font-body--family)",
@@ -1659,7 +1659,7 @@
                 }
               },
               "block_order": [
-                "text_fikPBF",
+                "text_C7QHjg",
                 "text_Yg8GBc"
               ]
             },
@@ -1703,12 +1703,12 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_nKEFNt": {
+                "text_VQBGGF": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>Strengthens Focus & \u0003Patience</strong></p>",
-                    "width": "fit-content",
-                    "max_width": "narrow",
+                    "text": "<h2>Strengthens Focus & Patience</h2>",
+                    "width": "100%",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "h5",
                     "font": "var(--font-body--family)",
@@ -1755,7 +1755,7 @@
                 }
               },
               "block_order": [
-                "text_nKEFNt",
+                "text_VQBGGF",
                 "text_fkLHDt"
               ]
             }
