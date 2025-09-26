@@ -55,7 +55,7 @@
   {% endif %}
   <slideshow-container ref="slideshowContainer">
     {% if show_arrows and disabled != true %}
-      {% comment %} {% render 'slideshow-arrows', icon_style: icon_style, arrows_position: arrows_position %} {% endcomment %}
+      {% render 'slideshow-arrows', icon_style: icon_style, arrows_position: arrows_position %}
     {% endif %}
     {% if slideshow_arrows and disabled != true %}
       {{ slideshow_arrows }}
