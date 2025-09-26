@@ -2789,8 +2789,24 @@
               },
               "blocks": {}
             },
+            "button_fHGba9": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "add to cart",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
             "text_BQBhBT": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively</p>",
                 "width": "fit-content",
@@ -2833,6 +2849,7 @@
           },
           "block_order": [
             "text_6b9gTg",
+            "button_fHGba9",
             "text_BQBhBT",
             "button_nEJwKb"
           ]
