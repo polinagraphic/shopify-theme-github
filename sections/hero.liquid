@@ -76,6 +76,9 @@
         fetchpriority: fetch_priority
     }}
   {%- endif -%}
+  <div class="image_mob">
+    <img src="{{ section.settings.image_mob | img_url: 'master' }}" alt="{{ section.settings.image_mob.alt }}" style="width: 100%; height: auto;">
+  </div>
 
   {%- if has_video_1 -%}
     {% assign media_count = media_count | plus: 1 %}
@@ -500,11 +503,17 @@
       "label": "t:settings.image",
       "visible_if": "{{ section.settings.media_type_1 == 'image' }}"
     },
+  
     {
       "type": "video",
       "id": "video_1",
       "label": "t:settings.video",
       "visible_if": "{{ section.settings.media_type_1 == 'video' }}"
+    },
+      {
+      "type": "image_picker",
+      "id": "image_mob",
+      "label": "Mobile Image"
     },
     {
       "type": "header",
