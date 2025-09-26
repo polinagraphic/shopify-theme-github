@@ -381,7 +381,7 @@
                   "settings": {
                     "icon": "instagram",
                     "width": 24,
-                    "link": "",
+                    "link": "https://www.instagram.com/glowheroes",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
@@ -389,6 +389,7 @@
                 "icon_YFBNbC": {
                   "type": "icon",
                   "name": "t:names.icon",
+                  "disabled": true,
                   "settings": {
                     "icon": "facebook",
                     "width": 24,
@@ -403,7 +404,7 @@
                   "settings": {
                     "icon": "tiktok",
                     "width": 24,
-                    "link": "",
+                    "link": "https://www.tiktok.com/@glow.heroes",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
@@ -414,7 +415,7 @@
                   "settings": {
                     "icon": "youtube",
                     "width": 24,
-                    "link": "",
+                    "link": "https://www.youtube.com/@glowheroes",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
