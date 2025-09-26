@@ -18,7 +18,7 @@
   endif
 -%}
 
-<slideshow-arrows
+{% comment %} <slideshow-arrows
   position="{{ arrows_position }}"
   {% if class %}
     class="{{ class }}"
@@ -26,4 +26,4 @@
 >
   {%- render 'slideshow-arrow', action: 'previous', icon_style: icon_style, icon_shape: icon_shape -%}
   {%- render 'slideshow-arrow', action: 'next', icon_style: icon_style, icon_shape: icon_shape -%}
-</slideshow-arrows>
+</slideshow-arrows> {% endcomment %}
