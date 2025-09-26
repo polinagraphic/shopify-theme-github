@@ -91,7 +91,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
             "width": "custom",
@@ -124,7 +124,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>How can we be of service?</h2>",
+                "text": "<h2>Reviews</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -149,7 +149,7 @@
             "text_wtij7k": {
               "type": "text",
               "settings": {
-                "text": "<p>Email us directly at <strong>hey.glowheroes@gmail.com</strong></p>",
+                "text": "<p>See what others are saying about Glow Heroes products!</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -184,7 +184,7 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/GH_Header_01_22680736-8f5f-4b97-8e11-0935d4407efd.jpg",
+        "image_1": "shopify://shop_images/GH_Header_01_3df46674-ddb4-4cca-b8e7-7e024cb4d214.jpg",
         "media_type_2": "image",
         "link": "",
         "open_in_new_tab": false,
@@ -193,7 +193,7 @@
         "horizontal_alignment": "space-between",
         "vertical_alignment": "flex-end",
         "align_baseline": true,
-        "horizontal_alignment_flex_direction_column": "flex-start",
+        "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 24,
         "section_width": "page-width",
