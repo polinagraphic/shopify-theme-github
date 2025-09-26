@@ -1461,7 +1461,7 @@
                     "text_MLViCd": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Glowing lines need steady hands! Every stroke builds control, coordination, and confidence — all while having fun.</p>",
+                        "text": "<p>Glowing lines help kids <strong>develop fine motor skills</strong>, as every stroke builds control, coordination, and confidence while they have fun.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1616,7 +1616,7 @@
                     "text_fD77tQ": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>With no prompts or rules, kids make the choices — what to draw, how to draw it, and what it means.</p>",
+                        "text": "<p>With no prompts or rules, children are free to <strong>encourage creative thinking</strong> by deciding what to draw, how to draw it, and what it means.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1771,7 +1771,7 @@
                     "text_FR7XLg": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>The glow fades slowly — so kids learn to slow down, stay present, and enjoy the moment as they create.</p>",
+                        "text": "<p>Because the glow fades slowly, kids naturally <strong>strengthen focus and patience</strong>, learning to slow down, stay present, and enjoy the moment as they create.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1787,7 +1787,7 @@
                         "background_color": "#00000026",
                         "corner_radius": 0,
                         "padding-block-start": 0,
-                        "padding-block-end": 20,
+                        "padding-block-end": 0,
                         "padding-inline-start": 0,
                         "padding-inline-end": 0
                       },
