@@ -1385,7 +1385,7 @@
                   "name": "t:names.icon",
                   "settings": {
                     "icon": "arrow",
-                    "image_upload": "shopify://shop_images/Button.png",
+                    "image_upload": "shopify://shop_images/Star.png",
                     "width": 24,
                     "link": "",
                     "open_in_new_tab": false
@@ -1539,7 +1539,7 @@
                   "name": "t:names.icon",
                   "settings": {
                     "icon": "arrow",
-                    "image_upload": "shopify://shop_images/Button.png",
+                    "image_upload": "shopify://shop_images/Star.png",
                     "width": 24,
                     "link": "",
                     "open_in_new_tab": false
@@ -1693,7 +1693,7 @@
                   "name": "t:names.icon",
                   "settings": {
                     "icon": "arrow",
-                    "image_upload": "shopify://shop_images/Button.png",
+                    "image_upload": "shopify://shop_images/Star.png",
                     "width": 24,
                     "link": "",
                     "open_in_new_tab": false
