@@ -4417,3 +4417,7 @@ a.contents[ref="cardGalleryLink"] slideshow-container[ref="slideshowContainer"] 
 a.contents[ref=cardGalleryLink] slideshow-container[ref=slideshowContainer] slideshow-arrows button.slideshow-control.slideshow-control--previous:hover, a.contents[ref=cardGalleryLink] slideshow-container[ref=slideshowContainer] slideshow-arrows button.slideshow-control.slideshow-control--next:hover {
    transform: rotateZ(-90deg) !important;
 }
+
+button.email-signup__button.email-signup__button--integrated.email-signup__button--arrow.paragraph svg {
+    stroke: #11c462;
+}
