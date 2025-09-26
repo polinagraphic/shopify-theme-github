@@ -3009,6 +3009,7 @@
             },
             "text_BQBhBT": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively</p>",
                 "width": "fit-content",
