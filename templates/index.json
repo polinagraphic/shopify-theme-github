@@ -380,6 +380,47 @@
         "padding-block-end": 80
       }
     },
+    "marquee_WypeDb": {
+      "type": "marquee",
+      "blocks": {
+        "text_m9nTmM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>FUN THAT BUILDS REAL SKILLS</strong></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#592898",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_m9nTmM"
+      ],
+      "name": "t:names.marquee_section",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-1",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
     "section_ycWhkC": {
       "type": "section",
       "blocks": {
@@ -2711,6 +2752,7 @@
   "order": [
     "hero_jVaWmY",
     "section_PGKnYj",
+    "marquee_WypeDb",
     "section_ycWhkC",
     "section_GRrkCE",
     "section_Hgwfzq",
