@@ -1461,8 +1461,8 @@
                       "type": "text",
                       "settings": {
                         "text": "<p>Glowing lines need steady hands! Every stroke builds control, coordination, and confidence — all while having fun.</p>",
-                        "width": "fit-content",
-                        "max_width": "narrow",
+                        "width": "100%",
+                        "max_width": "normal",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -1615,8 +1615,8 @@
                       "type": "text",
                       "settings": {
                         "text": "<p>With no prompts or rules, kids make the choices — what to draw, how to draw it, and what it means.</p>",
-                        "width": "fit-content",
-                        "max_width": "narrow",
+                        "width": "100%",
+                        "max_width": "normal",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -1769,8 +1769,8 @@
                       "type": "text",
                       "settings": {
                         "text": "<p>The glow fades slowly — so kids learn to slow down, stay present, and enjoy the moment as they create.</p>",
-                        "width": "fit-content",
-                        "max_width": "narrow",
+                        "width": "100%",
+                        "max_width": "normal",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
