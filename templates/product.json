@@ -1225,162 +1225,6 @@
         "padding-block-end": 80
       }
     },
-    "section_xEzdmJ": {
-      "type": "section",
-      "blocks": {
-        "group_rQ9pfB": {
-          "type": "group",
-          "settings": {
-            "link": "",
-            "open_in_new_tab": false,
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "custom",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "placeholder": "",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "text_gzjiJ9": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>Perfect for Little Creators & Caring Adults</h2>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_cUneqe": {
-              "type": "text",
-              "settings": {
-                "text": "<p><strong>For kids,</strong> it’s perfect for curious minds who love to explore, create, and discover new things. It turns playtime into an adventure, sparking imagination and keeping children engaged in fun, screen-free activities.<br/><br/><strong>For parents,</strong> it offers peace of mind with tools that are safe, reliable, and designed to foster creativity. It’s an easy way to encourage a child’s growth while giving them a playful outlet that supports learning and self-expression.<br/><br/><strong>For teachers,</strong> it works as a classroom resource to help students focus, build confidence, and express themselves creatively. It’s more than just a toy—it’s a tool that supports emotional growth and makes learning interactive and fun.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_gzjiJ9",
-            "text_cUneqe"
-          ]
-        },
-        "image_fLAXpM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Kids_01.png",
-            "link": "",
-            "image_ratio": "square",
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 10,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "group_rQ9pfB",
-        "image_fLAXpM"
-      ],
-      "name": "t:names.image_with_text",
-      "settings": {
-        "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 32,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-1",
-        "background_media": "image",
-        "video_position": "cover",
-        "background_image": "shopify://shop_images/Gradient_897be579-fc47-438b-8f45-7281e6891f21.jpg",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 80,
-        "padding-block-end": 80
-      }
-    },
     "section_WJ44Df": {
       "type": "section",
       "blocks": {
@@ -1786,8 +1630,9 @@
         "section_height": "",
         "section_height_custom": 50,
         "color_scheme": "",
-        "background_media": "none",
+        "background_media": "image",
         "video_position": "cover",
+        "background_image": "shopify://shop_images/Gradient_897be579-fc47-438b-8f45-7281e6891f21.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -1797,8 +1642,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-start": 80,
+        "padding-block-end": 80
       }
     },
     "section_eiLhX4": {
@@ -2720,6 +2565,162 @@
         "padding-block-end": 80
       }
     },
+    "section_xEzdmJ": {
+      "type": "section",
+      "blocks": {
+        "group_rQ9pfB": {
+          "type": "group",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_gzjiJ9": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>Perfect for Little Creators & Caring Adults</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_cUneqe": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>For kids,</strong> it’s perfect for curious minds who love to explore, create, and discover new things. It turns playtime into an adventure, sparking imagination and keeping children engaged in fun, screen-free activities.<br/><br/><strong>For parents,</strong> it offers peace of mind with tools that are safe, reliable, and designed to foster creativity. It’s an easy way to encourage a child’s growth while giving them a playful outlet that supports learning and self-expression.<br/><br/><strong>For teachers,</strong> it works as a classroom resource to help students focus, build confidence, and express themselves creatively. It’s more than just a toy—it’s a tool that supports emotional growth and makes learning interactive and fun.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_gzjiJ9",
+            "text_cUneqe"
+          ]
+        },
+        "image_fLAXpM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kids_01.png",
+            "link": "",
+            "image_ratio": "square",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 10,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "group_rQ9pfB",
+        "image_fLAXpM"
+      ],
+      "name": "t:names.image_with_text",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "background_media": "image",
+        "video_position": "cover",
+        "background_image": "shopify://shop_images/Gradient_5_e6ff5a6c-9e2c-42db-a8af-824aca508077.jpg",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 80,
+        "padding-block-end": 80
+      }
+    },
     "hero_azkate": {
       "type": "hero",
       "blocks": {
@@ -3635,10 +3636,10 @@
     "175695923294ed1ed4",
     "section_436JH6",
     "section_9FnznG",
-    "section_xEzdmJ",
     "section_WJ44Df",
     "section_eiLhX4",
     "section_Xf8riN",
+    "section_xEzdmJ",
     "hero_azkate",
     "section_RfLehW",
     "175695838535898478",
