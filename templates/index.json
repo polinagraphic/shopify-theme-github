@@ -910,9 +910,8 @@
               "blocks": {
                 "text_mUDJ4G": {
                   "type": "text",
-                  "disabled": true,
                   "settings": {
-                    "text": "<h2>Helps kids feel less afraid of the dark</h2>",
+                    "text": "<h2>Encourage creative thinking</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -937,7 +936,7 @@
                 "text_yhyWMh": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>The Draw with Light Set turns that fear into fun and creativity.</p>",
+                    "text": "<p>With no prompts or rules, kids make the choices — what to draw, how to draw it, and what it means.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1101,7 +1100,7 @@
                 "text_UMhh4M": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Promotes screen-free play</h2>",
+                    "text": "<h2>Develops fine motor skills</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1126,7 +1125,7 @@
                 "text_U6Rx8Y": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>The Draw with Light Set offers a calming, screen-free alternative.</p>",
+                    "text": "<p>Glowing lines need steady hands! Every stroke builds control, coordination, and confidence — all while having fun.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1171,7 +1170,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 20,
             "width": "fill",
@@ -1290,7 +1289,7 @@
                 "text_GhBC4B": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Supports parent-child bonding</h2>",
+                    "text": "<h2>Strengthens focus & patience</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1315,10 +1314,10 @@
                 "text_xwAtjK": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>The Draw with Light Set makes it simple for kids and parents to enjoy drawing together.</p>",
+                    "text": "<p>The glow fades slowly — so kids learn to slow down, stay present, and enjoy the moment as they create.</p>",
                     "width": "100%",
                     "max_width": "normal",
-                    "alignment": "left",
+                    "alignment": "center",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
