@@ -4407,3 +4407,7 @@ a.contents[ref="cardGalleryLink"] slideshow-component button.slideshow-control {
     padding: 0 !important;
     margin: 0 10px;
 } 
+a.contents[ref="cardGalleryLink"] slideshow-container[ref="slideshowContainer"] slideshow-arrows button.slideshow-control.slideshow-control--previous,
+a.contents[ref="cardGalleryLink"] slideshow-container[ref="slideshowContainer"] slideshow-arrows button.slideshow-control.slideshow-control--next {
+    transform: rotateZ(-90deg);
+}
