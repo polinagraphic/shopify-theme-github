@@ -342,7 +342,7 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "center",
                 "vertical_alignment": "center",
                 "align_baseline": false,
@@ -434,7 +434,7 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "center",
                 "vertical_alignment": "center",
                 "align_baseline": false,
@@ -607,7 +607,7 @@
         "video_position": "cover",
         "background_image": "shopify://shop_images/Footer.png",
         "background_image_position": "cover",
-        "padding-block-start": 30,
+        "padding-block-start": 60,
         "padding-block-end": 20
       }
     }
