@@ -457,7 +457,7 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
@@ -506,7 +506,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p><strong>Free Shipping on Orders $50+</strong></p>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "custom",
