@@ -648,7 +648,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 20,
             "width": "fill",
@@ -682,7 +682,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/moon-cloud_2_e1e85ce7-06a2-4574-862f-19c530da49ed.png",
+                "image": "shopify://shop_images/Fear-free.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -770,7 +770,7 @@
                     "text": "<h2>Helps kids feel less afraid of the dark</h2>",
                     "width": "100%",
                     "max_width": "normal",
-                    "alignment": "left",
+                    "alignment": "center",
                     "type_preset": "h5",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
@@ -792,50 +792,11 @@
                 "text_yhyWMh": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>Around 73% of children ages 4–12 experience nighttime fears,</strong> with fear of the dark among the most common. The Draw with Light Set turns that fear into fun and creativity.</p>",
+                    "text": "<p>The Draw with Light Set turns that fear into fun and creativity.</p>",
                     "width": "100%",
                     "max_width": "normal",
-                    "alignment": "left",
+                    "alignment": "center",
                     "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "spacer_qV97WJ": {
-                  "type": "spacer",
-                  "name": "t:names.spacer",
-                  "settings": {
-                    "size": "pixel",
-                    "percent_size": 100,
-                    "pixel_size": 20,
-                    "custom_mobile_size": true,
-                    "size_mobile": "percent",
-                    "percent_size_mobile": 100,
-                    "pixel_size_mobile": 120
-                  },
-                  "blocks": {}
-                },
-                "text_FJm6yi": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p><a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0005796799001552?utm_source=chatgpt.com\" target=\"_blank\" title=\"https://www.sciencedirect.com/science/article/abs/pii/S0005796799001552?utm_source=chatgpt.com\"><em><strong>👉 Read the study</strong></em></a></p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h6",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -856,9 +817,7 @@
               },
               "block_order": [
                 "text_mUDJ4G",
-                "text_yhyWMh",
-                "spacer_qV97WJ",
-                "text_FJm6yi"
+                "text_yhyWMh"
               ]
             }
           },
@@ -878,7 +837,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 20,
             "width": "fill",
@@ -936,7 +895,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/moon-cloud_2_e1e85ce7-06a2-4574-862f-19c530da49ed.png",
+                "image": "shopify://shop_images/Screen-free_Activity.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -1000,7 +959,7 @@
                     "text": "<h2>Promotes screen-free play</h2>",
                     "width": "100%",
                     "max_width": "normal",
-                    "alignment": "left",
+                    "alignment": "center",
                     "type_preset": "h5",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
@@ -1022,50 +981,11 @@
                 "text_U6Rx8Y": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>The American Academy of Pediatrics </strong>highlights that unstructured play boosts development, while too much screen time can harm sleep and behavior. The Draw with Light Set offers a calming, screen-free alternative.</p>",
+                    "text": "<p>The Draw with Light Set offers a calming, screen-free alternative.</p>",
                     "width": "100%",
                     "max_width": "normal",
-                    "alignment": "left",
+                    "alignment": "center",
                     "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "spacer_kbWPg9": {
-                  "type": "spacer",
-                  "name": "t:names.spacer",
-                  "settings": {
-                    "size": "pixel",
-                    "percent_size": 100,
-                    "pixel_size": 20,
-                    "custom_mobile_size": true,
-                    "size_mobile": "percent",
-                    "percent_size_mobile": 100,
-                    "pixel_size_mobile": 120
-                  },
-                  "blocks": {}
-                },
-                "text_zzryrc": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p><a href=\"https://publications.aap.org/pediatrics/article/142/3/e20182058/38649/The-Power-of-Play-A-Pediatric-Role-in-Enhancing?utm_source=chatgpt.com?autologincheck=redirected\" target=\"_blank\" title=\"https://publications.aap.org/pediatrics/article/142/3/e20182058/38649/The-Power-of-Play-A-Pediatric-Role-in-Enhancing?utm_source=chatgpt.com?autologincheck=redirected\"><em><strong>👉 Read the study</strong></em></a></p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h6",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -1086,9 +1006,7 @@
               },
               "block_order": [
                 "text_UMhh4M",
-                "text_U6Rx8Y",
-                "spacer_kbWPg9",
-                "text_zzryrc"
+                "text_U6Rx8Y"
               ]
             }
           },
@@ -1166,7 +1084,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/family-icon.png",
+                "image": "shopify://shop_images/Parent-Child.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -1252,7 +1170,7 @@
                 "text_xwAtjK": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Research shows that <strong>creative play with parents strengthens bonds and builds resilience</strong>. The Draw with Light Set makes it simple for kids and parents to enjoy drawing together.</p>",
+                    "text": "<p>The Draw with Light Set makes it simple for kids and parents to enjoy drawing together.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1273,52 +1191,11 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "spacer_HhCaUE": {
-                  "type": "spacer",
-                  "name": "t:names.spacer",
-                  "settings": {
-                    "size": "pixel",
-                    "percent_size": 100,
-                    "pixel_size": 20,
-                    "custom_mobile_size": true,
-                    "size_mobile": "percent",
-                    "percent_size_mobile": 100,
-                    "pixel_size_mobile": 120
-                  },
-                  "blocks": {}
-                },
-                "text_cXtND3": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p><a href=\"https://www.sciencedirect.com/science/article/pii/S1871187125001567?utm_source=chatgpt.com\" target=\"_blank\" title=\"https://www.sciencedirect.com/science/article/pii/S1871187125001567?utm_source=chatgpt.com\"><em><strong>👉 Read the study</strong></em></a></p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h6",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
                 "text_GhBC4B",
-                "text_xwAtjK",
-                "spacer_HhCaUE",
-                "text_cXtND3"
+                "text_xwAtjK"
               ]
             }
           },
