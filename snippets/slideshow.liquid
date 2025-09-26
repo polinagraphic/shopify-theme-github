@@ -57,7 +57,9 @@
     {% if show_arrows and disabled != true %}
       {% render 'slideshow-arrows', icon_style: icon_style, arrows_position: arrows_position %}
     {% endif %}
-   
+    {% if slideshow_arrows and disabled != true %}
+      {{ slideshow_arrows }}
+    {% endif %}
     <slideshow-slides
       tabindex="-1"
       ref="scroller"
