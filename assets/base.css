@@ -4412,5 +4412,5 @@ a.contents[ref="cardGalleryLink"] slideshow-container[ref="slideshowContainer"] 
     transform: rotateZ(-90deg);
 }
 a.contents[ref=cardGalleryLink] slideshow-container[ref=slideshowContainer] slideshow-arrows button.slideshow-control.slideshow-control--previous:hover, a.contents[ref=cardGalleryLink] slideshow-container[ref=slideshowContainer] slideshow-arrows button.slideshow-control.slideshow-control--next:hover {
-   transform: rotateZ(-90deg);
+   transform: rotateZ(-90deg) !important;
 }
