@@ -4421,3 +4421,12 @@ a.contents[ref=cardGalleryLink] slideshow-container[ref=slideshowContainer] slid
 button.email-signup__button.email-signup__button--integrated.email-signup__button--arrow.paragraph svg {
     stroke: #11c462;
 }
+button.email-signup__button.email-signup__button--integrated.email-signup__button--arrow {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 4px;
+    transform: rotate(-90deg);
+}
