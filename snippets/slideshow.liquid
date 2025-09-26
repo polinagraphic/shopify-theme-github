@@ -54,15 +54,6 @@
     {{ header }}
   {% endif %}
   <slideshow-container ref="slideshowContainer">
-    <slideshow-arrows
-  position="{{ arrows_position }}"
-  {% if class %}
-    class="{{ class }}"
-  {% endif %}
->
-  {%- render 'slideshow-arrow', action: 'previous', icon_style: icon_style, icon_shape: icon_shape -%}
-  {%- render 'slideshow-arrow', action: 'next', icon_style: icon_style, icon_shape: icon_shape -%}
-</slideshow-arrows>
     {% if show_arrows and disabled != true %}
       {% render 'slideshow-arrows', icon_style: icon_style, arrows_position: arrows_position %}
     {% endif %}
