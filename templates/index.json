@@ -2678,47 +2678,6 @@
         "padding-block-end": 80
       }
     },
-    "marquee_DCA63B": {
-      "type": "marquee",
-      "blocks": {
-        "text_qb9GNG": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>follow us @glowheroes</strong></p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "nowrap",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#592898",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_qb9GNG"
-      ],
-      "name": "t:names.marquee_section",
-      "settings": {
-        "movement_direction": "normal",
-        "color_scheme": "scheme-4",
-        "padding-block-start": 24,
-        "padding-block-end": 24,
-        "gap_between_elements": 24
-      }
-    },
     "175699843602ec75ec": {
       "type": "_blocks",
       "settings": {
@@ -2766,7 +2725,6 @@
     "1757002625a99299e5",
     "section_DR9bEz",
     "section_BA7FQj",
-    "marquee_DCA63B",
     "175699843602ec75ec"
   ]
 }
