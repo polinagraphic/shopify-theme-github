@@ -225,7 +225,7 @@
                   "settings": {
                     "menu": "shop",
                     "heading": "SHOP",
-                    "menu_spacing": 12,
+                    "menu_spacing": 2,
                     "show_as_accordion": false,
                     "accordion_icon": "caret",
                     "accordion_dividers": false,
@@ -246,7 +246,7 @@
                   "settings": {
                     "menu": "about",
                     "heading": "ABOUT",
-                    "menu_spacing": 12,
+                    "menu_spacing": 2,
                     "show_as_accordion": false,
                     "accordion_icon": "caret",
                     "accordion_dividers": false,
@@ -267,7 +267,7 @@
                   "settings": {
                     "menu": "get-help",
                     "heading": "GET HELP",
-                    "menu_spacing": 12,
+                    "menu_spacing": 2,
                     "show_as_accordion": false,
                     "accordion_icon": "caret",
                     "accordion_dividers": false,
