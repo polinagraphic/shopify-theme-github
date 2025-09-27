@@ -2133,6 +2133,32 @@
             "text_mKtxBP": {
               "type": "text",
               "settings": {
+                "text": "<p>Glow Heroes was founded with a simple mission: to turn darkness into something magical that children can play with, not hide from.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_hRUpeD": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
                 "text": "<p>Glow Heroes was founded with a simple mission: to turn darkness into something magical that children can play with, not hide from. </p><p></p><p>What started as an idea to spark creativity after the lights go out has grown into a brand built by women, driven by imagination, and created to help kids shine bright — even in the dark.</p>",
                 "width": "100%",
                 "max_width": "normal",
@@ -2173,6 +2199,7 @@
           "block_order": [
             "text_CpzfEh",
             "text_mKtxBP",
+            "text_hRUpeD",
             "button_mNhmTy"
           ]
         },
