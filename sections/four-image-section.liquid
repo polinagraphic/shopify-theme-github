@@ -11,6 +11,33 @@
     border-radius: 100px;
     width: {{ section.settings.image_size }}px;
 }
+@media (max-width: 768px) {
+  .four-image-section {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    gap: {{ section.settings.gap }}px;
+  }
+
+  .four-image-section::-webkit-scrollbar {
+    display: none; /* hide scrollbar on mobile */
+  }
+
+  .four-image-section .image-container {
+    scroll-snap-align: start;
+    width: calc((100% - ({{ section.settings.gap }}px * 3)) / 4); /* show 4 images by default */
+    flex: 0 0 auto;
+  }
+
+  .four-image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
 {% endstyle %}
 
 
