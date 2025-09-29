@@ -1958,6 +1958,20 @@
         "padding-block-end": 80
       }
     },
+    "four_image_section_Yq8g4D": {
+      "type": "four-image-section",
+      "name": "4 Images Section",
+      "settings": {
+        "image_1": "shopify://shop_images/icon-5-image_178x178_4b4dcde4-5e63-496f-b5a8-fb37e52a91ac.webp",
+        "bg_color": "#ff0000",
+        "image_2": "shopify://shop_images/icon-5-image_178x178_4b4dcde4-5e63-496f-b5a8-fb37e52a91ac.webp",
+        "bg_color_2": "#35ff00",
+        "image_3": "shopify://shop_images/icon-5-image_178x178_4b4dcde4-5e63-496f-b5a8-fb37e52a91ac.webp",
+        "bg_color_3": "#000000",
+        "image_4": "shopify://shop_images/icon-5-image_178x178_4b4dcde4-5e63-496f-b5a8-fb37e52a91ac.webp",
+        "bg_color_4": "#5b974b"
+      }
+    },
     "marquee_8XehEW": {
       "type": "marquee",
       "blocks": {
@@ -2746,6 +2760,7 @@
     "section_cJay7P",
     "section_pXECkJ",
     "section_4BgQ7r",
+    "four_image_section_Yq8g4D",
     "marquee_8XehEW",
     "1757036744f91087f3",
     "section_tikhcx",
