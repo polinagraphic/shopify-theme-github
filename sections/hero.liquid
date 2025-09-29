@@ -76,9 +76,11 @@
         fetchpriority: fetch_priority
     }}
   {%- endif -%}
-  {% comment %} <div class="image_mob">
+  {% if section.settings.image_mob != blank %}
+  <div class="image_mob">
     <img src="{{ section.settings.image_mob | img_url: 'master' }}" alt="{{ section.settings.image_mob.alt }}" style="width: 100%; height: auto;">
-  </div> {% endcomment %}
+  </div>
+  {% endif %}
 
   {%- if has_video_1 -%}
     {% assign media_count = media_count | plus: 1 %}
