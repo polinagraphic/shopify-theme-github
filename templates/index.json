@@ -1388,6 +1388,24 @@
         "padding-block-end": 80
       }
     },
+    "four_image_section_Yq8g4D": {
+      "type": "four-image-section",
+      "name": "4 Images Section",
+      "settings": {
+        "image_1": "shopify://shop_images/Scren-Free_Icon_8f5d08da-a1b0-4c98-9f4d-991fa807f553.png",
+        "bg_color": "#ffffff",
+        "image_2": "shopify://shop_images/Focus_Icon_3d8aa1d5-2f07-4a3b-b703-463dc3c92574.png",
+        "bg_color_2": "#ffffff",
+        "image_3": "shopify://shop_images/Fear-Free_Icon_ad04ef3b-473e-4a82-b7c7-fa195067eec3.png",
+        "bg_color_3": "#ffffff",
+        "image_4": "shopify://shop_images/Motor_Skills_Icon_812281a2-b934-48d3-a47a-72b87595c650.png",
+        "bg_color_4": "#ffffff",
+        "image_size": 130,
+        "gap": 40,
+        "m_top": 0,
+        "m_bottom": 0
+      }
+    },
     "section_pXECkJ": {
       "type": "section",
       "blocks": {
@@ -1443,7 +1461,7 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 0,
+        "padding-block-start": 60,
         "padding-block-end": 0
       }
     },
@@ -1956,24 +1974,6 @@
         "gradient_direction": "to top",
         "padding-block-start": 80,
         "padding-block-end": 80
-      }
-    },
-    "four_image_section_Yq8g4D": {
-      "type": "four-image-section",
-      "name": "4 Images Section",
-      "settings": {
-        "image_1": "shopify://shop_images/icon-5-image_178x178_4b4dcde4-5e63-496f-b5a8-fb37e52a91ac.webp",
-        "bg_color": "#ff0000",
-        "image_2": "shopify://shop_images/icon-5-image_178x178_4b4dcde4-5e63-496f-b5a8-fb37e52a91ac.webp",
-        "bg_color_2": "#35ff00",
-        "image_3": "shopify://shop_images/icon-5-image_178x178_4b4dcde4-5e63-496f-b5a8-fb37e52a91ac.webp",
-        "bg_color_3": "#000000",
-        "image_4": "shopify://shop_images/icon-5-image_178x178_4b4dcde4-5e63-496f-b5a8-fb37e52a91ac.webp",
-        "bg_color_4": "#5b974b",
-        "image_size": 130,
-        "gap": 40,
-        "m_top": 40,
-        "m_bottom": 40
       }
     },
     "marquee_8XehEW": {
@@ -2762,9 +2762,9 @@
     "section_GRrkCE",
     "section_Hgwfzq",
     "section_cJay7P",
+    "four_image_section_Yq8g4D",
     "section_pXECkJ",
     "section_4BgQ7r",
-    "four_image_section_Yq8g4D",
     "marquee_8XehEW",
     "1757036744f91087f3",
     "section_tikhcx",
