@@ -540,7 +540,7 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
@@ -577,7 +577,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Scren-Free_Icon_8f5d08da-a1b0-4c98-9f4d-991fa807f553.png",
+                    "image": "shopify://shop_images/Creative_thinking.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "fill",
@@ -600,7 +600,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Scren-Free_Icon_8f5d08da-a1b0-4c98-9f4d-991fa807f553.png",
+                    "image": "shopify://shop_images/Fine_motor.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "fill",
@@ -623,7 +623,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Scren-Free_Icon_8f5d08da-a1b0-4c98-9f4d-991fa807f553.png",
+                    "image": "shopify://shop_images/Focus.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "fill",
@@ -646,7 +646,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Scren-Free_Icon_8f5d08da-a1b0-4c98-9f4d-991fa807f553.png",
+                    "image": "shopify://shop_images/Screen-free_88cad319-8ba0-4a03-afee-b0b368c2493c.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "fill",
@@ -669,7 +669,30 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Scren-Free_Icon_8f5d08da-a1b0-4c98-9f4d-991fa807f553.png",
+                    "image": "shopify://shop_images/Fear-free_97762a26-2885-4011-8516-cbcb9bc8c748.png",
+                    "link": "",
+                    "image_ratio": "adapt",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "image_eJiHmn": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "image": "shopify://shop_images/Parent-child_2cf79769-0efb-4d7c-abf6-120e3b07948d.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "fill",
@@ -694,7 +717,8 @@
                 "image_8xAGqN",
                 "image_9TztXp",
                 "image_X7gM63",
-                "image_miYVWD"
+                "image_miYVWD",
+                "image_eJiHmn"
               ]
             }
           },
