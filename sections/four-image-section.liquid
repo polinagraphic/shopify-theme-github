@@ -1,62 +1,63 @@
 {% style %}
 .four-image-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: {{ section.settings.gap }}px;
-    margin-top: {{ section.settings.m_top }}px;
-    margin-bottom: {{ section.settings.m_bottom }}px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: {{ section.settings.gap }}px;
+  margin-top: {{ section.settings.m_top }}px;
+  margin-bottom: {{ section.settings.m_bottom }}px;
+  flex-wrap: wrap;
 }
 
 .four-image-section .image-container {
-    border-radius: 100px;
-    width: {{ section.settings.image_size }}px;
-    height: {{ section.settings.image_size }}px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
+  border-radius: 100px;
+  width: {{ section.settings.image_size }}px;
+  height: {{ section.settings.image_size }}px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .four-image-section .image-container img {
-    width: 70%;
-    height: 70%;
-    object-fit: contain;
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
 }
 
-/* Mobile and tablet - make it scroll horizontally */
+/* --- MOBILE SLIDER STYLE --- */
 @media (max-width: 991px) {
-    .four-image-section {
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        overflow-x: auto;
-        scrollbar-width: none; /* hide scrollbar for Firefox */
-        -ms-overflow-style: none; /* hide scrollbar for IE and Edge */
-        gap: 16px;
-        padding: 10px;
-    }
+  .four-image-section {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px;
+    gap: 16px;
+  }
 
-    .four-image-section::-webkit-scrollbar {
-        display: none; /* hide scrollbar for Chrome, Safari */
-    }
+  .four-image-section::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
 
-    .four-image-section .image-container {
-        scroll-snap-align: start;
-    }
+  .four-image-section .image-container {
+    flex: 0 0 auto;
+  }
 }
 {% endstyle %}
 
 <div class="four-image-section">
-    {% for i in (1..6) %}
-        {% assign image = section.settings["image_" | append: i] %}
-        {% assign bg = section.settings["bg_color_" | append: i] %}
-        {% if image %}
-        <div class="image-container" style="background-color: {{ bg }};">
-            <img src="{{ image | img_url: 'medium' }}" alt="{{ image.alt | default: 'icon' }}">
-        </div>
-        {% endif %}
-    {% endfor %}
+  {% for i in (1..6) %}
+    {% assign image = section.settings["image_" | append: i] %}
+    {% assign bg = section.settings["bg_color_" | append: i] %}
+    {% if image %}
+      <div class="image-container" style="background-color: {{ bg }};">
+        <img src="{{ image | img_url: '300x300' }}" alt="{{ image.alt | default: 'icon' }}">
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
 
 
