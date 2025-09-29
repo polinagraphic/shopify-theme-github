@@ -551,7 +551,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Privacy Policy</p>",
+                    "text": "<p><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy</a></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
