@@ -10,22 +10,24 @@
 }
 
 .four-image-section .image-container {
-  border-radius: 100px;
+  border-radius: 50%;
   width: {{ section.settings.image_size }}px;
   height: {{ section.settings.image_size }}px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .four-image-section .image-container img {
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-/* --- MOBILE SLIDER STYLE --- */
+/* --- MOBILE SCROLLABLE SLIDER --- */
 @media (max-width: 991px) {
   .four-image-section {
     flex-wrap: nowrap;
@@ -34,16 +36,24 @@
     justify-content: flex-start;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    padding: 10px;
-    gap: 16px;
+    padding: 10px 0;
+    gap: 12px;
   }
 
   .four-image-section::-webkit-scrollbar {
-    display: none; /* Hide scrollbar */
+    display: none;
   }
 
   .four-image-section .image-container {
     flex: 0 0 auto;
+    width: 100px; /* fixed size for mobile */
+    height: 100px;
+  }
+
+  .four-image-section .image-container img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
   }
 }
 {% endstyle %}
@@ -54,7 +64,7 @@
     {% assign bg = section.settings["bg_color_" | append: i] %}
     {% if image %}
       <div class="image-container" style="background-color: {{ bg }};">
-        <img src="{{ image | img_url: '300x300' }}" alt="{{ image.alt | default: 'icon' }}">
+        <img src="{{ image | img_url: '200x200' }}" alt="{{ image.alt | default: 'icon' }}">
       </div>
     {% endif %}
   {% endfor %}
