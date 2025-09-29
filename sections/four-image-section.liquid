@@ -1,0 +1,70 @@
+<div class="four-image-section">
+    <div class="image-container" style="background-color: {{ section.settings.bg_color }};">
+        {% if section.settings.image_1 %}
+            <img src="{{ section.settings.image_1 | img_url: 'medium' }}" alt="{{ section.settings.image_1.alt }}">
+        {% endif %}
+    </div>
+    <div class="image-container" style="background-color: {{ section.settings.bg_color_2 }};">
+        {% if section.settings.image_2 %}
+            <img src="{{ section.settings.image_2 | img_url: 'medium' }}" alt="{{ section.settings.image_2.alt }}">
+        {% endif %}
+    </div>
+    <div class="image-container" style="background-color: {{ section.settings.bg_color_3 }};">
+        {% if section.settings.image_3 %}
+            <img src="{{ section.settings.image_3 | img_url: 'medium' }}" alt="{{ section.settings.image_3.alt }}">
+        {% endif %}
+    </div>
+    <div class="image-container" style="background-color: {{ section.settings.bg_color_4 }};">
+        {% if section.settings.image_4 %}
+            <img src="{{ section.settings.image_4 | img_url: 'medium' }}" alt="{{ section.settings.image_4.alt }}">
+        {% endif %}
+    </div>
+
+
+{% schema %}
+{
+  "name": "4 Images Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Imnage 1"
+    },
+    {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color"
+    },
+    {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Image 2"
+        },
+            {
+        "type": "color",
+        "id": "bg_color_2",
+        "label": "Background Color"
+    },
+        {
+        "type": "image_picker",
+        "id": "image_3",
+        "label": "Image 3"
+        },
+            {
+        "type": "color",
+        "id": "bg_color_3",
+        "label": "Background Color"
+    },
+        {
+        "type": "image_picker",
+        "id": "image_4",
+        "label": "Image 4"
+    },
+        {
+        "type": "color",
+        "id": "bg_color_4",
+        "label": "Background Color"
+    }
+]
+}
+{% endschema %}
