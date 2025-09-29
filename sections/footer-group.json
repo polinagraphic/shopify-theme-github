@@ -603,7 +603,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Accessibility</p>",
+                    "text": "<p><a href=\"/pages/accessibility\" title=\"Accessibility\">Accessibility</a></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
