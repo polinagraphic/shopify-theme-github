@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+
 {% style %}
 .four-image-section {
   display: flex;
@@ -16,49 +19,54 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .four-image-section .image-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 50%;
 }
 
-/* --- MOBILE SCROLLABLE SLIDER --- */
+/* Slider styles (mobile only) */
 @media (max-width: 991px) {
   .four-image-section {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    justify-content: flex-start;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    padding: 10px 0;
-    gap: 12px;
+    display: block;
   }
 
-  .four-image-section::-webkit-scrollbar {
-    display: none;
+  .tns-outer {
+    position: relative;
+  }
+
+  .tns-ovh {
+    overflow: hidden;
+  }
+
+  .tns-inner {
+    display: flex;
+  }
+
+  .tns-slide {
+    display: flex !important;
+    justify-content: center;
   }
 
   .four-image-section .image-container {
-    flex: 0 0 auto;
-    width: 100px; /* fixed size for mobile */
+    width: 100px;
     height: 100px;
+    margin: 0 auto;
   }
 
-  .four-image-section .image-container img {
-    width: 90%;
-    height: 90%;
-    object-fit: contain;
+  .tns-nav,
+  .tns-controls {
+    display: none !important;
   }
 }
 {% endstyle %}
 
-<div class="four-image-section">
+<div class="four-image-section" id="fourImageSlider">
   {% for i in (1..6) %}
     {% assign image = section.settings["image_" | append: i] %}
     {% assign bg = section.settings["bg_color_" | append: i] %}
@@ -70,6 +78,24 @@
   {% endfor %}
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.innerWidth <= 991) {
+    var slider = tns({
+      container: '#fourImageSlider',
+      items: 3,
+      gutter: 10,
+      slideBy: 1,
+      autoplay: false,
+      controls: false,
+      nav: false,
+      mouseDrag: true,
+      swipeAngle: false,
+      speed: 400,
+    });
+  }
+});
+</script>
 
 {% schema %}
 {
