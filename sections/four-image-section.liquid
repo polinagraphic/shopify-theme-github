@@ -1,19 +1,17 @@
-<style>
+{% style %}
 .four-image-section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    margin: 40px 0px;
+    gap: {{ section.settings.gap }}px;
+    margin-top: {{ section.settings.m_top }}px;
+    margin-bottom: {{ section.settings.m_bottom }}px;
 }
 .four-image-section .image-container {
     border-radius: 100px;
+    width: {{ section.settings.image_size }}px;
 }
-.four-image-section .image-container {
-    border-radius: 100px;
-    width: 130px;
-}
-</style>
+{% endstyle %}
 
 
 <div class="four-image-section">
@@ -44,15 +42,6 @@
 {
   "name": "4 Images Section",
   "settings": [
-    {
-        "type": "range",
-        "id": "gap",
-        "label": "Gap between images (px)",
-        "min": 0,
-        "max": 100,
-        "step": 5,
-        "default": 20
-    },
     {
       "type": "image_picker",
       "id": "image_1",
@@ -92,11 +81,47 @@
         "type": "color",
         "id": "bg_color_4",
         "label": "Background Color"
+    },
+     {
+        "type": "range",
+        "id": "image_size",
+        "label": "Images Size (px)",
+        "min": 10,
+        "max": 500,
+        "step": 10,
+        "default": 130
+    },
+    {
+        "type": "range",
+        "id": "gap",
+        "label": "Gap between images (px)",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "default": 20
+    },
+     {
+        "type": "range",
+        "id": "m_top",
+        "label": "section Top Margin (px)",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "default": 20
+    },
+     {
+        "type": "range",
+        "id": "m_bottom",
+        "label": "section Bottom Margin (px)",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "default": 20
     }
 ],
 "presets": [
     {
-      "name": "4 Images Section",
+      "name": "4 Images Section"
     }
   ]
 }
