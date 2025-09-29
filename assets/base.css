@@ -744,9 +744,7 @@ body,
 
 /* Ensure inputs with type presets maintain minimum 16px on mobile to prevent iOS zoom */
 @media screen and (max-width: 1200px) {
-  .product-information.section.section--page-width.spacing-style {
-    padding-top: 0;
-}
+
   input.paragraph.paragraph,
   input.paragraph.paragraph:not([type]),
   textarea.paragraph.paragraph,
@@ -1019,6 +1017,12 @@ summary::-webkit-details-marker {
 [product-grid-view='default'] .product-grid__item {
   padding-block: 0;
 }
+  @media screen and (max-width: 749px) {
+  .product-information.section.section--page-width.spacing-style {
+    padding-top: 0;
+}
+}
+
 
 [product-grid-view='mobile-single'],
 .product-grid-mobile--large {
