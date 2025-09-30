@@ -900,7 +900,7 @@
           "name": "t:names.button",
           "settings": {
             "label": "Shop Now",
-            "link": "shopify://collections/all",
+            "link": "shopify://products/draw-with-light-set",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "fit-content",
