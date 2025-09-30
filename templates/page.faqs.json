@@ -268,7 +268,7 @@
                       "settings": {
                         "text": "<p>Our Draw with Light sets are a hit with kids ages 3 to 12 — though we’ll admit, plenty of parents and older siblings can’t resist jumping in, too. The magic of drawing with light feels fun for everyone.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -307,7 +307,7 @@
                       "settings": {
                         "text": "<p>No — it’s safe. The light pens are gentle on the eyes and designed for kids to use comfortably. For the best experience, we recommend drawing for up to 30 minutes a day in a dimly lit room.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -346,7 +346,7 @@
                       "settings": {
                         "text": "<p>The glow comes from a process called photoluminescence. We use a special photoluminescent film, powder, and ink that absorb light (from daylight or a lamp) and then release it in the dark. The more light the surface absorbs, the brighter it glows once the lights go out.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -385,7 +385,7 @@
                       "settings": {
                         "text": "<p>Our products are completely safe. All of our Draw with Light sets have been tested by a CPSC-accepted third-party laboratory and passed all required U.S. safety standards.</p><p>They meet ASTM F963 toy safety standards (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the CPSIA requirements for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through photoluminescence, which simply stores light and releases it in the dark.</p><p><strong>Questions? You can also email us directly at hey.glowheroes@gmail.com</strong></p><p></p><p></p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -424,7 +424,7 @@
                       "settings": {
                         "text": "<p>For the best results, make sure to draw in complete darkness or a dimly lit room. During the day, store the board in a dark place to keep the surface ready for glowing.</p><p>If the problem continues, check the batteries in the light pen and replace them following the instructions included in your set.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -599,7 +599,7 @@
                       "settings": {
                         "text": "<p>We accept PayPal, Shop Pay, Apple Pay, Google Pay, as well as all major credit cards including Visa, Mastercard, Discover, American Express, JCB, and Diners Club.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -638,7 +638,7 @@
                       "settings": {
                         "text": "<p>We hope that you and your kids love our Glow Heroes products as much as we love creating them. If for any reason you decide that a product isn’t the right fit, U.S.-based customers have 14 days from the date your order arrives to return items only if they are unopened and still sealed with the original stickers and packaging.</p><p>If your item arrives damaged, defective, or you received the wrong product, please email us at hey.glowheroes@gmail.com within 7 days of delivery, and we’ll be happy to assist with a replacement or refund.</p><p>For eligible returns, customers are responsible for return shipping costs, and the original shipping fee paid on your order is non‑refundable.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -677,7 +677,7 @@
                       "settings": {
                         "text": "<p>Once an order is placed, we have a very limited window to make changes or cancellations. To request an update, please contact hey.glowheroes@gmail.com as soon as possible. We’ll do our best to accommodate, but cannot guarantee changes once the order has been processed or shipped.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -716,7 +716,7 @@
                       "settings": {
                         "text": "<p>As soon as your order ships, you’ll get an email with a tracking number. You can use that link to check the delivery status at any time.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -755,7 +755,7 @@
                       "settings": {
                         "text": "<p>If your order doesn’t arrive, please contact us at hey.glowheroes@gmail.com with your order number. We’ll work with the carrier to locate your package and keep you updated throughout the process.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -794,7 +794,7 @@
                       "settings": {
                         "text": "<p>If your order arrives damaged, please email us at hey.glowheroes@gmail.com with your order number and photos of the damaged items. We’ll review your case and arrange a replacement or refund as quickly as possible.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -833,7 +833,7 @@
                       "settings": {
                         "text": "<p>You should receive an order confirmation email shortly after placing and paying for your order. If you don’t see it in your inbox, please check your spam or junk folder. If you still can’t find it, contact us at hey.glowheroes@gmail.com and we’ll be happy to resend the confirmation.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -872,7 +872,7 @@
                       "settings": {
                         "text": "<p>Please check first that your card’s billing details (security code, billing address, etc.) match what you’ve entered in your order. Your card issuer may also have declined your payment. We recommend checking with them before trying your card again. If none of these apply, please contact us at hey.glowheroes@gmail.com and we’ll help you complete your order.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -1050,7 +1050,7 @@
                       "settings": {
                         "text": "<p>Currently, Glow Heroes ships to the USA only.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -1089,7 +1089,7 @@
                       "settings": {
                         "text": "<p>We offer free U.S. shipping on orders over $50. For orders under $35, we charge a flat rate of $7. Expedited shipping is also available and typically arrives within 1–3 business days once shipped (2–5 days total including processing).</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -1128,7 +1128,7 @@
                       "settings": {
                         "text": "<p>Orders are processed and shipped within 2–3 business days (Monday–Friday).</p><p>Flat rate shipping: arrives within 4–10 days (includes processing + transit).</p><p>Expedited shipping: arrives within 3–5 days (includes processing + transit).</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
