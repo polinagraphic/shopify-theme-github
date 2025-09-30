@@ -181,11 +181,15 @@
               },
               "blocks": {}
             },
-            "custom_liquid_CGwVRK": {
-              "type": "custom-liquid",
-              "name": "t:names.custom_liquid",
+            "review_QbdjGF": {
+              "type": "review",
+              "name": "t:names.product_review_stars",
               "settings": {
-                "custom_liquid": "<!-- Start of Judge.me code -->\n      <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}' data-auto-install='false'>\n        {{ product.metafields.judgeme.badge }}\n      </div>\n      <!-- End of Judge.me code -->"
+                "stars_style": "shaded",
+                "show_number": true,
+                "rating_color": "primary",
+                "type_preset": "paragraph",
+                "alignment": "left"
               },
               "blocks": {}
             },
@@ -252,7 +256,7 @@
           "block_order": [
             "card-gallery",
             "product_title_4nY4eT",
-            "custom_liquid_CGwVRK",
+            "review_QbdjGF",
             "price_EzJzMm",
             "buy_buttons_nb7UjK"
           ]
