@@ -87,7 +87,7 @@
 {% endstyle %}
 
 
-<div class="four-image-section">
+<div class="four-image-section" style="background-color: {{ section.settings.sec_bg }};">
     <div class="image-container" style="background-color: {{ section.settings.bg_color }};">
         {% if section.settings.image_1 %}
             <img src="{{ section.settings.image_1 | img_url: 'medium' }}" alt="{{ section.settings.image_1.alt }}">
@@ -236,6 +236,15 @@
         "type": "color",
         "id": "bg_color_6",
         "label": "Background Color"
+    },
+    {
+        "type": "header",
+        "content": "Section Settings"
+    },
+    {
+        "type": "color",
+        "id": "sec_bg",
+        "label": "Section Background Color"
     },
      {
         "type": "range",
