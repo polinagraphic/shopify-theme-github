@@ -701,12 +701,52 @@
                   "block_order": [
                     "text_HQgUR4"
                   ]
+                },
+                "accordion_row_TzUgCn": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Can I track my order?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_4TXieG": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>As soon as your order ships, you’ll get an email with a tracking number. You can use that link to check the delivery status at any time.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_4TXieG"
+                  ]
                 }
               },
               "block_order": [
                 "accordion_row_ip9hFE",
                 "accordion_row_YFjHwN",
-                "accordion_row_qkN7M8"
+                "accordion_row_qkN7M8",
+                "accordion_row_TzUgCn"
               ]
             }
           },
