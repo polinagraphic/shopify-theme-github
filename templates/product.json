@@ -3380,7 +3380,7 @@
                       "settings": {
                         "text": "<p>Our Draw with Light sets are a hit with kids ages 3 to 12 — though we’ll admit, plenty of parents and older siblings can’t resist jumping in, too. The magic of drawing with light feels fun for everyone.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -3419,7 +3419,7 @@
                       "settings": {
                         "text": "<p>No — it’s safe. The light pens are gentle on the eyes and designed for kids to use comfortably. For the best experience, we recommend drawing for up to 30 minutes a day in a dimly lit room.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -3458,7 +3458,7 @@
                       "settings": {
                         "text": "<p>The glow comes from a process called photoluminescence. We use a special photoluminescent film, powder, and ink that absorb light (from daylight or a lamp) and then release it in the dark. The more light the surface absorbs, the brighter it glows once the lights go out.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -3497,7 +3497,7 @@
                       "settings": {
                         "text": "<p>Our products are completely safe. All of our Draw with Light sets have been tested by a CPSC-accepted third-party laboratory and passed all required U.S. safety standards.</p><p>They meet ASTM F963 toy safety standards (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the CPSIA requirements for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through photoluminescence, which simply stores light and releases it in the dark.</p><p><strong>Questions? You can also email us directly at hey.glowheroes@gmail.com</strong></p><p></p><p></p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -3536,7 +3536,7 @@
                       "settings": {
                         "text": "<p>For the best results, make sure to draw in complete darkness or a dimly lit room. During the day, store the board in a dark place to keep the surface ready for glowing.</p><p>If the problem continues, check the batteries in the light pen and replace them following the instructions included in your set.</p>",
                         "width": "100%",
-                        "max_width": "normal",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
