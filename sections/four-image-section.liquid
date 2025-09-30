@@ -4,44 +4,79 @@
 
 {% style %}
 .four-image-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: {{ section.settings.gap }}px;
-    margin-top: {{ section.settings.m_top }}px;
-    margin-bottom: {{ section.settings.m_bottom }}px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: {{ section.settings.gap }}px;
+  margin-top: {{ section.settings.m_top }}px;
+  margin-bottom: {{ section.settings.m_bottom }}px;
 }
+
 .four-image-section .image-container {
-    border-radius: 100px;
-    width: {{ section.settings.image_size }}px;
+  border-radius: 100px;
+  width: {{ section.settings.image_size }}px;
+  height: {{ section.settings.image_size }}px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.four-image-section .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+/* Desktop Only */
+@media (min-width: 769px) {
+  .for-mobile_only {
+    display: none !important;
+  }
+}
+
+/* Mobile Only */
 @media (max-width: 768px) {
-        .swiper {
-      width: 100%;
-      height: 100%;
-    }
+  .four-image-section {
+    display: none !important;
+  }
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #444;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  .for-mobile_only {
+    display: block;
+    width: 100%;
+  }
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  .swiper {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
 
-    .swiper {
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .swiper-slide .image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+
+  .swiper-slide .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  /* Optional: add arrows or dots below */
+  .swiper-pagination {
+    margin-top: 15px;
+    position: static;
+  }
 }
 {% endstyle %}
 
@@ -78,7 +113,7 @@
         {% endif %}
     </div>
 </div>
-<div class="swiper mySwiper">
+<div class="swiper mySwiper for-mobile_only">
 <div class="four-image-section swiper-wrapper">
     <div class="image-container swiper-slide" style="background-color: {{ section.settings.bg_color }};">
         {% if section.settings.image_1 %}
@@ -113,22 +148,25 @@
 </div>
 </div>
 
-
- <script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
+      slidesPerView: 3,
+      spaceBetween: 20,
       loop: true,
+      breakpoints: {
+        320: { slidesPerView: 2, spaceBetween: 10 },
+        480: { slidesPerView: 2.5, spaceBetween: 15 },
+        640: { slidesPerView: 3, spaceBetween: 20 }
+      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
     });
-  </script>
+  });
+</script>
+
 {% schema %}
 {
   "name": "4 Images Section",
