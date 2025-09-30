@@ -857,6 +857,45 @@
                   "block_order": [
                     "text_9pCLxC"
                   ]
+                },
+                "accordion_row_AiF3j6": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What do I do if my payment has been declined?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_BQcHRm": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Please check first that your card’s billing details (security code, billing address, etc.) match what you’ve entered in your order. Your card issuer may also have declined your payment. We recommend checking with them before trying your card again. If none of these apply, please contact us at hey.glowheroes@gmail.com and we’ll help you complete your order.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_BQcHRm"
+                  ]
                 }
               },
               "block_order": [
@@ -866,7 +905,8 @@
                 "accordion_row_TzUgCn",
                 "accordion_row_TVYx3m",
                 "accordion_row_JN6y6V",
-                "accordion_row_7FhUxg"
+                "accordion_row_7FhUxg",
+                "accordion_row_AiF3j6"
               ]
             }
           },
