@@ -97,7 +97,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>School</h2>",
+                "text": "<h2>Glow Academy</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -122,7 +122,7 @@
             "text_nEF9Y8": {
               "type": "text",
               "settings": {
-                "text": "<p>Learn how to draw</p>",
+                "text": "<p>Discover everything you need to play, draw, and imagine with Glow Heroes — from animal tutorials to bedtime stories.</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
