@@ -416,7 +416,7 @@
             "text_Ma3gaM"
           ]
         },
-        "group_MGCEwm": {
+        "group_aMyHDt": {
           "type": "group",
           "name": "Column",
           "settings": {
@@ -457,30 +457,7 @@
             "padding-inline-end": 20
           },
           "blocks": {
-            "image_nqKyCB": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/Cuddle_Bear.png",
-                "link": "",
-                "image_ratio": "landscape",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_8JEnTD": {
+            "text_B7pJQi": {
               "type": "text",
               "name": "Heading",
               "settings": {
@@ -506,7 +483,30 @@
               },
               "blocks": {}
             },
-            "button_q8RKKP": {
+            "image_iUkTdG": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Cuddle_Bear_22312a3d-9f0c-487d-8c71-a47dd7ced22d.png",
+                "link": "",
+                "image_ratio": "landscape",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_TMRChw": {
               "type": "button",
               "name": "t:names.button",
               "settings": {
@@ -521,7 +521,7 @@
               },
               "blocks": {}
             },
-            "text_N3aeLG": {
+            "text_Ep8hVP": {
               "type": "text",
               "name": "Description",
               "disabled": true,
@@ -550,13 +550,13 @@
             }
           },
           "block_order": [
-            "image_nqKyCB",
-            "text_8JEnTD",
-            "button_q8RKKP",
-            "text_N3aeLG"
+            "text_B7pJQi",
+            "image_iUkTdG",
+            "button_TMRChw",
+            "text_Ep8hVP"
           ]
         },
-        "group_W3eCfy": {
+        "group_7pUXak": {
           "type": "group",
           "name": "Column",
           "settings": {
@@ -597,30 +597,7 @@
             "padding-inline-end": 20
           },
           "blocks": {
-            "image_bycpmd": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/Cuddle_Bear.png",
-                "link": "",
-                "image_ratio": "landscape",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_hhPWEi": {
+            "text_rQJDB4": {
               "type": "text",
               "name": "Heading",
               "settings": {
@@ -646,7 +623,30 @@
               },
               "blocks": {}
             },
-            "button_4FJ78B": {
+            "image_hB8rJC": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Cuddle_Bear_22312a3d-9f0c-487d-8c71-a47dd7ced22d.png",
+                "link": "",
+                "image_ratio": "landscape",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_9tGPkd": {
               "type": "button",
               "name": "t:names.button",
               "settings": {
@@ -661,7 +661,7 @@
               },
               "blocks": {}
             },
-            "text_8EgxX4": {
+            "text_3BMWG6": {
               "type": "text",
               "name": "Description",
               "disabled": true,
@@ -690,17 +690,17 @@
             }
           },
           "block_order": [
-            "image_bycpmd",
-            "text_hhPWEi",
-            "button_4FJ78B",
-            "text_8EgxX4"
+            "text_rQJDB4",
+            "image_hB8rJC",
+            "button_9tGPkd",
+            "text_3BMWG6"
           ]
         }
       },
       "block_order": [
         "group_AhrrrR",
-        "group_MGCEwm",
-        "group_W3eCfy"
+        "group_aMyHDt",
+        "group_7pUXak"
       ],
       "name": "t:names.multicolumn",
       "settings": {
