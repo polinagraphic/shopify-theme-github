@@ -324,7 +324,7 @@
                   "name": "t:names.menu",
                   "settings": {
                     "menu": "about",
-                    "heading": "ABOUT",
+                    "heading": "ABOUT US",
                     "menu_spacing": 2,
                     "show_as_accordion": false,
                     "accordion_icon": "caret",
@@ -602,6 +602,7 @@
                 "text_BW7wDa": {
                   "type": "text",
                   "name": "t:names.text",
+                  "disabled": true,
                   "settings": {
                     "text": "<p><a href=\"/pages/accessibility\" title=\"Accessibility\">Accessibility</a></p>",
                     "width": "fit-content",
