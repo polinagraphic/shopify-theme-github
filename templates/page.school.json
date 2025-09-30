@@ -370,9 +370,9 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Start Drawing",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
+                "label": "Start Learning",
+                "link": "https://drive.google.com/drive/u/2/folders/1V9eK1USfz5q9kg47PbsBWnX0Hvf1l7bE",
+                "open_in_new_tab": true,
                 "style_class": "button",
                 "width": "custom",
                 "custom_width": 100,
@@ -510,7 +510,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Start Drawing",
+                "label": "Start Learning",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -650,7 +650,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Start Drawing",
+                "label": "Start Learning",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
