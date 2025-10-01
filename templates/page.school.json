@@ -279,6 +279,7 @@
       "blocks": {
         "group_khEA8h": {
           "type": "group",
+          "name": "Animal",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -476,14 +477,15 @@
             "group_Aw77P3"
           ]
         },
-        "group_RdCjXQ": {
+        "group_9UTBeA": {
           "type": "group",
+          "name": "Animal",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "row",
             "vertical_on_mobile": false,
-            "horizontal_alignment": "flex-start",
+            "horizontal_alignment": "center",
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
@@ -516,7 +518,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "group_FjtDPY": {
+            "group_3z8U7V": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -527,13 +529,13 @@
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-end",
                 "gap": 4,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
+                "width": "custom",
+                "custom_width": 60,
+                "width_mobile": "fit-content",
                 "custom_width_mobile": 100,
-                "height": "fill",
+                "height": "fit",
                 "custom_height": 100,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
@@ -555,7 +557,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_AQqUtU": {
+                "text_mpkLYG": {
                   "type": "text",
                   "name": "Heading",
                   "settings": {
@@ -581,7 +583,7 @@
                   },
                   "blocks": {}
                 },
-                "button_thmfU6": {
+                "button_kXfnE8": {
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
@@ -598,11 +600,11 @@
                 }
               },
               "block_order": [
-                "text_AQqUtU",
-                "button_thmfU6"
+                "text_mpkLYG",
+                "button_kXfnE8"
               ]
             },
-            "group_HDMUaU": {
+            "group_jXWWTL": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -615,8 +617,8 @@
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 4,
-                "width": "fill",
-                "custom_width": 100,
+                "width": "custom",
+                "custom_width": 40,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fill",
@@ -635,20 +637,20 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "padding-block-start": 10,
-                "padding-block-end": 10,
-                "padding-inline-start": 10,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
               "blocks": {
-                "image_4qqNny": {
+                "image_Mbt4Tj": {
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Cuddle_Bear_22312a3d-9f0c-487d-8c71-a47dd7ced22d.png",
+                    "image": "shopify://shop_images/Cuddle_Bear_bf73453b-abcf-4ccb-87f9-621e12d7b8a5.png",
                     "link": "",
-                    "image_ratio": "square",
-                    "width": "fill",
+                    "image_ratio": "portrait",
+                    "width": "custom",
                     "custom_width": 100,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -666,23 +668,24 @@
                 }
               },
               "block_order": [
-                "image_4qqNny"
+                "image_Mbt4Tj"
               ]
             }
           },
           "block_order": [
-            "group_FjtDPY",
-            "group_HDMUaU"
+            "group_3z8U7V",
+            "group_jXWWTL"
           ]
         },
-        "group_BieBf7": {
+        "group_QNDA8R": {
           "type": "group",
+          "name": "Animal",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "row",
             "vertical_on_mobile": false,
-            "horizontal_alignment": "flex-start",
+            "horizontal_alignment": "center",
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
@@ -715,7 +718,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "group_zW6Qxg": {
+            "group_yq9a3K": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -726,13 +729,13 @@
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-end",
                 "gap": 4,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
+                "width": "custom",
+                "custom_width": 60,
+                "width_mobile": "fit-content",
                 "custom_width_mobile": 100,
-                "height": "fill",
+                "height": "fit",
                 "custom_height": 100,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
@@ -754,7 +757,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_GGJyJG": {
+                "text_bHMwnC": {
                   "type": "text",
                   "name": "Heading",
                   "settings": {
@@ -780,7 +783,7 @@
                   },
                   "blocks": {}
                 },
-                "button_FwhJwF": {
+                "button_P79cU3": {
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
@@ -797,11 +800,11 @@
                 }
               },
               "block_order": [
-                "text_GGJyJG",
-                "button_FwhJwF"
+                "text_bHMwnC",
+                "button_P79cU3"
               ]
             },
-            "group_qkL7Pd": {
+            "group_J6NxjK": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -814,8 +817,8 @@
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 4,
-                "width": "fill",
-                "custom_width": 100,
+                "width": "custom",
+                "custom_width": 40,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fill",
@@ -834,20 +837,20 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "padding-block-start": 10,
-                "padding-block-end": 10,
-                "padding-inline-start": 10,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
               "blocks": {
-                "image_fd8z8A": {
+                "image_fptBrm": {
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Cuddle_Bear_22312a3d-9f0c-487d-8c71-a47dd7ced22d.png",
+                    "image": "shopify://shop_images/Cuddle_Bear_bf73453b-abcf-4ccb-87f9-621e12d7b8a5.png",
                     "link": "",
-                    "image_ratio": "square",
-                    "width": "fill",
+                    "image_ratio": "portrait",
+                    "width": "custom",
                     "custom_width": 100,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -865,20 +868,20 @@
                 }
               },
               "block_order": [
-                "image_fd8z8A"
+                "image_fptBrm"
               ]
             }
           },
           "block_order": [
-            "group_zW6Qxg",
-            "group_qkL7Pd"
+            "group_yq9a3K",
+            "group_J6NxjK"
           ]
         }
       },
       "block_order": [
         "group_khEA8h",
-        "group_RdCjXQ",
-        "group_BieBf7"
+        "group_9UTBeA",
+        "group_QNDA8R"
       ],
       "name": "t:names.multicolumn",
       "settings": {
@@ -906,605 +909,6 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 20,
-        "padding-block-end": 0
-      }
-    },
-    "section_gGY3hX": {
-      "type": "section",
-      "blocks": {
-        "group_kkRkHH": {
-          "type": "group",
-          "name": "Column",
-          "settings": {
-            "link": "",
-            "open_in_new_tab": false,
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "image",
-            "video_position": "cover",
-            "background_image": "shopify://shop_images/Blue.png",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 10,
-            "placeholder": "",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "padding-block-start": 20,
-            "padding-block-end": 20,
-            "padding-inline-start": 20,
-            "padding-inline-end": 20
-          },
-          "blocks": {
-            "text_VKYwX6": {
-              "type": "text",
-              "name": "Heading",
-              "settings": {
-                "text": "<h2>Cuddle Bear</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 10,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "image_ifRiyr": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/Cuddle_Bear_22312a3d-9f0c-487d-8c71-a47dd7ced22d.png",
-                "link": "",
-                "image_ratio": "landscape",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "button_BpkCHL": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Start Learning",
-                "link": "https://drive.google.com/drive/u/2/folders/1V9eK1USfz5q9kg47PbsBWnX0Hvf1l7bE",
-                "open_in_new_tab": true,
-                "style_class": "button",
-                "width": "custom",
-                "custom_width": 100,
-                "width_mobile": "custom",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            },
-            "text_BePgPh": {
-              "type": "text",
-              "name": "Description",
-              "disabled": true,
-              "settings": {
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_VKYwX6",
-            "image_ifRiyr",
-            "button_BpkCHL",
-            "text_BePgPh"
-          ]
-        },
-        "group_UjPawh": {
-          "type": "group",
-          "name": "Column",
-          "settings": {
-            "link": "",
-            "open_in_new_tab": false,
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "image",
-            "video_position": "cover",
-            "background_image": "shopify://shop_images/Blue.png",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 10,
-            "placeholder": "",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "padding-block-start": 20,
-            "padding-block-end": 20,
-            "padding-inline-start": 20,
-            "padding-inline-end": 20
-          },
-          "blocks": {
-            "text_BXrCUy": {
-              "type": "text",
-              "name": "Heading",
-              "settings": {
-                "text": "<h2>Cuddle Bear</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 10,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "image_X3GDAb": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/Cuddle_Bear_22312a3d-9f0c-487d-8c71-a47dd7ced22d.png",
-                "link": "",
-                "image_ratio": "landscape",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "button_HWXGG6": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Start Learning",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "custom",
-                "custom_width": 100,
-                "width_mobile": "custom",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            },
-            "text_qWTHF4": {
-              "type": "text",
-              "name": "Description",
-              "disabled": true,
-              "settings": {
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_BXrCUy",
-            "image_X3GDAb",
-            "button_HWXGG6",
-            "text_qWTHF4"
-          ]
-        },
-        "group_Ebd9bH": {
-          "type": "group",
-          "name": "Column",
-          "settings": {
-            "link": "",
-            "open_in_new_tab": false,
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "image",
-            "video_position": "cover",
-            "background_image": "shopify://shop_images/Blue.png",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 10,
-            "placeholder": "",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "padding-block-start": 20,
-            "padding-block-end": 20,
-            "padding-inline-start": 20,
-            "padding-inline-end": 20
-          },
-          "blocks": {
-            "text_QJpUTc": {
-              "type": "text",
-              "name": "Heading",
-              "settings": {
-                "text": "<h2>Cuddle Bear</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 10,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "image_AjUD6h": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/Cuddle_Bear_22312a3d-9f0c-487d-8c71-a47dd7ced22d.png",
-                "link": "",
-                "image_ratio": "landscape",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "button_gKzd3A": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Start Learning",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "custom",
-                "custom_width": 100,
-                "width_mobile": "custom",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            },
-            "text_UMa3mU": {
-              "type": "text",
-              "name": "Description",
-              "disabled": true,
-              "settings": {
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_QJpUTc",
-            "image_AjUD6h",
-            "button_gKzd3A",
-            "text_UMa3mU"
-          ]
-        },
-        "group_EFHaFd": {
-          "type": "group",
-          "name": "Column",
-          "settings": {
-            "link": "",
-            "open_in_new_tab": false,
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "image",
-            "video_position": "cover",
-            "background_image": "shopify://shop_images/Blue.png",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 10,
-            "placeholder": "",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "padding-block-start": 20,
-            "padding-block-end": 20,
-            "padding-inline-start": 20,
-            "padding-inline-end": 20
-          },
-          "blocks": {
-            "text_zEDQrq": {
-              "type": "text",
-              "name": "Heading",
-              "settings": {
-                "text": "<h2>Cuddle Bear</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 10,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "image_R8CkFR": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/Cuddle_Bear_22312a3d-9f0c-487d-8c71-a47dd7ced22d.png",
-                "link": "",
-                "image_ratio": "landscape",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "button_yQfr8d": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Start Learning",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "custom",
-                "custom_width": 100,
-                "width_mobile": "custom",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            },
-            "text_Ag7RUV": {
-              "type": "text",
-              "name": "Description",
-              "disabled": true,
-              "settings": {
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_zEDQrq",
-            "image_R8CkFR",
-            "button_yQfr8d",
-            "text_Ag7RUV"
-          ]
-        }
-      },
-      "block_order": [
-        "group_kkRkHH",
-        "group_UjPawh",
-        "group_Ebd9bH",
-        "group_EFHaFd"
-      ],
-      "name": "t:names.multicolumn",
-      "settings": {
-        "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "flex-start",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 16,
         "padding-block-end": 80
       }
     },
@@ -1916,6 +1320,31 @@
                     "text_VmmdE6": {
                       "type": "text",
                       "settings": {
+                        "text": "<p><strong>Glowing lines</strong></p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_kDikeE": {
+                      "type": "text",
+                      "settings": {
                         "text": "<p>Glowing lines help kids <strong>develop fine motor skills</strong>, as every stroke builds control, coordination, and confidence while they have fun.</p>",
                         "width": "100%",
                         "max_width": "normal",
@@ -1941,7 +1370,8 @@
                   },
                   "block_order": [
                     "text_h46dLb",
-                    "text_VmmdE6"
+                    "text_VmmdE6",
+                    "text_kDikeE"
                   ]
                 }
               },
@@ -2310,7 +1740,6 @@
     "hero_dkz4Da",
     "section_d3Lxwa",
     "section_ghnkeR",
-    "section_gGY3hX",
     "section_czgE6H",
     "section_4QqcPh"
   ]
