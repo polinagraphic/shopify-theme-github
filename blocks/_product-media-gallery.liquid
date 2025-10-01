@@ -583,16 +583,22 @@
 </media-gallery>
 {{ 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' | stylesheet_tag }}
 {{ 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js' | script_tag }}
+
 <div class="mobile-gallery new-gallery">
-  <!-- Main image slider -->
+  <!-- Main image + video slider -->
   <div class="swiper main-slider">
     <div class="swiper-wrapper">
       {% for media in product.media %}
-        {% if media.media_type == "image" %}
-          <div class="swiper-slide">
-            <img src="{{ media | image_url: width: 800 }}" alt="{{ media.alt | escape }}">
-          </div>
-        {% endif %}
+        <div class="swiper-slide">
+          {% case media.media_type %}
+            {% when 'image' %}
+              <img src="{{ media | image_url: width: 800 }}" alt="{{ media.alt | escape }}">
+            {% when 'video' %}
+              {{ media | video_tag: controls: true, autoplay: false, loop: false, muted: false }}
+            {% when 'external_video' %}
+              {{ media | external_video_tag }}
+          {% endcase %}
+        </div>
       {% endfor %}
     </div>
   </div>
@@ -601,11 +607,22 @@
   <div class="swiper thumbs-slider">
     <div class="swiper-wrapper">
       {% for media in product.media %}
-        {% if media.media_type == "image" %}
-          <div class="swiper-slide">
-            <img src="{{ media | image_url: width: 200 }}" alt="{{ media.alt | escape }}">
-          </div>
-        {% endif %}
+        <div class="swiper-slide">
+          {% case media.media_type %}
+            {% when 'image' %}
+              <img src="{{ media | image_url: width: 200 }}" alt="{{ media.alt | escape }}">
+            {% when 'video' %}
+              <div class="video-thumb">
+                <img src="{{ media.preview_image | image_url: width: 200 }}" alt="Video thumbnail">
+                <span class="play-icon">▶</span>
+              </div>
+            {% when 'external_video' %}
+              <div class="video-thumb">
+                <img src="{{ media.preview_image | image_url: width: 200 }}" alt="Video thumbnail">
+                <span class="play-icon">▶</span>
+              </div>
+          {% endcase %}
+        </div>
       {% endfor %}
     </div>
   </div>
@@ -613,22 +630,21 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-  const thumbsSwiper = new Swiper(".thumbs-slider", {
-    slidesPerView: 5,
-    spaceBetween: 10,
-    freeMode: true,
-    watchSlidesProgress: true,
-  });
+    const thumbsSwiper = new Swiper(".thumbs-slider", {
+      slidesPerView: 5,
+      spaceBetween: 10,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
 
-  const mainSwiper = new Swiper(".main-slider", {
-    spaceBetween: 10,
-    loop: true,
-    thumbs: {
-      swiper: thumbsSwiper,
-    },
+    const mainSwiper = new Swiper(".main-slider", {
+      spaceBetween: 10,
+      loop: true,
+      thumbs: {
+        swiper: thumbsSwiper,
+      },
+    });
   });
-});
-
 </script>
 {% stylesheet %}
 .mobile-gallery {
