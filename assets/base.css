@@ -4373,9 +4373,9 @@ media-gallery slideshow-component slideshow-arrows {
     outline: 1px solid #00c05a !important;
 } */
 
-/* .button[id^=BuyButtons-ProductSubmitButton-] span.add-to-cart-text { 
-  color: #00c05a !important;
-} */
+ .button[id^=BuyButtons-ProductSubmitButton-] span.add-to-cart-text { 
+  color: #fff !important;
+} 
 .button[id^=BuyButtons-ProductSubmitButton-] {
     background-color: #fff !important;
     color: #00c05a !important;
