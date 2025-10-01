@@ -744,6 +744,34 @@ body,
 
 /* Ensure inputs with type presets maintain minimum 16px on mobile to prevent iOS zoom */
 @media screen and (max-width: 1200px) {
+  .mobile-gallery video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.video-thumb {
+  position: relative;
+  display: inline-block;
+}
+
+.video-thumb img {
+  display: block;
+  border-radius: 6px;
+}
+
+.video-thumb .play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 6px 8px;
+  pointer-events: none;
+}
 
   input.paragraph.paragraph,
   input.paragraph.paragraph:not([type]),
