@@ -738,6 +738,7 @@
       "settings": {
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
+        "autoplay_videos": true,
         "equal_columns": true,
         "limit_details_width": true,
         "gap": 48,
