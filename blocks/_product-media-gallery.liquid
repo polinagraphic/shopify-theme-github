@@ -594,7 +594,7 @@
             {% when 'image' %}
               <img src="{{ media | image_url: width: 800 }}" alt="{{ media.alt | escape }}">
             {% when 'video' %}
-            {{ media | video_tag: controls: true,  autoplay:{% if section.settings.autoplay_videos %}  true {%  else %} false {% endif %}, loop: false, muted: false }}
+              {{ media | video_tag: controls: true, autoplay: true, loop: true, muted: true }}
             {% when 'external_video' %}
               {{ media | external_video_tag }}
           {% endcase %}
@@ -815,7 +815,6 @@
   "name": "t:names.product_media",
   "tag": null,
   "settings": [
-   
     {
       "type": "select",
       "id": "media_presentation",
