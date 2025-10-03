@@ -248,28 +248,11 @@
               },
               "blocks": {}
             },
-            "image_LzqayM": {
-              "type": "image",
-              "name": "t:names.image",
+            "judge_me_reviews_preview_badge_homepage_33tcHL": {
+              "type": "shopify://apps/judge-me-reviews/blocks/preview_badge_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
               "settings": {
-                "image": "shopify://shop_images/Stars_080e4b0f-1330-4a4a-ad71-1e85380c4654.png",
-                "link": "",
-                "image_ratio": "adapt",
-                "width": "custom",
-                "custom_width": 20,
-                "width_mobile": "custom",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
+                "product": ""
+              }
             },
             "text_nnM4VR": {
               "type": "text",
@@ -300,7 +283,7 @@
             "text_QyyDLT": {
               "type": "text",
               "settings": {
-                "text": "<p>Reusable, mess-free draw in the dark set for kids—safe, fun, and designed to make learning creative</p>",
+                "text": "<p>A unique creative set for drawing with light in the dark — reusable, mess-free, and screen-free fun that’s perfect for bedtime, quiet play, or travel</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -339,7 +322,7 @@
           },
           "block_order": [
             "text_HtXAHR",
-            "image_LzqayM",
+            "judge_me_reviews_preview_badge_homepage_33tcHL",
             "text_nnM4VR",
             "text_QyyDLT",
             "button_MUQN9K"
