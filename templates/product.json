@@ -738,7 +738,6 @@
       "settings": {
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
-        "autoplay_videos": true,
         "equal_columns": true,
         "limit_details_width": true,
         "gap": 48,
@@ -916,7 +915,7 @@
             "video_autoplay": true,
             "video_loop": true,
             "alt": "",
-            "custom_width": 90,
+            "custom_width": 100,
             "custom_width_mobile": 100,
             "aspect_ratio": "auto",
             "border": "none",
