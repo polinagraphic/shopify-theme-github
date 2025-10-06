@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "main": {
       "type": "main-404",
@@ -68,7 +69,7 @@
           "name": "t:names.button",
           "settings": {
             "label": "Continue shopping",
-            "link": "shopify://collections/all",
+            "link": "shopify://products/draw-with-light-set",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "fit-content",
@@ -253,6 +254,7 @@
           ]
         }
       },
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "collection": "all",
