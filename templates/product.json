@@ -2353,7 +2353,7 @@
                   "settings": {
                     "text": "<p><strong>Around 73% of children ages 4–12 experience nighttime fears,</strong> with fear of the dark among the most common. The Draw with Light Set turns that fear into fun and creativity.</p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -2599,7 +2599,7 @@
                   "settings": {
                     "text": "<p>AAP says <strong>unstructured play aids development,</strong> while too much screen time hurts sleep and behavior. The Draw with Light Set offers a calming, screen-free alternative.</p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -2845,7 +2845,7 @@
                   "settings": {
                     "text": "<p>Research shows that <strong>creative play with parents strengthens bonds and builds resilience</strong>. The Draw with Light Set makes drawing together simple.</p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -3030,7 +3030,7 @@
               "settings": {
                 "text": "<p><strong>For kids,</strong> it’s perfect for curious minds who love to explore, create, and discover new things. It turns playtime into an adventure, sparking imagination and keeping children engaged in fun, screen-free activities.<br/><br/><strong>For parents,</strong> it offers peace of mind with tools that are safe, reliable, and designed to foster creativity. It’s an easy way to encourage a child’s growth while giving them a playful outlet that supports learning and self-expression.<br/><br/><strong>For teachers,</strong> it works as a classroom resource to help students focus, build confidence, and express themselves creatively. It’s more than just a toy—it’s a tool that supports emotional growth and makes learning interactive and fun.</p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -3250,6 +3250,7 @@
       "block_order": [
         "group_CWzwY9"
       ],
+      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
@@ -3765,19 +3766,17 @@
             "text_XWdL7K"
           ]
         },
-        "video_jewb39": {
-          "type": "video",
-          "name": "t:names.video",
+        "image_qd9iWV": {
+          "type": "image",
+          "name": "t:names.image",
           "settings": {
-            "source": "uploaded",
-            "video": "shopify://files/videos/About Us Video.mov",
-            "video_url": "",
-            "video_autoplay": true,
-            "video_loop": true,
-            "alt": "",
+            "link": "",
+            "image_ratio": "landscape",
+            "width": "fill",
             "custom_width": 100,
+            "width_mobile": "fill",
             "custom_width_mobile": 100,
-            "aspect_ratio": "auto",
+            "height": "fit",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
@@ -3792,7 +3791,7 @@
       },
       "block_order": [
         "group_gjeKrk",
-        "video_jewb39"
+        "image_qd9iWV"
       ],
       "name": "t:names.image_with_text",
       "settings": {
