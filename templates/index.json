@@ -2019,7 +2019,7 @@
             "header": "",
             "slide_type": "cards",
             "autoplay_mode": "sequential",
-            "slide_size": "250",
+            "slide_size": "300",
             "border": 0,
             "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
             "slide_rounding": "6",
@@ -2067,6 +2067,36 @@
         "gradient_direction": "to top",
         "padding-block-start": 0,
         "padding-block-end": 50
+      }
+    },
+    "175977097980544d1a": {
+      "type": "_blocks",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "section_tikhcx": {
@@ -2784,6 +2814,7 @@
     "section_4BgQ7r",
     "marquee_8XehEW",
     "1757036744f91087f3",
+    "175977097980544d1a",
     "section_tikhcx",
     "1757002625a99299e5",
     "section_DR9bEz",
