@@ -410,6 +410,7 @@
         "video_Mwt8EP": {
           "type": "video",
           "name": "t:names.video",
+          "disabled": true,
           "settings": {
             "source": "uploaded",
             "video": "shopify://files/videos/About Us Video.mov",
