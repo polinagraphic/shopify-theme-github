@@ -3770,6 +3770,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
+            "image": "shopify://shop_images/Product_Image_01_1e4de13e-2a28-4c8b-b641-9f4cb0cc05f3.jpg",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
@@ -3807,7 +3808,7 @@
         "section_height": "",
         "section_height_custom": 50,
         "color_scheme": "scheme-1",
-        "background_media": "image",
+        "background_media": "none",
         "video_position": "cover",
         "background_image": "shopify://shop_images/Gradient_7ea838ea-1c96-4992-bc69-31576ce6c472.jpg",
         "background_image_position": "cover",
