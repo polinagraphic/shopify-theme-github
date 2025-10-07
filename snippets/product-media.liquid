@@ -53,7 +53,7 @@
           class="product-model-wrapper"
           data-media-id="{{ media.id }}"
         >
-          <button
+          {% comment %} <button
             class="button deferred-media__poster-button button-unstyled"
             ref="deferredMediaPlayButton"
             on:click="/showDeferredMedia"
@@ -81,7 +81,7 @@
                 {% render 'icon', icon: '3d-model' %}
               </svg>
             </span>
-          </button>
+          </button> {% endcomment %}
 
           <template>
             {% # Should I be using media_tag here instead like on Dawn? 🤔 %}
