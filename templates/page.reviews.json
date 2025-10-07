@@ -84,6 +84,7 @@
         "group_NVPNbT": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
