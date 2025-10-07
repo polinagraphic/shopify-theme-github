@@ -14,7 +14,9 @@
       "blocks": {
         "group_3WRF7a": {
           "type": "group",
+          "name": "For Desktop",
           "settings": {
+            "c_class": "show_on_desktop",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -123,10 +125,125 @@
             "text_pCLL76",
             "button_mWC6cw"
           ]
+        },
+        "group_yrxfmj": {
+          "type": "group",
+          "name": "For Mobile",
+          "settings": {
+            "c_class": "show_on_mobile",
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_BRHwVf": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>Turn Off the Lights & Watch the Glow</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_Lb8mWQ": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_PC7EHA": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://products/draw-with-light-set",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_BRHwVf",
+            "text_Lb8mWQ",
+            "button_PC7EHA"
+          ]
         }
       },
       "block_order": [
-        "group_3WRF7a"
+        "group_3WRF7a",
+        "group_yrxfmj"
       ],
       "name": "t:names.hero",
       "settings": {
@@ -188,6 +305,7 @@
         "group_Aj6qCM": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -438,6 +556,7 @@
           "type": "group",
           "name": "Caption",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "row",
@@ -772,6 +891,7 @@
         "group_39FbVk": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -859,6 +979,7 @@
             "group_bCgBJR": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -961,6 +1082,7 @@
         "group_bXCVhi": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1048,6 +1170,7 @@
             "group_6fpwxa": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1150,6 +1273,7 @@
         "group_mt8QDe": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1237,6 +1361,7 @@
             "group_wn9XCh": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1462,6 +1587,7 @@
         "group_M4tNhi": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1527,6 +1653,7 @@
             "group_zjGdaa": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1614,6 +1741,7 @@
                 "group_jRUQQ9": {
                   "type": "group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -1716,6 +1844,7 @@
             "group_384RLj": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1803,6 +1932,7 @@
                 "group_cdLCje": {
                   "type": "group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -2107,6 +2237,7 @@
         "group_dexJKM": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -2628,6 +2759,7 @@
         "group_czJAB7": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
