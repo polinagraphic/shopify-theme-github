@@ -88,4 +88,18 @@
   .group-block__link ~ .group-block-content--design-mode {
     pointer-events: auto;
   }
+  .Custom_show_on_mobile{
+    display: none;
+  }
+  .Custom_show_on_desktop{
+    display: block;
+  }
+  @media (max-width: 749px) {
+    .Custom_show_on_mobile{
+      display: block;
+    }
+     .Custom_show_on_desktop{
+      display: none;
+}
+  }
 {% endstylesheet %}
