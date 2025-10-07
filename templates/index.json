@@ -16,6 +16,7 @@
           "type": "group",
           "name": "For Desktop",
           "settings": {
+            "c_class": "show_on_desktop",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -129,6 +130,7 @@
           "type": "group",
           "name": "For Mobile",
           "settings": {
+            "c_class": "show_on_mobile",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -303,6 +305,7 @@
         "group_Aj6qCM": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -553,6 +556,7 @@
           "type": "group",
           "name": "Caption",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "row",
@@ -887,6 +891,7 @@
         "group_39FbVk": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -974,6 +979,7 @@
             "group_bCgBJR": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1076,6 +1082,7 @@
         "group_bXCVhi": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1163,6 +1170,7 @@
             "group_6fpwxa": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1265,6 +1273,7 @@
         "group_mt8QDe": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1352,6 +1361,7 @@
             "group_wn9XCh": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1577,6 +1587,7 @@
         "group_M4tNhi": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1642,6 +1653,7 @@
             "group_zjGdaa": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1729,6 +1741,7 @@
                 "group_jRUQQ9": {
                   "type": "group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -1831,6 +1844,7 @@
             "group_384RLj": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1918,6 +1932,7 @@
                 "group_cdLCje": {
                   "type": "group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -2222,6 +2237,7 @@
         "group_dexJKM": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -2743,6 +2759,7 @@
         "group_czJAB7": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
