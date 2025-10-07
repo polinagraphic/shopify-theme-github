@@ -91,6 +91,11 @@
   Desktop Video
 {%- endcomment -%}
 {%- if has_video_1 -%}
+  {%  style  %}
+   picture.hero__picture {
+    display: none;
+} 
+{% endstyle %} 
   <div class="hero-video hero-video--desktop">
     {% assign media_count = media_count | plus: 1 %}
     {%- if section.settings.video_1.preview_image -%}
