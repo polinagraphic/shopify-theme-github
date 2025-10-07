@@ -520,7 +520,15 @@
       {
       "type": "image_picker",
       "id": "image_mob",
-      "label": "Mobile Image"
+      "label": "Mobile Image",
+       "visible_if": "{{ section.settings.media_type_1 == 'image' }}"
+    },
+    
+    {
+      "type": "video",
+      "id": "video_mob",
+      "label": "t:settings.video",
+      "visible_if": "{{ section.settings.media_type_1 == 'video' }}"
     },
     {
       "type": "header",
