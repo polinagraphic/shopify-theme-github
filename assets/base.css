@@ -4301,8 +4301,7 @@ quantity-selector-component.quantity-selector button {
       background: none !important;
 }
 a.contents.user-select-text[ref="productTitleLink"] P {
-    font-size: 2.0rem;
-    font-weight: 700;
+  
     text-transform: uppercase;
     font-family: 'BowlbyOne', sans-serif !important;
 }
