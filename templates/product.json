@@ -322,7 +322,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p><strong>Free Shipping on Orders $50+</strong></p>",
+                    "text": "<p><strong>Free Shipping on Orders $40+</strong></p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
