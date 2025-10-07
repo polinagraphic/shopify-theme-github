@@ -71,6 +71,7 @@
               "type": "group",
               "name": "Header",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -114,7 +115,7 @@
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h3",
+                    "type_preset": "h4",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -271,6 +272,7 @@
               "type": "group",
               "name": "Free Shipping Info",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -537,6 +539,7 @@
               "type": "group",
               "name": "Icons",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -971,6 +974,7 @@
           "type": "group",
           "name": "Column",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1108,6 +1112,7 @@
           "type": "group",
           "name": "Column",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1245,6 +1250,7 @@
           "type": "group",
           "name": "Column",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1442,6 +1448,7 @@
         "group_89DwPw": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1533,6 +1540,7 @@
               "type": "group",
               "name": "Group 01",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -1585,6 +1593,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -1688,6 +1697,7 @@
               "type": "group",
               "name": "Group 01",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -1740,6 +1750,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -1843,6 +1854,7 @@
               "type": "group",
               "name": "Group 01",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -1895,6 +1907,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -2185,6 +2198,7 @@
         "group_Kkzbkf": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -2273,6 +2287,7 @@
             "group_aEea87": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -2431,6 +2446,7 @@
         "group_dT4HND": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -2519,6 +2535,7 @@
             "group_pL3M8L": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -2677,6 +2694,7 @@
         "group_XWRq6U": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -2765,6 +2783,7 @@
             "group_ECRrnt": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -2963,6 +2982,7 @@
         "group_rQ9pfB": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -3119,6 +3139,7 @@
         "group_CWzwY9": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -3312,6 +3333,7 @@
         "group_cYbYAb": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -3640,6 +3662,7 @@
             "group_Ub9MDD": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
