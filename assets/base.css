@@ -4417,9 +4417,9 @@ add-to-cart-component[ref=addToCartButtonContainer] button:hover span {
 add-to-cart-component[ref="addToCartButtonContainer"] button.button.button.quick-add__button.quick-add__button--add {
     display: none !important;
 }
-.product-grid-view-zoom-out--details+ a.contents.user-select-text[ref=productTitleLink] P {
+/* .product-grid-view-zoom-out--details+ a.contents.user-select-text[ref=productTitleLink] P {
     font-size: 1.2rem !important;
-}
+} */
 .product-grid-view-zoom-out--details+a.contents.user-select-text[ref=productTitleLink] + product-price.text-block span.price {
     font-size: 16px;
 }
