@@ -4397,8 +4397,6 @@ input[type="number"][ref="quantityInput"] {
     padding: 20px;
 }
 a.contents.user-select-text[ref=productTitleLink] P {
-    font-size: 2.5rem !important;
-    font-weight: 700;
     text-transform: uppercase;
     font-family: BowlbyOne, sans-serif !important;
 }
