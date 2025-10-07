@@ -246,3 +246,23 @@ class ProductModel extends DeferredMedia {
 if (!customElements.get('product-model')) {
   customElements.define('product-model', ProductModel);
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  console.log("✅ Script loaded — waiting for button...");
+
+  function clickDeferredButton() {
+    const button = document.querySelector('button.button.deferred-media__poster-button.button-unstyled[on\\:click="/showDeferredMedia"]');
+
+    if (button) {
+      console.log("🎯 Button found:", button);
+      button.click();
+      console.log("🚀 Button clicked automatically!");
+    } else {
+      console.warn("⚠️ Button not found yet — retrying...");
+      setTimeout(clickDeferredButton, 500); // retry every 0.5s until found
+    }
+  }
+
+  // Run the function after a short delay to ensure elements are ready
+  setTimeout(clickDeferredButton, 1000);
+});
