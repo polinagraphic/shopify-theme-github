@@ -78,13 +78,14 @@
         "padding-block-end": 0
       }
     },
-    "hero_t6zKew": {
+    "hero_JiXyBA": {
       "type": "hero",
       "blocks": {
-        "group_NVPNbT": {
+        "group_WmTLP7": {
           "type": "group",
+          "name": "For Desktop",
           "settings": {
-            "c_class": "",
+            "c_class": "show_on_desktop",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -121,11 +122,11 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_rTtUUn": {
+            "text_KYYpBG": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h1>How can we be of service?</h1>",
+                "text": "<h2>How can we be of service?</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -147,12 +148,12 @@
               },
               "blocks": {}
             },
-            "text_wtij7k": {
+            "text_E6VWen": {
               "type": "text",
               "settings": {
-                "text": "<p>Email us directly at <strong>hey.glowheroes@gmail.com</strong></p>",
+                "text": "<p>Email us directly at hey.glowheroes@gmail.com</p>",
                 "width": "fit-content",
-                "max_width": "narrow",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -171,23 +172,158 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "button_rP6Uwa": {
+              "type": "button",
+              "name": "t:names.button",
+              "disabled": true,
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://products/draw-with-light-set",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_rTtUUn",
-            "text_wtij7k"
+            "text_KYYpBG",
+            "text_E6VWen",
+            "button_rP6Uwa"
+          ]
+        },
+        "group_hGqUX3": {
+          "type": "group",
+          "name": "For Mobile",
+          "settings": {
+            "c_class": "show_on_mobile",
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_UUJKLy": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>How can we be of service?</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_xTrKiW": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Email us directly at hey.glowheroes@gmail.com</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_EeLbk6": {
+              "type": "button",
+              "name": "t:names.button",
+              "disabled": true,
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://products/draw-with-light-set",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_UUJKLy",
+            "text_xTrKiW",
+            "button_EeLbk6"
           ]
         }
       },
       "block_order": [
-        "group_NVPNbT"
+        "group_WmTLP7",
+        "group_hGqUX3"
       ],
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
         "image_1": "shopify://shop_images/GH_Header_04_b7e42e9d-f4e7-464f-8f52-842e8aa4a4eb.jpg",
+        "video_1": "shopify://files/videos/About Us Video.mov",
         "image_mob": "shopify://shop_images/GH_Banner_07_Mobile.jpg",
-        "media_type_2": "image",
+        "video_mob": "shopify://files/videos/moast-Reel_004.mov",
+        "media_type_2": "video",
         "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
@@ -201,10 +337,10 @@
         "section_width": "page-width",
         "section_height": "large",
         "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "toggle_overlay": true,
-        "overlay_color": "rgba(0,0,0,0)",
-        "overlay_style": "solid",
+        "color_scheme": "scheme-1",
+        "toggle_overlay": false,
+        "overlay_color": "#00000094",
+        "overlay_style": "gradient",
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
         "reflection_opacity": 75,
@@ -283,7 +419,7 @@
   },
   "order": [
     "main",
-    "hero_t6zKew",
+    "hero_JiXyBA",
     "form"
   ]
 }
