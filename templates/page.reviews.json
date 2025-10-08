@@ -126,7 +126,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Turn Off the Lights & Watch the Glow</h2>",
+                "text": "<h2>Reviews</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -151,7 +151,7 @@
             "text_wxPWD9": {
               "type": "text",
               "settings": {
-                "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
+                "text": "<p>See what others are saying about Glow Heroes products!</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -176,6 +176,7 @@
             "button_eM6dt8": {
               "type": "button",
               "name": "t:names.button",
+              "disabled": true,
               "settings": {
                 "label": "Shop now",
                 "link": "shopify://products/draw-with-light-set",
