@@ -207,6 +207,7 @@
         "group_AFFeVA": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -411,6 +412,7 @@
         "group_Bbhpbz": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -535,6 +537,9 @@
         "image_RmdEnU",
         "group_Bbhpbz"
       ],
+      "custom_css": [
+        "@media (max-width: 768px) {.spacing-style.layout-panel-flex.layout-panel-flex--row.section-content-wrapper.mobile-column {flex-direction: column-reverse;}}"
+      ],
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -571,6 +576,7 @@
         "group_UCGYQ3": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
