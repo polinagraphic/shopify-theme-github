@@ -425,6 +425,38 @@
               },
               "blocks": {}
             },
+            "ai_gen_block_557b32a_JE7J8P": {
+              "type": "ai_gen_block_557b32a",
+              "settings": {
+                "selected_product": "draw-with-light-set",
+                "quantity": 1,
+                "button_text": "Add to cart",
+                "show_cart_icon": true,
+                "success_message": "Added to cart!",
+                "error_message": "Unable to add to cart",
+                "button_style": "secondary",
+                "button_full_width": false,
+                "button_font_size": 16,
+                "button_padding_vertical": 12,
+                "button_padding_horizontal": 24,
+                "button_hover_effect": "none",
+                "button_border_radius": 24,
+                "button_border_width": 1,
+                "button_font_weight": "500",
+                "button_text_transform": "none",
+                "button_background_color": "#592898",
+                "button_text_color": "#ffffff",
+                "button_border_color": "#592898",
+                "button_hover_background_color": "#00c05a",
+                "button_hover_text_color": "#ffffff",
+                "button_hover_border_color": "#00c05a",
+                "success_background_color": "#00c05a",
+                "success_text_color": "#ffffff",
+                "error_background_color": "#d82c0d",
+                "error_text_color": "#ffffff"
+              },
+              "blocks": {}
+            },
             "button_MUQN9K": {
               "type": "button",
               "settings": {
@@ -445,6 +477,7 @@
             "judge_me_reviews_preview_badge_homepage_33tcHL",
             "text_nnM4VR",
             "text_QyyDLT",
+            "ai_gen_block_557b32a_JE7J8P",
             "button_MUQN9K"
           ]
         }
