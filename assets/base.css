@@ -4381,6 +4381,9 @@ media-gallery slideshow-component slideshow-arrows {
     border: 1px solid #592898 !important;
          font-family: 'BowlbyOne', sans-serif !important;
   }
+  span.price{
+      font-family: 'BowlbyOne', sans-serif !important;
+  }
 .button[id^=BuyButtons-ProductSubmitButton-]:hover { 
   background-color: #F0FCCC !important;
     color: #00c05a !important;
