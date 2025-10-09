@@ -425,11 +425,11 @@
               },
               "blocks": {}
             },
-            "ai_gen_block_eb86cff_6HiqYa": {
-              "type": "ai_gen_block_eb86cff",
+            "ai_gen_block_9d47344_LekhUt": {
+              "type": "ai_gen_block_9d47344",
               "settings": {
                 "product": "draw-with-light-set",
-                "quantity": 1,
+                "quantity": 10,
                 "button_text": "Add to cart",
                 "sold_out_text": "Sold out",
                 "button_style": "primary",
@@ -458,7 +458,7 @@
             "judge_me_reviews_preview_badge_homepage_33tcHL",
             "text_nnM4VR",
             "text_QyyDLT",
-            "ai_gen_block_eb86cff_6HiqYa",
+            "ai_gen_block_9d47344_LekhUt",
             "button_MUQN9K"
           ]
         }
