@@ -1,6 +1,377 @@
+{% doc %}
+  @prompt
+    I need a button block with all the default button block settings but need one more function that button will add product directly into cart just like CTA of PDP page. and it should update cart runtime like last time when you make the block it add product to cart i have to refresh to check if the cart is updated or not 
+    there will be option to select product which will use to determine which product will go to cart when we click on that button will work on ajex no refresh no redirect will use defult function to add to cart , i need style option like primary or secondery option like the regular buttons in the theme i have already style based on those classes. use same classes from button block.
+    
+    
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-add-to-cart-button-{{ ai_gen_id }} {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 12px 24px;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .button-text {
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .loading-spinner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-top: 2px solid currentColor;
+    border-radius: 50%;
+    animation: ai-spin-{{ ai_gen_id }} 1s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .button.loading .button-text {
+    opacity: 0;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .button.loading .loading-spinner {
+    opacity: 1;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .success-message {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #008060;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .success-message.show {
+    display: flex;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .error-message {
+    display: none;
+    color: #d82c0d;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} .error-message.show {
+    display: block;
+  }
+
+  @keyframes ai-spin-{{ ai_gen_id }} {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  {% if block.settings.button_style == 'primary' %}
+    .ai-add-to-cart-button-{{ ai_gen_id }} .button {
+      background-color: rgb(var(--color-primary-button-background));
+      color: rgb(var(--color-primary-button-text));
+      border: {{ settings.primary_button_border_width }}px solid rgb(var(--color-primary-button-border));
+      border-radius: {{ settings.button_border_radius_primary }}px;
+    }
+
+    .ai-add-to-cart-button-{{ ai_gen_id }} .button:hover:not(:disabled) {
+      background-color: rgb(var(--color-primary-button-hover-background));
+      color: rgb(var(--color-primary-button-hover-text));
+      border-color: rgb(var(--color-primary-button-hover-border));
+    }
+  {% else %}
+    .ai-add-to-cart-button-{{ ai_gen_id }} .button {
+      background-color: rgb(var(--color-secondary-button-background));
+      color: rgb(var(--color-secondary-button-text));
+      border: {{ settings.secondary_button_border_width }}px solid rgb(var(--color-secondary-button-border));
+      border-radius: {{ settings.button_border_radius_secondary }}px;
+    }
+
+    .ai-add-to-cart-button-{{ ai_gen_id }} .button:hover:not(:disabled) {
+      background-color: rgb(var(--color-secondary-button-hover-background));
+      color: rgb(var(--color-secondary-button-hover-text));
+      border-color: rgb(var(--color-secondary-button-hover-border));
+    }
+  {% endif %}
+
+  {% if block.settings.full_width %}
+    .ai-add-to-cart-button-{{ ai_gen_id }} {
+      width: 100%;
+    }
+  {% else %}
+    .ai-add-to-cart-button-{{ ai_gen_id }} {
+      width: auto;
+      display: inline-block;
+    }
+    .ai-add-to-cart-button-{{ ai_gen_id }} .button {
+      width: auto;
+    }
+  {% endif %}
+{% endstyle %}
+
+<add-to-cart-button-{{ ai_gen_id }}
+  class="ai-add-to-cart-button-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+  data-product-id="{{ block.settings.product.id | default: '' }}"
+  data-variant-id="{{ block.settings.product.selected_or_first_available_variant.id | default: '' }}"
+  data-quantity="{{ block.settings.quantity }}"
+>
+  {% if block.settings.product != blank %}
+    <button
+      type="button"
+      class="button"
+      {% unless block.settings.product.selected_or_first_available_variant.available %}disabled{% endunless %}
+    >
+      <span class="button-text">
+        {% if block.settings.product.selected_or_first_available_variant.available %}
+          {{ block.settings.button_text }}
+        {% else %}
+          {{ block.settings.sold_out_text }}
+        {% endif %}
+      </span>
+      <div class="loading-spinner"></div>
+    </button>
+
+    <div class="success-message">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.5 4.5L6 12L2.5 8.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      {{ block.settings.success_message }}
+    </div>
+
+    <div class="error-message"></div>
+  {% else %}
+    <button type="button" class="button" disabled>
+      <span class="button-text">Select a product</span>
+    </button>
+  {% endif %}
+</add-to-cart-button-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class AddToCartButton{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.button = this.querySelector('.button');
+        this.buttonText = this.querySelector('.button-text');
+        this.successMessage = this.querySelector('.success-message');
+        this.errorMessage = this.querySelector('.error-message');
+        this.productId = this.dataset.productId;
+        this.variantId = this.dataset.variantId;
+        this.quantity = parseInt(this.dataset.quantity) || 1;
+      }
+
+      connectedCallback() {
+        if (this.button && this.productId && this.variantId) {
+          this.button.addEventListener('click', this.handleAddToCart.bind(this));
+        }
+      }
+
+      async handleAddToCart(event) {
+        event.preventDefault();
+        
+        if (this.button.disabled) return;
+
+        this.setLoadingState(true);
+        this.hideMessages();
+
+        try {
+          const formData = {
+            items: [{
+              id: this.variantId,
+              quantity: this.quantity
+            }]
+          };
+
+          const response = await fetch('/cart/add.js', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
+            body: JSON.stringify(formData)
+          });
+
+          if (!response.ok) {
+            throw new Error('Failed to add to cart');
+          }
+
+          const result = await response.json();
+          
+          this.showSuccessMessage();
+          this.updateCartCount();
+          
+          if (window.theme && window.theme.cartDrawer) {
+            window.theme.cartDrawer.refresh();
+          }
+
+          document.dispatchEvent(new CustomEvent('cart:updated', {
+            detail: { items: result.items }
+          }));
+
+        } catch (error) {
+          console.error('Add to cart error:', error);
+          this.showErrorMessage('Failed to add item to cart. Please try again.');
+        } finally {
+          this.setLoadingState(false);
+        }
+      }
+
+      setLoadingState(loading) {
+        if (loading) {
+          this.button.classList.add('loading');
+          this.button.disabled = true;
+        } else {
+          this.button.classList.remove('loading');
+          this.button.disabled = false;
+        }
+      }
+
+      showSuccessMessage() {
+        this.successMessage.classList.add('show');
+        setTimeout(() => {
+          this.successMessage.classList.remove('show');
+        }, 3000);
+      }
+
+      showErrorMessage(message) {
+        this.errorMessage.textContent = message;
+        this.errorMessage.classList.add('show');
+        setTimeout(() => {
+          this.errorMessage.classList.remove('show');
+        }, 5000);
+      }
+
+      hideMessages() {
+        this.successMessage.classList.remove('show');
+        this.errorMessage.classList.remove('show');
+      }
+
+      async updateCartCount() {
+        try {
+          const response = await fetch('/cart.js');
+          const cart = await response.json();
+          
+          const cartCountElements = document.querySelectorAll('[data-cart-count]');
+          cartCountElements.forEach(element => {
+            element.textContent = cart.item_count;
+          });
+
+          const cartCountBadges = document.querySelectorAll('.cart-count-badge');
+          cartCountBadges.forEach(badge => {
+            badge.textContent = cart.item_count;
+            badge.style.display = cart.item_count > 0 ? 'block' : 'none';
+          });
+
+        } catch (error) {
+          console.error('Failed to update cart count:', error);
+        }
+      }
+    }
+
+    customElements.define('add-to-cart-button-{{ ai_gen_id }}', AddToCartButton{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Add to cart button",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Product"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    },
+    {
+      "type": "range",
+      "id": "quantity",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "label": "Quantity",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Add to cart"
+    },
+    {
+      "type": "text",
+      "id": "sold_out_text",
+      "label": "Sold out text",
+      "default": "Sold out"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button style",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Primary"
+        },
+        {
+          "value": "secondary",
+          "label": "Secondary"
+        }
+      ],
+      "default": "primary"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width button",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Messages"
+    },
+    {
+      "type": "text",
+      "id": "success_message",
+      "label": "Success message",
+      "default": "Added to cart!"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Add to cart button"
+    }
+  ]
+}
 {% endschema %}
