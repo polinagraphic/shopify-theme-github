@@ -97,6 +97,7 @@
           "type": "group",
           "name": "t:names.group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "row",
@@ -137,6 +138,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -262,6 +264,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -378,6 +381,7 @@
           "type": "group",
           "name": "t:names.group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -418,6 +422,7 @@
               "type": "group",
               "name": "Social Media Icons",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -511,6 +516,7 @@
               "type": "group",
               "name": "P Links",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
