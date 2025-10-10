@@ -149,6 +149,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Group_1948755781.png",
             "link": "",
             "image_ratio": "adapt",
@@ -330,6 +331,7 @@
         "image_8pMkeW": {
           "type": "image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Story_01_925bcd19-1aea-4796-8d46-83efe0240ec7.png",
             "link": "",
             "image_ratio": "square",
@@ -390,6 +392,7 @@
         "image_RmdEnU": {
           "type": "image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Story_02_6b2e32ef-f907-4419-adde-4495f9eea014.png",
             "link": "",
             "image_ratio": "square",
@@ -538,7 +541,7 @@
         "group_Bbhpbz"
       ],
       "custom_css": [
-        "@media (max-width: 768px) {.spacing-style.layout-panel-flex.layout-panel-flex--row.section-content-wrapper.mobile-column {flex-direction: column-reverse;}}"
+        "@media (max-width: 768px) {.spacing-style.layout-panel-flex.layout-panel-flex--row.section-content-wrapper.mobile-column {flex-direction: column-reverse; }}"
       ],
       "name": "t:names.image_with_text",
       "settings": {
@@ -699,6 +702,7 @@
         "image_erXTNN": {
           "type": "image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Story_03_48ff8147-bf78-43cb-826c-6b02bc235131.png",
             "link": "",
             "image_ratio": "square",
@@ -753,109 +757,270 @@
         "padding-block-end": 80
       }
     },
-    "hero_bCfb8D": {
+    "hero_jy3hWR": {
       "type": "hero",
       "blocks": {
-        "text_zhfqGd": {
-          "type": "text",
+        "group_3QhDDf": {
+          "type": "group",
+          "name": "For Desktop",
           "settings": {
-            "text": "<h1>Fun That Builds Real Skills</h1>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "left",
-            "type_preset": "h3",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_4jtkRC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "button_8Mcqpm": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "Shop Now",
-            "link": "shopify://products/draw-with-light-set",
+            "c_class": "show_on_desktop",
+            "link": "",
             "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "text_Bq8wHj": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>Fun That Builds Real Skills</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_QTTQcG": {
+              "type": "text",
+              "settings": {
+                "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_BF9XAF": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://products/draw-with-light-set",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_Bq8wHj",
+            "text_QTTQcG",
+            "button_BF9XAF"
+          ]
+        },
+        "group_WFERRP": {
+          "type": "group",
+          "name": "For Mobile",
+          "settings": {
+            "c_class": "show_on_mobile",
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_BE4CQm": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>Fun That Builds Real Skills</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_FQr9zc": {
+              "type": "text",
+              "settings": {
+                "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_eBQCtY": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://products/draw-with-light-set",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_BE4CQm",
+            "text_FQr9zc",
+            "button_eBQCtY"
+          ]
         }
       },
       "block_order": [
-        "text_zhfqGd",
-        "text_4jtkRC",
-        "button_8Mcqpm"
+        "group_3QhDDf",
+        "group_WFERRP"
       ],
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
         "image_1": "shopify://shop_images/Banner_Main.jpg",
         "image_mob": "shopify://shop_images/Banner_Main_Mobile.jpg",
-        "media_type_2": "image",
-        "video_2": "shopify://files/videos/About Us Video.mov",
+        "media_type_2": "video",
         "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "flex-end",
+        "align_baseline": true,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "gap": 24,
         "section_width": "page-width",
         "section_height": "large",
         "section_height_custom": 50,
         "color_scheme": "scheme-3",
-        "toggle_overlay": false,
-        "overlay_color": "#000000",
+        "toggle_overlay": true,
+        "overlay_color": "#00000094",
         "overlay_style": "gradient",
-        "gradient_direction": "to top",
+        "gradient_direction": "to bottom",
         "blurred_reflection": false,
         "reflection_opacity": 75,
-        "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-start": 100,
+        "padding-block-end": 72
       }
     }
   },
@@ -866,6 +1031,6 @@
     "section_jDyM9T",
     "section_mEigkd",
     "section_qTmqkx",
-    "hero_bCfb8D"
+    "hero_jy3hWR"
   ]
 }
