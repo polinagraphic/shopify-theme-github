@@ -126,7 +126,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>How can we be of service?</h2>",
+                "text": "<h2>Contact Us</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -151,7 +151,7 @@
             "text_E6VWen": {
               "type": "text",
               "settings": {
-                "text": "<p>Email us directly at hey.glowheroes@gmail.com</p>",
+                "text": "<p>Questions about a product? Want to check on your order?<br/><strong>Email us at hey.glowheroes@gmail.com</strong></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -241,7 +241,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>How can we be of service?</h2>",
+                "text": "<h2>Contact Us</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -266,7 +266,7 @@
             "text_xTrKiW": {
               "type": "text",
               "settings": {
-                "text": "<p>Email us directly at hey.glowheroes@gmail.com</p>",
+                "text": "<p>Questions about a product? Want to check on your order? <strong>Email us at hey.glowheroes@gmail.com</strong></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -320,9 +320,7 @@
       "settings": {
         "media_type_1": "image",
         "image_1": "shopify://shop_images/GH_Header_04_b7e42e9d-f4e7-464f-8f52-842e8aa4a4eb.jpg",
-        "video_1": "shopify://files/videos/About Us Video.mov",
         "image_mob": "shopify://shop_images/GH_Banner_07_Mobile.jpg",
-        "video_mob": "shopify://files/videos/moast-Reel_004.mov",
         "media_type_2": "video",
         "link": "",
         "open_in_new_tab": false,
