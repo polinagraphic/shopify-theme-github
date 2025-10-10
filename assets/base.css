@@ -826,6 +826,7 @@ h2,
 }
 
 h3,
+.shopify-policy__title,
 .h3,
 .h3.h3,
 .text-block.h3 > * {
@@ -4476,3 +4477,4 @@ button.email-signup__button.email-signup__button--integrated.email-signup__butto
     background: none !important;
     transform: none !important;
 }
+
