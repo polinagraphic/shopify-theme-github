@@ -195,6 +195,7 @@
             },
             "text_Lb8mWQ": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
                 "width": "fit-content",
