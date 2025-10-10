@@ -266,7 +266,7 @@
             "text_xTrKiW": {
               "type": "text",
               "settings": {
-                "text": "<p>Questions about a product? Want to check on your order? <strong>Email us at hey.glowheroes@gmail.com</strong></p>",
+                "text": "<p>Questions about a product? Want to check on your order? </p><p><strong>Email us at hey.glowheroes@gmail.com</strong></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
