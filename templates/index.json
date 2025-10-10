@@ -283,6 +283,7 @@
         "image_m7mwey": {
           "type": "image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Product_6a53a9e5-cb23-4087-a15f-d93830d65704.png",
             "link": "shopify://products/draw-with-light-set",
             "image_ratio": "landscape",
@@ -933,6 +934,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "swipe_blocks": false,
                 "image": "shopify://shop_images/Asset_12_3x_6a322c35-b752-45c7-b611-7e8937c83321.png",
                 "link": "",
                 "image_ratio": "adapt",
@@ -957,6 +959,7 @@
               "name": "t:names.image",
               "disabled": true,
               "settings": {
+                "swipe_blocks": false,
                 "image": "shopify://shop_images/Kids_01.png",
                 "link": "",
                 "image_ratio": "adapt",
@@ -1125,6 +1128,7 @@
               "name": "t:names.image",
               "disabled": true,
               "settings": {
+                "swipe_blocks": false,
                 "image": "shopify://shop_images/Kids_01.png",
                 "link": "",
                 "image_ratio": "adapt",
@@ -1148,6 +1152,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "swipe_blocks": false,
                 "image": "shopify://shop_images/Screen-free_Activity.png",
                 "link": "",
                 "image_ratio": "adapt",
@@ -1316,6 +1321,7 @@
               "name": "t:names.image",
               "disabled": true,
               "settings": {
+                "swipe_blocks": false,
                 "image": "shopify://shop_images/Kids_01.png",
                 "link": "",
                 "image_ratio": "adapt",
@@ -1339,6 +1345,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "swipe_blocks": false,
                 "image": "shopify://shop_images/Parent-Child.png",
                 "link": "",
                 "image_ratio": "adapt",
@@ -1529,6 +1536,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Glowster_Lumi.png",
             "link": "",
             "image_ratio": "adapt",
@@ -1695,6 +1703,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "swipe_blocks": false,
                     "image": "shopify://shop_images/moon-cloud_2_e1e85ce7-06a2-4574-862f-19c530da49ed.png",
                     "link": "",
                     "image_ratio": "adapt",
@@ -1719,6 +1728,7 @@
                   "name": "t:names.image",
                   "disabled": true,
                   "settings": {
+                    "swipe_blocks": false,
                     "image": "shopify://shop_images/Kids_01.png",
                     "link": "",
                     "image_ratio": "adapt",
@@ -1886,6 +1896,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "swipe_blocks": false,
                     "image": "shopify://shop_images/moon-cloud_2_e1e85ce7-06a2-4574-862f-19c530da49ed.png",
                     "link": "",
                     "image_ratio": "adapt",
@@ -1910,6 +1921,7 @@
                   "name": "t:names.image",
                   "disabled": true,
                   "settings": {
+                    "swipe_blocks": false,
                     "image": "shopify://shop_images/Kids_01.png",
                     "link": "",
                     "image_ratio": "adapt",
@@ -2042,6 +2054,7 @@
         "image_VY8Gbq": {
           "type": "image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Kids_Image.png",
             "link": "",
             "image_ratio": "landscape",
@@ -2376,6 +2389,7 @@
         "image_6fLLNe": {
           "type": "image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/GH_53ef6d0f-6f23-4046-917b-00d31bade4d5.png",
             "link": "",
             "image_ratio": "square",
@@ -2428,6 +2442,275 @@
         "gradient_direction": "to top",
         "padding-block-start": 80,
         "padding-block-end": 80
+      }
+    },
+    "hero_8fn3gL": {
+      "type": "hero",
+      "blocks": {
+        "group_wDUh9f": {
+          "type": "group",
+          "name": "For Desktop",
+          "settings": {
+            "c_class": "show_on_desktop",
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_gppYCP": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>Become a glow hero yourself</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_8tBxQe": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
+                "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_MmkbYG": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://products/draw-with-light-set",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_gppYCP",
+            "text_8tBxQe",
+            "button_MmkbYG"
+          ]
+        },
+        "group_PbXqDL": {
+          "type": "group",
+          "name": "For Mobile",
+          "settings": {
+            "c_class": "show_on_mobile",
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_JKbtKd": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>Turn Off the Lights & Watch the Glow</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_RV3WeL": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_CAKwYm": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://products/draw-with-light-set",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_JKbtKd",
+            "text_RV3WeL",
+            "button_CAKwYm"
+          ]
+        }
+      },
+      "block_order": [
+        "group_wDUh9f",
+        "group_PbXqDL"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/Header_Photo_001.jpg",
+        "video_1": "shopify://files/videos/About Us Video.mov",
+        "image_mob": "shopify://shop_images/GH_Banner_01_Mobile_7dba35ff-2cf7-4f5e-8830-b51234e545b8.jpg",
+        "video_mob": "shopify://files/videos/moast-Reel_004.mov",
+        "media_type_2": "video",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "flex-end",
+        "align_baseline": true,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "large",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "toggle_overlay": false,
+        "overlay_color": "#00000094",
+        "overlay_style": "gradient",
+        "gradient_direction": "to bottom",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 100,
+        "padding-block-end": 72
       }
     },
     "1757002625a99299e5": {
@@ -2753,157 +3036,6 @@
         "padding-block-end": 100
       }
     },
-    "hero_Qt6brL": {
-      "type": "hero",
-      "blocks": {
-        "group_czJAB7": {
-          "type": "group",
-          "settings": {
-            "c_class": "",
-            "link": "",
-            "open_in_new_tab": false,
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "custom",
-            "custom_width": 50,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "placeholder": "",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "text_atkJRc": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>Become a glow hero yourself</h2>",
-                "width": "fit-content",
-                "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground-heading)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_9JBfnx": {
-              "type": "text",
-              "disabled": true,
-              "settings": {
-                "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "button_zim46k": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Shop now",
-                "link": "shopify://products/draw-with-light-set",
-                "open_in_new_tab": false,
-                "style_class": "button-secondary",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_atkJRc",
-            "text_9JBfnx",
-            "button_zim46k"
-          ]
-        }
-      },
-      "block_order": [
-        "group_czJAB7"
-      ],
-      "name": "t:names.hero",
-      "settings": {
-        "media_type_1": "image",
-        "image_1": "shopify://shop_images/Header_Photo_001.jpg",
-        "image_mob": "shopify://shop_images/GH_Banner_01_Mobile_7dba35ff-2cf7-4f5e-8830-b51234e545b8.jpg",
-        "media_type_2": "image",
-        "link": "",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "space-between",
-        "vertical_alignment": "flex-end",
-        "align_baseline": true,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 24,
-        "section_width": "page-width",
-        "section_height": "large",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-1",
-        "toggle_overlay": true,
-        "overlay_color": "rgba(0,0,0,0)",
-        "overlay_style": "solid",
-        "gradient_direction": "to bottom",
-        "blurred_reflection": false,
-        "reflection_opacity": 75,
-        "padding-block-start": 100,
-        "padding-block-end": 72
-      }
-    },
     "175699843602ec75ec": {
       "type": "_blocks",
       "settings": {
@@ -2950,9 +3082,9 @@
     "1757036744f91087f3",
     "175977097980544d1a",
     "section_tikhcx",
+    "hero_8fn3gL",
     "1757002625a99299e5",
     "section_DR9bEz",
-    "hero_Qt6brL",
     "175699843602ec75ec"
   ]
 }
