@@ -151,7 +151,7 @@
             "text_E6VWen": {
               "type": "text",
               "settings": {
-                "text": "<p>Questions about a product? Want to check on your order?<br/><strong>Email us at hey.glowheroes@gmail.com</strong></p>",
+                "text": "<p>If you have any questions about an order, want to know more about our products, or our brand, please get in touch. Have you had a look at our <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a>? We are constantly updating it, so your answer might be there already! <br/><br/>You can also email us at <strong>hey.glowheroes@gmail.com</strong><br/><br/>With love,<br/>Glow Heroes</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -425,7 +425,7 @@
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
-                "type_preset": "rte",
+                "type_preset": "paragraph",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
