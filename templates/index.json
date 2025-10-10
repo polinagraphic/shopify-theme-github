@@ -2607,7 +2607,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Turn Off the Lights & Watch the Glow</h2>",
+                "text": "<h2>Become a glow hero yourself</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2631,6 +2631,7 @@
             },
             "text_RV3WeL": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
                 "width": "fit-content",
