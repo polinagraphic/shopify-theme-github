@@ -2291,7 +2291,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3>This is a Women Owned & Operated business</h3><p></p>",
+                "text": "<h3>This is a Women Owned Business</h3><p></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
