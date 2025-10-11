@@ -17,12 +17,12 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "<strong>WELCOME10</strong> for 10% OFF",
+            "text": "FREE DOMESTIC SHIPPING ON ORDERS $40+",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
             "weight": "",
-            "letter_spacing": "normal",
+            "letter_spacing": "loose",
             "case": "uppercase"
           },
           "blocks": {}
