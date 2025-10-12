@@ -151,7 +151,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -164,7 +164,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 80,
-        "padding-block-end": 0
+        "padding-block-end": 80
       }
     },
     "section_CqPLAy": {
@@ -174,7 +174,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>FAQ</h2>",
+            "text": "<h2>Product</h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
