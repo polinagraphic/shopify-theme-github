@@ -418,7 +418,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Orders</h2>",
+            "text": "<h2>FAQ</h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -847,9 +847,9 @@
         "section_height": "",
         "section_height_custom": 50,
         "color_scheme": "scheme-2",
-        "background_media": "none",
+        "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/Gradient-1_0f522fb5-3efe-455e-85f2-f3d65207f5d3.jpg",
+        "background_image": "shopify://shop_images/Gradient_02_bb700782-0a79-44e7-8c87-694868fbc21e.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -859,7 +859,7 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 0,
+        "padding-block-start": 80,
         "padding-block-end": 80
       }
     }
