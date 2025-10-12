@@ -199,6 +199,7 @@
         "group_cBfnM3": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -530,6 +531,7 @@
         "group_CyficD": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -981,6 +983,7 @@
         "group_UQLpHJ": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1126,7 +1129,7 @@
                     "text_y9AjAQ": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Orders are processed and shipped within 2–3 business days (Monday–Friday).</p><p>Flat rate shipping: arrives within 4–10 days (includes processing + transit).</p><p>Expedited shipping: arrives within 3–5 days (includes processing + transit).</p>",
+                        "text": "<p>Processing time: 2-3 business days (Monday–Friday), but order processing times may take a little longer during holidays.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -1206,6 +1209,7 @@
         "group_NVPNbT": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
