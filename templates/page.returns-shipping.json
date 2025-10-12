@@ -347,7 +347,7 @@
             "text_VTfizT": {
               "type": "text",
               "settings": {
-                "text": "<p>USA Flat Rate Cost: $5, or FREE for orders over $40.<br/><br/>Delivery time (includes shipping and processing times): 4-10 days<br/><br/>Shipping time: 3-5 days once shipped<br/><br/>Processing time: 1-3 business days, but order processing times may take a little longer during holidays.</p>",
+                "text": "<p>USA Flat Rate Cost: $5, or FREE for orders over $40.<br/><br/>Delivery time (includes shipping and processing times): 4-10 days<br/><br/>Shipping time: 3-5 days once shipped<br/><br/>Processing time: 2-3 business days, but order processing times may take a little longer during holidays.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -410,10 +410,463 @@
         "padding-block-start": 80,
         "padding-block-end": 80
       }
+    },
+    "section_ejt3yr": {
+      "type": "section",
+      "blocks": {
+        "text_Qcf6QH": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Orders</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_Btmr9Y": {
+          "type": "group",
+          "settings": {
+            "c_class": "",
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_bmfz9r": {
+              "type": "accordion",
+              "name": "t:names.accordion",
+              "settings": {
+                "icon": "plus",
+                "dividers": true,
+                "type_preset": "h1",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "accordion_row_LcHwyE": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What payment types do you accept?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_FJzDwF": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>We accept PayPal, Shop Pay, Apple Pay, Google Pay, as well as all major credit cards including Visa, Mastercard, Discover, American Express, JCB, and Diners Club.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_FJzDwF"
+                  ]
+                },
+                "accordion_row_bk7Anr": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Do you offer returns or exchanges?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_VkJt6T": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>We hope that you and your kids love our Glow Heroes products as much as we love creating them. If for any reason you decide that a product isn’t the right fit, U.S.-based customers have 14 days from the date your order arrives to return items only if they are unopened and still sealed with the original stickers and packaging.</p><p>If your item arrives damaged, defective, or you received the wrong product, please email us at hey.glowheroes@gmail.com within 7 days of delivery, and we’ll be happy to assist with a replacement or refund.</p><p>For eligible returns, customers are responsible for return shipping costs, and the original shipping fee paid on your order is non‑refundable.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_VkJt6T"
+                  ]
+                },
+                "accordion_row_brqdbU": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Can I make changes to an order after I placed it?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_ThgfCC": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Once an order is placed, we have a very limited window to make changes or cancellations. To request an update, please contact hey.glowheroes@gmail.com as soon as possible. We’ll do our best to accommodate, but cannot guarantee changes once the order has been processed or shipped.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_ThgfCC"
+                  ]
+                },
+                "accordion_row_E4dGUW": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Can I track my order?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_DfcwUP": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>As soon as your order ships, you’ll get an email with a tracking number. You can use that link to check the delivery status at any time.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_DfcwUP"
+                  ]
+                },
+                "accordion_row_VLcQfX": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What should I do if my shipment is lost?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_LyRjDy": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>If your order doesn’t arrive, please contact us at hey.glowheroes@gmail.com with your order number. We’ll work with the carrier to locate your package and keep you updated throughout the process.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_LyRjDy"
+                  ]
+                },
+                "accordion_row_UcqMyV": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What should I do if my shipment arrived damaged?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_yL7nfN": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>If your order arrives damaged, please email us at hey.glowheroes@gmail.com with your order number and photos of the damaged items. We’ll review your case and arrange a replacement or refund as quickly as possible.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_yL7nfN"
+                  ]
+                },
+                "accordion_row_AKt6xa": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What can I do if I haven't received my order confirmation email?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_MLktBe": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>You should receive an order confirmation email shortly after placing and paying for your order. If you don’t see it in your inbox, please check your spam or junk folder. If you still can’t find it, contact us at hey.glowheroes@gmail.com and we’ll be happy to resend the confirmation.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_MLktBe"
+                  ]
+                },
+                "accordion_row_pUTKgB": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What do I do if my payment has been declined?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_8kX648": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Please check first that your card’s billing details (security code, billing address, etc.) match what you’ve entered in your order. Your card issuer may also have declined your payment. We recommend checking with them before trying your card again. If none of these apply, please contact us at hey.glowheroes@gmail.com and we’ll help you complete your order.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_8kX648"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_row_LcHwyE",
+                "accordion_row_bk7Anr",
+                "accordion_row_brqdbU",
+                "accordion_row_E4dGUW",
+                "accordion_row_VLcQfX",
+                "accordion_row_UcqMyV",
+                "accordion_row_AKt6xa",
+                "accordion_row_pUTKgB"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_bmfz9r"
+          ]
+        }
+      },
+      "block_order": [
+        "text_Qcf6QH",
+        "group_Btmr9Y"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "flex-start",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image": "shopify://shop_images/Gradient-1_0f522fb5-3efe-455e-85f2-f3d65207f5d3.jpg",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 80
+      }
     }
   },
   "order": [
     "main",
-    "section_LMg3mU"
+    "section_LMg3mU",
+    "section_ejt3yr"
   ]
 }
