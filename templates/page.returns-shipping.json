@@ -152,7 +152,7 @@
               "type": "text",
               "settings": {
                 "text": "<p>You may request a return within 14 days of delivery. <strong>Returns are accepted only if the product is unopened, unused, and still sealed with the original stickers and packaging. Items that are opened, used, or missing their original packaging or seals are not eligible. </strong></p><p>To start a return, email info@glowheroes.com within 14 days and include your order number and reason for return. We’ll reply with authorization and instructions. Packages sent without prior approval won’t be accepted. </p><p>Customers are responsible for return shipping costs, and we recommend using a trackable method, as you’re responsible for the item until it reaches us. The original shipping fee is non-refundable.</p>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
