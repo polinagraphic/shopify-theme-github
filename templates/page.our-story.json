@@ -807,7 +807,7 @@
               "settings": {
                 "text": "<h2>Fun That Builds Real Skills</h2>",
                 "width": "fit-content",
-                "max_width": "normal",
+                "max_width": "narrow",
                 "alignment": "left",
                 "type_preset": "h3",
                 "font": "var(--font-body--family)",
@@ -832,7 +832,7 @@
               "settings": {
                 "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively</p>",
                 "width": "fit-content",
-                "max_width": "normal",
+                "max_width": "narrow",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
