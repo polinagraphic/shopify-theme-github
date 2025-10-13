@@ -23,7 +23,7 @@
 
 <style>
   
-  
+{% comment %}   
   .progress-bar-done{
     background-color: {{ progress_bar_color }};
     background-image: repeating-linear-gradient(
@@ -34,7 +34,7 @@
     );
     box-shadow: 0 5px 5px -6px {{ progress_bar_color }};
     width: {{ shipping_percentage_fraction }}%;
-  }
+  } {% endcomment %}
   
 
 </style>
