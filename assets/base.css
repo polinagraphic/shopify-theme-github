@@ -4546,4 +4546,7 @@ span.free_shipping_notice {
     transition: 1s ease 0.3s;
     max-width: 100%;
   }
+  .upsell-container {
+    padding:0 10px;
+  }
   
