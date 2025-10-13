@@ -57,6 +57,7 @@
             class="cart-drawer__content motion-reduce"
             aria-label="{{ 'accessibility.cart' | t }}"
           >
+            
             <span class="cart-drawer__heading h3 cart-drawer__heading--empty">
               {{ 'content.your_cart_is_empty' | t }}
             </span>
@@ -66,6 +67,11 @@
             </div>
           </div>
         {%- else -%}
+                    {% if cart != empty and settings.show_shipping_bar %}
+          <div class="cart-drawer-tracker">
+    {% render "cart-drawer-tracker" %}
+    </div>
+{% endif %}
           <div
             class="cart-drawer__header"
             id="cart-drawer-header"
