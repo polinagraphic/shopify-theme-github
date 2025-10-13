@@ -31,7 +31,7 @@
 
   <dialog
     ref="dialog"
-    class="cart-drawer__dialog dialog-modal dialog-drawer color-{{ settings.drawer_color_scheme }}{% if cart.empty? %} cart-drawer--empty{%endif%}"
+    class="cart-drawer__dialog dialog-modal dialog-drawer color-{{ settings.drawer_color_scheme }}{% if cart.empty? %} cart-drawer--empty{% endif %}"
     scroll-lock
   >
     <div class="cart-drawer__inner">
@@ -52,7 +52,11 @@
               </span>
             </button>
           </div>
-
+          {% if cart != empty and settings.show_shipping_bar %}
+          <div class="cart-drawer-tracker">
+    {% render "cart-drawer-tracker" %}
+    </div>
+{% endif %}
           <div
             class="cart-drawer__content motion-reduce"
             aria-label="{{ 'accessibility.cart' | t }}"
@@ -86,9 +90,7 @@
               </span>
             </button>
           </div>
-          {% if cart != empty and settings.show_shipping_bar %}
-    {% render "cart-drawer-tracker" %}
-{% endif %}
+
 
           <div
             class="cart-drawer__content motion-reduce"
