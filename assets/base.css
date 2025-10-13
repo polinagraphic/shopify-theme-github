@@ -4541,20 +4541,9 @@ span.free_shipping_notice {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: {{ progress_bar_color }};
-    background-image: repeating-linear-gradient(
-      to left,
-      {{ progress_bar_color }},
-      {{ progress_bar_color | color_lighten: 10 }},
-      {{ progress_bar_color | color_lighten: 20 }}
-    );
-
-    box-shadow: 0 5px 5px -6px {{ progress_bar_color }};
-
     border-radius: 0.75em;
     height: 100%;
     transition: 1s ease 0.3s;
     max-width: 100%;
-    width: {{ shipping_percentage_fraction }}%;
   }
   
