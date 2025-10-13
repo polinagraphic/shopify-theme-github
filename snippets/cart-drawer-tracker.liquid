@@ -13,7 +13,7 @@
     {% endif %}
   </p>
 
-  <div class="progress-bar">
+  <div class="progress-bar {% if shipping_value_left <= 0  %} fill_out {% endif %}">
     <div class="progress-bar-done" data-progress="loading"><span></span></div>
   
   </div>
