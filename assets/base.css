@@ -4494,7 +4494,7 @@ button.email-signup__button.email-signup__button--integrated.email-signup__butto
     padding: 0;
 }
 
-span.free_shipping_notice {
+span.free_shipping_notice,.shipping-message {
     font-size: 16px;
 }
 .upsell-container {
