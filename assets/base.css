@@ -4488,3 +4488,73 @@ button.email-signup__button.email-signup__button--integrated.email-signup__butto
     .free-shipping-icon.iconicion  {
     display: none !important;
 }
+
+    
+
+span.free_shipping_notice {
+    font-size: 16px;
+}
+.upsell-container {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem !important;
+    align-items: center;
+}
+  .progress-bar{
+    background-color: #fff;
+    display: flex;
+    height: 1em;
+    width: 100%;
+    border-radius: 0.75em;
+    padding: 0;
+    position: relative;
+    align-items: center;
+  }
+  
+  .free-shipping-icon{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #E2E4E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .progress-bar::before{
+    content: ' ';
+  }
+
+  .iconicion{
+    box-shadow: 0 0 10px rgba(62, 101, 207, 0.5);
+    border: 1px solid black;
+    transition: 1s ease 0.7s;
+  }
+  .cart-drawer-tracker {
+    padding: 0 10px;
+}
+  .progress-bar-done{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: {{ progress_bar_color }};
+    background-image: repeating-linear-gradient(
+      to left,
+      {{ progress_bar_color }},
+      {{ progress_bar_color | color_lighten: 10 }},
+      {{ progress_bar_color | color_lighten: 20 }}
+    );
+
+    box-shadow: 0 5px 5px -6px {{ progress_bar_color }};
+
+    border-radius: 0.75em;
+    height: 100%;
+    transition: 1s ease 0.3s;
+    max-width: 100%;
+    width: {{ shipping_percentage_fraction }}%;
+  }
+  
