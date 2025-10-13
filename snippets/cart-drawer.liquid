@@ -91,6 +91,27 @@
           {% if cart != empty and settings.show_shipping_bar %}
           <div class="cart-drawer-tracker" style="padding: 0 10px;">
     {% render "cart-drawer-tracker" %}
+    {% assign progress_bar_color = settings.shipping_bar_color %}
+
+<div class="upsell-container">
+  {% assign shipping_value = settings.minimum_free_shipping | times: 100 %}
+  {% assign cart_total = cart.total_price %}
+  {% assign shipping_value_left = shipping_value | minus: cart_total %}
+  {% assign shipping_percentage_fraction = cart_total | times: 100 | divided_by: shipping_value %}
+  <p class="shipping-message">
+    {% if shipping_value_left > 0 %}
+      <span class="free_shipping_notice">You are {{ shipping_value_left | money }} away from free shipping!</span>
+    {% elsif  shipping_value_left <= 0 %}
+      <span>You have free shipping !!!</span>
+    {% endif %}
+  </p>
+
+  <div class="progress-bar">
+    <div class="progress-bar-done" data-progress="loading"><span></span></div>
+  
+  </div>
+
+</div>
     </div>
 {% endif %}
 
