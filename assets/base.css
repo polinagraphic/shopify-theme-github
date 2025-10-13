@@ -4483,3 +4483,8 @@ button.email-signup__button.email-signup__button--integrated.email-signup__butto
     transform: none !important;
 }
 
+
+.free-shipping-icon,
+    .free-shipping-icon.iconicion  {
+    display: none !important;
+}
