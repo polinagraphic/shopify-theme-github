@@ -4558,3 +4558,7 @@ span.free_shipping_notice,.shipping-message {
 span.cart__discount-label {
     display: none;
 }
+ul.cart-discount__codes {
+    align-items: center;
+    justify-content: space-between;
+}
