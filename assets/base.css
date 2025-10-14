@@ -4552,4 +4552,6 @@ span.free_shipping_notice,.shipping-message {
   .upsell-container {
     padding:0 10px;
   }
-  
+  span.cart__summary-item.cart__original-total {
+    display: none;
+}
