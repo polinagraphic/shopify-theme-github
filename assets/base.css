@@ -4555,3 +4555,6 @@ span.free_shipping_notice,.shipping-message {
   span.cart__summary-item.cart__original-total {
     display: none;
 }
+span.cart__discount-label {
+    display: none;
+}
