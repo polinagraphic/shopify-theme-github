@@ -28,13 +28,13 @@
       {% endif %}
       declarative-open
     >
-      <summary class="cart-discount__summary">
+      {% comment %} <summary class="cart-discount__summary">
         <span class="cart-discount__label h6">{{ 'content.discount' | t }}</span>
 
         <span class="svg-wrapper icon-plus">
           {{- 'icon-plus.svg' | inline_asset_content -}}
         </span>
-      </summary>
+      </summary> {% endcomment %}
 
       <div class="details-content">
         <div class="cart-discount__content">
