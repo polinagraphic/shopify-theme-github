@@ -83,7 +83,7 @@
     "variant_button_radius": 14,
     "variant_button_width": "equal-width-buttons",
     "show_shipping_bar": true,
-    "shipping_bar_color": "#592898",
+    "shipping_bar_color": "#00c05a",
     "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
