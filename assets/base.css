@@ -4562,3 +4562,6 @@ ul.cart-discount__codes {
     align-items: center;
     justify-content: space-between;
 }
+.buy-buttons-block quantity-selector-component.quantity-selector {
+  display:none;
+}
