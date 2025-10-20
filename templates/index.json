@@ -439,6 +439,43 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
+            },
+            "buy_buttons_9a3W3L": {
+              "type": "buy-buttons",
+              "name": "t:names.product_buy_buttons",
+              "settings": {
+                "pdp_link": "draw-with-light-set",
+                "stacking": false,
+                "show_pickup_availability": false,
+                "gift_card_form": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "quantity": {
+                  "type": "quantity",
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                },
+                "add-to-cart": {
+                  "type": "add-to-cart",
+                  "static": true,
+                  "settings": {
+                    "style_class": "button-secondary"
+                  },
+                  "blocks": {}
+                },
+                "accelerated-checkout": {
+                  "type": "accelerated-checkout",
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": []
             }
           },
           "block_order": [
@@ -446,7 +483,8 @@
             "judge_me_reviews_preview_badge_homepage_33tcHL",
             "text_nnM4VR",
             "text_QyyDLT",
-            "button_MUQN9K"
+            "button_MUQN9K",
+            "buy_buttons_9a3W3L"
           ]
         }
       },
