@@ -57,6 +57,7 @@
         "group_cGMCtw": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -281,6 +282,7 @@
           "type": "group",
           "name": "Animal",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "row",
@@ -321,6 +323,7 @@
             "group_a6w7XA": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -407,6 +410,7 @@
             "group_Aw77P3": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -447,6 +451,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "swipe_blocks": false,
                     "image": "shopify://shop_images/Cuddle_Bear_bf73453b-abcf-4ccb-87f9-621e12d7b8a5.png",
                     "link": "",
                     "image_ratio": "portrait",
@@ -481,6 +486,7 @@
           "type": "group",
           "name": "Animal",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "row",
@@ -521,6 +527,7 @@
             "group_3z8U7V": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -607,6 +614,7 @@
             "group_jXWWTL": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -647,6 +655,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "swipe_blocks": false,
                     "image": "shopify://shop_images/Cuddle_Bear_bf73453b-abcf-4ccb-87f9-621e12d7b8a5.png",
                     "link": "",
                     "image_ratio": "portrait",
@@ -681,6 +690,7 @@
           "type": "group",
           "name": "Animal",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "row",
@@ -721,6 +731,7 @@
             "group_yq9a3K": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -807,6 +818,7 @@
             "group_J6NxjK": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -847,6 +859,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "swipe_blocks": false,
                     "image": "shopify://shop_images/Cuddle_Bear_bf73453b-abcf-4ccb-87f9-621e12d7b8a5.png",
                     "link": "",
                     "image_ratio": "portrait",
@@ -918,6 +931,7 @@
         "group_EKc38m": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1030,6 +1044,7 @@
         "image_WCpXQ6": {
           "type": "image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Youtube_d3f6dcaa-1e15-423d-be76-997ead47405d.png",
             "link": "",
             "image_ratio": "square",
@@ -1090,6 +1105,7 @@
         "image_RXpTYt": {
           "type": "image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Kids_Image.png",
             "link": "",
             "image_ratio": "square",
@@ -1112,6 +1128,7 @@
         "group_epHJcW": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1203,6 +1220,7 @@
               "type": "group",
               "name": "Group 01",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -1255,6 +1273,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -1384,6 +1403,7 @@
               "type": "group",
               "name": "Group 01",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -1436,6 +1456,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -1539,6 +1560,7 @@
               "type": "group",
               "name": "Group 01",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "row",
@@ -1591,6 +1613,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "c_class": "",
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "column",
@@ -1830,6 +1853,7 @@
         "group_w9Jhq9": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1844,7 +1868,7 @@
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
-            "height": "fit",
+            "height": "fill",
             "custom_height": 100,
             "inherit_color_scheme": true,
             "color_scheme": "",
@@ -1869,6 +1893,7 @@
             "group_7FGViz": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1883,7 +1908,7 @@
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fit",
+                "height": "fill",
                 "custom_height": 100,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
@@ -1909,14 +1934,14 @@
                   "type": "video",
                   "name": "t:names.video",
                   "settings": {
-                    "source": "uploaded",
-                    "video_url": "",
+                    "source": "url",
+                    "video_url": "https://www.youtube.com/watch?v=BrLyKkj49-k&t=44s",
                     "video_autoplay": false,
                     "video_loop": true,
                     "alt": "",
                     "custom_width": 100,
                     "custom_width_mobile": 100,
-                    "aspect_ratio": "auto",
+                    "aspect_ratio": "16/9",
                     "border": "none",
                     "border_width": 1,
                     "border_opacity": 100,
@@ -1938,9 +1963,10 @@
             "group_7FGViz"
           ]
         },
-        "group_6pQQwP": {
+        "group_rVBUxD": {
           "type": "group",
           "settings": {
+            "c_class": "",
             "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
@@ -1948,14 +1974,14 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
+            "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 16,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
-            "height": "fit",
+            "height": "fill",
             "custom_height": 100,
             "inherit_color_scheme": true,
             "color_scheme": "",
@@ -1977,9 +2003,10 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "group_Hn9NFP": {
+            "group_UhFiiN": {
               "type": "group",
               "settings": {
+                "c_class": "",
                 "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
@@ -1994,7 +2021,7 @@
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fit",
+                "height": "fill",
                 "custom_height": 100,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
@@ -2016,18 +2043,18 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "video_emCJTt": {
+                "video_RFcm4U": {
                   "type": "video",
                   "name": "t:names.video",
                   "settings": {
-                    "source": "uploaded",
-                    "video_url": "",
+                    "source": "url",
+                    "video_url": "https://www.youtube.com/watch?v=BrLyKkj49-k&t=44s",
                     "video_autoplay": false,
                     "video_loop": true,
                     "alt": "",
                     "custom_width": 100,
                     "custom_width_mobile": 100,
-                    "aspect_ratio": "auto",
+                    "aspect_ratio": "16/9",
                     "border": "none",
                     "border_width": 1,
                     "border_opacity": 100,
@@ -2041,18 +2068,18 @@
                 }
               },
               "block_order": [
-                "video_emCJTt"
+                "video_RFcm4U"
               ]
             }
           },
           "block_order": [
-            "group_Hn9NFP"
+            "group_UhFiiN"
           ]
         }
       },
       "block_order": [
         "group_w9Jhq9",
-        "group_6pQQwP"
+        "group_rVBUxD"
       ],
       "name": "Videos",
       "settings": {
@@ -2090,6 +2117,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
+            "swipe_blocks": false,
             "image": "shopify://shop_images/Glowster_Lumi.png",
             "link": "",
             "image_ratio": "adapt",
