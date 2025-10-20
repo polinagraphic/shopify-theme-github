@@ -1,7 +1,7 @@
 
 {% liquid
   assign block_settings = block.settings
-  assign product = closest.product
+  assign product = block.settings.pdp_link
   if request.visual_preview_mode and product == blank
     assign product = collections.all.products.first
   endif
