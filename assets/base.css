@@ -4565,3 +4565,6 @@ ul.cart-discount__codes {
 .buy-buttons-block quantity-selector-component.quantity-selector {
   display:none;
 }
+span.buy-buttons-block {
+    width: 20%;
+}

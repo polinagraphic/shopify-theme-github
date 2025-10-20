@@ -428,6 +428,7 @@
             },
             "button_MUQN9K": {
               "type": "button",
+              "disabled": true,
               "settings": {
                 "label": "add to cart",
                 "link": "shopify://collections/all",
