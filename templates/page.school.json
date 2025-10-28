@@ -568,7 +568,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<h2>Cuddle Bear</h2>",
+                    "text": "<h2>Glow Oink</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -656,7 +656,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/Cuddle_Bear_bf73453b-abcf-4ccb-87f9-621e12d7b8a5.png",
+                    "image": "shopify://shop_images/Cuddle_Pig.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "custom",
