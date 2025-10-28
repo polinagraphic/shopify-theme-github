@@ -235,6 +235,7 @@
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
+                "pdp_link": "draw-with-light-set",
                 "stacking": true,
                 "show_pickup_availability": false,
                 "gift_card_form": true,
