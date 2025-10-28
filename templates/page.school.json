@@ -546,7 +546,7 @@
           "name": "t:names.button",
           "settings": {
             "label": "Watch all",
-            "link": "https://www.youtube.com/@glowheroes",
+            "link": "https://www.youtube.com/watch?v=BrLyKkj49-k&list=PLx_PzzFILR_K6zZFvUgquIdH8PNHjbnWX",
             "open_in_new_tab": true,
             "style_class": "button",
             "width": "fit-content",
