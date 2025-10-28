@@ -546,8 +546,8 @@
           "name": "t:names.button",
           "settings": {
             "label": "Watch all",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
+            "link": "https://www.youtube.com/@glowheroes",
+            "open_in_new_tab": true,
             "style_class": "button",
             "width": "fit-content",
             "custom_width": 100,
