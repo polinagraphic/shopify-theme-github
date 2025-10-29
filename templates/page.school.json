@@ -452,7 +452,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/Cuddle_Bear_ff5c5a5b-8368-4a70-8e31-6555a6116230.jpg",
+                    "image": "shopify://shop_images/Cuddle_Bear_daace73f-02e1-49be-a2ad-3cb0307db892.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "custom",
@@ -656,7 +656,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/Cuddle_Rhino.jpg",
+                    "image": "shopify://shop_images/Giggle_Giraffle.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "custom",
@@ -860,7 +860,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/Cuddle_Bear_bf73453b-abcf-4ccb-87f9-621e12d7b8a5.png",
+                    "image": "shopify://shop_images/Snuggle_Paws.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "custom",
@@ -1102,7 +1102,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/Cuddle_Bear_ff5c5a5b-8368-4a70-8e31-6555a6116230.jpg",
+                    "image": "shopify://shop_images/Huggy_Hippo.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "custom",
@@ -1306,7 +1306,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/Cuddle_Rhino.jpg",
+                    "image": "shopify://shop_images/Flicker_Wings.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "custom",
@@ -1510,7 +1510,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/Cuddle_Bear_bf73453b-abcf-4ccb-87f9-621e12d7b8a5.png",
+                    "image": "shopify://shop_images/Twinkle_Fox.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "custom",
