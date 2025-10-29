@@ -1449,8 +1449,8 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Start Learning",
-                    "link": "shopify://collections/all",
-                    "open_in_new_tab": false,
+                    "link": "https://cdn.shopify.com/s/files/1/0767/1146/1116/files/GlowHeroes_Drawing_Tutorial_Twinkle_Fox.pdf?v=1761775426",
+                    "open_in_new_tab": true,
                     "style_class": "button",
                     "width": "fit-content",
                     "custom_width": 100,
