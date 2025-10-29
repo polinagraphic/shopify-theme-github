@@ -1429,7 +1429,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Listen Now",
-                "link": "shopify://collections/all",
+                "link": "https://www.youtube.com/watch?v=PY0xILiWQ8Y&list=PLx_PzzFILR_LdwNlRmtkH5MVYF9_H6ldk",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
