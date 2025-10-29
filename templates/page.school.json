@@ -1377,7 +1377,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Adventures of Glowster & Lumi</h2>",
+                "text": "<h2>Turn the lights off and the music on</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1402,7 +1402,7 @@
             "text_NtkHLg": {
               "type": "text",
               "settings": {
-                "text": "<p>Turn drawing time into story time. While your kids create glowing art, they can listen to magical adventures of Glowster and Lumi on YouTube.</p>",
+                "text": "<p>Like quiet drawing time with a bit of music? We’ve got you covered.<br/><br/>Check out our instrumental playlists on YouTube — made to spark imagination and keep creativity glowing.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1428,7 +1428,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Watch all",
+                "label": "Listen Now",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
