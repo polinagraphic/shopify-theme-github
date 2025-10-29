@@ -466,6 +466,9 @@ p:empty {
 }
 
 @media screen and (max-width: 749px) {
+ span.buy-buttons-block {
+    width: 50% !important;
+}
   .hidden--mobile,
   .mobile\:hidden {
     /* stylelint-disable-next-line declaration-no-important */
