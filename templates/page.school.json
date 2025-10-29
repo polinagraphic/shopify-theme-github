@@ -391,7 +391,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Start Learning",
-                    "link": "https://cdn.shopify.com/s/files/1/0767/1146/1116/files/GlowHeroes_Drawing_Tutorial_Bear_Web.pdf?v=1761682818",
+                    "link": "https://cdn.shopify.com/s/files/1/0767/1146/1116/files/GlowHeroes_Drawing_Tutorial_Cuddle_Bear.pdf?v=1761775426",
                     "open_in_new_tab": true,
                     "style_class": "button",
                     "width": "fit-content",
@@ -595,7 +595,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Start Learning",
-                    "link": "https://cdn.shopify.com/s/files/1/0767/1146/1116/files/GlowHeroes_Drawing_Tutorial_Pig_Web.pdf?v=1761682817",
+                    "link": "https://cdn.shopify.com/s/files/1/0767/1146/1116/files/GlowHeroes_Drawing_Tutorial_Giggle_Giraffle.pdf?v=1761775426",
                     "open_in_new_tab": true,
                     "style_class": "button",
                     "width": "fit-content",
@@ -799,7 +799,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Start Learning",
-                    "link": "shopify://collections/all",
+                    "link": "https://cdn.shopify.com/s/files/1/0767/1146/1116/files/GlowHeroes_Drawing_Tutorial_Snuggle_Paws.pdf?v=1761775426",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
