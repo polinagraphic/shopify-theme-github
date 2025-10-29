@@ -295,7 +295,7 @@
             "gap": 0,
             "width": "fill",
             "custom_width": 100,
-            "width_mobile": "fit-content",
+            "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
             "custom_height": 100,
@@ -452,7 +452,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/Cuddle_Bear_bf73453b-abcf-4ccb-87f9-621e12d7b8a5.png",
+                    "image": "shopify://shop_images/Cuddle_Bear_ff5c5a5b-8368-4a70-8e31-6555a6116230.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "custom",
@@ -656,7 +656,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/Cuddle_Pig.jpg",
+                    "image": "shopify://shop_images/Cuddle_Rhino.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "custom",
