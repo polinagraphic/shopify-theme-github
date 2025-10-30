@@ -306,7 +306,7 @@
                     "text_trAtnf": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Yes — it’s safe. The light pens are gentle on the eyes and designed for kids to use comfortably. For the best experience, we recommend drawing for up to 30 minutes a day in a dimly lit room.</p>",
+                        "text": "<p>Yes — it’s completely safe. The light pens are gentle on the eyes and designed for kids to use comfortably. The glow comes from photoluminescence, a harmless process that stores light and releases it in the dark. </p><p>For the best experience, we recommend drawing for up to 30 minutes a day in a dimly lit room.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
