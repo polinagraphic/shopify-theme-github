@@ -297,7 +297,7 @@
                 "accordion_row_HKcxWj": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Is drawing with light harmful to the eyes?",
+                    "heading": "Is drawing with light safe for the eyes?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -306,7 +306,7 @@
                     "text_trAtnf": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>No — it’s safe. The light pens are gentle on the eyes and designed for kids to use comfortably. For the best experience, we recommend drawing for up to 30 minutes a day in a dimly lit room.</p>",
+                        "text": "<p>Yes — it’s safe. The light pens are gentle on the eyes and designed for kids to use comfortably. For the best experience, we recommend drawing for up to 30 minutes a day in a dimly lit room.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
