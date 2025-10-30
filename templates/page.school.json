@@ -1422,7 +1422,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<h2>Cuddle Bear</h2>",
+                    "text": "<h2>Snuggle Paws</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2345,7 +2345,6 @@
               "disabled": true,
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Night_Icon_75ff9519-3dd4-4aa3-acff-70026df71eb9.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -2554,7 +2553,6 @@
               "disabled": true,
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Night_Icon_75ff9519-3dd4-4aa3-acff-70026df71eb9.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -2763,7 +2761,6 @@
               "disabled": true,
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Night_Icon_75ff9519-3dd4-4aa3-acff-70026df71eb9.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -2972,7 +2969,6 @@
               "disabled": true,
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Night_Icon_75ff9519-3dd4-4aa3-acff-70026df71eb9.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
