@@ -258,7 +258,7 @@
                 "accordion_row_dbPfQq": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "What ages are your products suitable for?",
+                    "heading": "What age is the set for?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -375,7 +375,7 @@
                 "accordion_row_EETwXp": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Are your products safe for children?",
+                    "heading": "Is the product safe for kids?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
