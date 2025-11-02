@@ -568,7 +568,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<h2>Giggle Giraffle</h2>",
+                    "text": "<h2>Giggle Giraffe</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
