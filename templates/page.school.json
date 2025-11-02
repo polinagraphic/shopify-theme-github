@@ -772,7 +772,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<h2>Twinkle Fox</h2>",
+                    "text": "<h2>Snuggle Paws</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1422,7 +1422,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<h2>Snuggle Paws</h2>",
+                    "text": "<h2>Twinkle Fox</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
