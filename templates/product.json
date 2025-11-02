@@ -2253,7 +2253,6 @@
               "disabled": true,
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Night_Icon_75ff9519-3dd4-4aa3-acff-70026df71eb9.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -2418,7 +2417,7 @@
                 "text_HfEqFz": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0005796799001552?utm_source=chatgpt.com\" target=\"_blank\" title=\"https://www.sciencedirect.com/science/article/abs/pii/S0005796799001552?utm_source=chatgpt.com\"><em><strong>👉 Read the study</strong></em></a></p>",
+                    "text": "<p><a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0005796799001552\" target=\"_blank\" title=\"https://www.sciencedirect.com/science/article/abs/pii/S0005796799001552\"><em><strong>👉 Read the study</strong></em></a></p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2528,7 +2527,6 @@
               "disabled": true,
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Phone_Icon_8a215dcc-83be-404b-bd83-82a1dfbcb6d1.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -2778,7 +2776,6 @@
               "disabled": true,
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Parents_Icon_c51db892-ee69-447c-84e0-101360744aa2.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
