@@ -3407,7 +3407,7 @@
                 "accordion_row_rcwC7H": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "What ages are your products suitable for?",
+                    "heading": "What age is the set for?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -3446,7 +3446,7 @@
                 "accordion_row_a7keMH": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Is drawing with light harmful to the eyes?",
+                    "heading": "Is drawing with light safe for the eyes?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -3455,7 +3455,7 @@
                     "text_tqCcEx": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>No — it’s safe. The light pens are gentle on the eyes and designed for kids to use comfortably. For the best experience, we recommend drawing for up to 30 minutes a day in a dimly lit room.</p>",
+                        "text": "<p>Yes — it’s completely safe. The light pens are gentle on the eyes and designed for kids to use comfortably. The glow comes from photoluminescence, a harmless process that stores light and releases it in the dark.</p><p>For the best experience, we recommend drawing for up to 30 minutes a day in a dimly lit room.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -3524,7 +3524,7 @@
                 "accordion_row_98fU9k": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Are your products safe for children?",
+                    "heading": "Is the product safe for kids?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -3533,7 +3533,7 @@
                     "text_mVbExR": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are completely safe. All of our Draw with Light sets have been tested by a CPSC-accepted third-party laboratory and passed all required U.S. safety standards.</p><p>They meet ASTM F963 toy safety standards (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the CPSIA requirements for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through photoluminescence, which simply stores light and releases it in the dark.</p><p><strong>Questions? You can also email us directly at hey.glowheroes@gmail.com</strong></p><p></p><p></p>",
+                        "text": "<p>Our products are completely safe. All of our Draw with Light sets have been tested by a CPSC-accepted third-party laboratory and passed all required U.S. safety standards.</p><p>They meet ASTM F963 toy safety standards (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the CPSIA requirements for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through photoluminescence, which simply stores light and releases it in the dark.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
