@@ -379,7 +379,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3>$24.99</h3>",
+                "text": "<h3>$25.99</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -974,7 +974,6 @@
               "name": "t:names.image",
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Asset_12_3x_6a322c35-b752-45c7-b611-7e8937c83321.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -1192,7 +1191,6 @@
               "name": "t:names.image",
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Screen-free_Activity.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -1385,7 +1383,6 @@
               "name": "t:names.image",
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Parent-Child.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -1743,7 +1740,6 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/moon-cloud_2_e1e85ce7-06a2-4574-862f-19c530da49ed.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "custom",
@@ -1936,7 +1932,6 @@
                   "name": "t:names.image",
                   "settings": {
                     "swipe_blocks": false,
-                    "image": "shopify://shop_images/moon-cloud_2_e1e85ce7-06a2-4574-862f-19c530da49ed.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "custom",
