@@ -379,7 +379,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3>$25.99</h3>",
+                "text": "<h3>$26.99</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
