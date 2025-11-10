@@ -4571,3 +4571,6 @@ ul.cart-discount__codes {
 span.buy-buttons-block {
     width: 20%;
 }
+div#ResultsList ul.product-grid li product-card.product-card span.buy-buttons-block {
+    width: 100%;
+}
