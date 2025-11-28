@@ -1715,7 +1715,7 @@
                           "settings": {
                             "text": "<p>Because the glow fades slowly, kids naturally <strong>strengthen focus and patience</strong>, learning to slow down, stay present, and enjoy the moment as they create.</p>",
                             "width": "100%",
-                            "max_width": "normal",
+                            "max_width": "none",
                             "alignment": "left",
                             "type_preset": "rte",
                             "font": "var(--font-body--family)",
@@ -1872,7 +1872,7 @@
                           "settings": {
                             "text": "<p>With no prompts or rules, children are free to <strong>encourage creative thinking</strong> by deciding what to draw, how to draw it, and what it means.</p>",
                             "width": "100%",
-                            "max_width": "normal",
+                            "max_width": "none",
                             "alignment": "left",
                             "type_preset": "rte",
                             "font": "var(--font-body--family)",
@@ -2029,7 +2029,7 @@
                           "settings": {
                             "text": "<p>Glowing lines help kids <strong>develop fine motor skills</strong>, as every stroke builds control, coordination, and confidence while they have fun.</p>",
                             "width": "100%",
-                            "max_width": "normal",
+                            "max_width": "none",
                             "alignment": "left",
                             "type_preset": "rte",
                             "font": "var(--font-body--family)",
