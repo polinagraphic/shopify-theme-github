@@ -3089,7 +3089,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p><strong>OUR PROMISE</strong></p>",
+            "text": "<p><strong>LET'S BE FRIENDS</strong></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -3115,7 +3115,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Created to inspire play, connection, and confidence</h2>",
+            "text": "<h2>Daily moments, magic, and ideas</h2>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
