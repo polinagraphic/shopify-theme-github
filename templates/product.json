@@ -766,7 +766,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>trusted by parents, loved by kids</h2>",
+            "text": "<h2>Real Moments, Real Smiles</h2>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -792,7 +792,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>It only takes a board, a light pen, and your imagination</p>",
+            "text": "<p>Seeing kids play says more than words ever could</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -808,7 +808,7 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 0,
-            "padding-block-end": 40,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -845,7 +845,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 80,
-        "padding-block-end": 0
+        "padding-block-end": 20
       }
     },
     "marquee_YTAjrt": {
