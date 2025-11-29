@@ -376,7 +376,7 @@
                   "type": "_accordion-row",
                   "settings": {
                     "heading": "Why you'll love it",
-                    "open_by_default": true,
+                    "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
