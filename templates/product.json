@@ -792,7 +792,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Seeing kids play says more than words ever could</p>",
+            "text": "<p>Seeing kids play says more than words ever could.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1663,7 +1663,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>It only takes a board, a light pen, and your imagination</p>",
+            "text": "<p>It only takes a board, a light pen, and your imagination.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -2268,7 +2268,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Studies show creative, screen-free play builds confidence, eases fears, and strengthens family bonds</p>",
+            "text": "<p>Studies show creative, screen-free play builds confidence, eases fears, and strengthens family bonds.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
