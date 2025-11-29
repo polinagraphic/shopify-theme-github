@@ -759,109 +759,6 @@
         "padding-block-end": 80
       }
     },
-    "marquee_YTAjrt": {
-      "type": "marquee",
-      "blocks": {
-        "text_XGJHR4": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>See the Glow in Action</h2>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h3",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "nowrap",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_XGJHR4"
-      ],
-      "name": "t:names.marquee_section",
-      "settings": {
-        "movement_direction": "normal",
-        "color_scheme": "scheme-1",
-        "padding-block-start": 24,
-        "padding-block-end": 24,
-        "gap_between_elements": 24
-      }
-    },
-    "175695923294ed1ed4": {
-      "type": "_blocks",
-      "blocks": {
-        "moast_carousel_HzaaDQ": {
-          "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
-          "settings": {
-            "dynamic": false,
-            "feed": "",
-            "feed_usage": "back_up",
-            "header": "",
-            "slide_type": "cards",
-            "product_cards": "none",
-            "autoplay_mode": "sequential",
-            "autoscroll_duration": 0,
-            "slide_size": "300",
-            "border": 0,
-            "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
-            "slide_rounding": "20",
-            "slide_spacing": 16,
-            "padding_top": 40,
-            "pagination": "overlay",
-            "alignment": "center",
-            "click_action": "fullscreen",
-            "float_location": "bottom_right",
-            "float_size": "medium",
-            "show_captions": false,
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "moast_carousel_HzaaDQ"
-      ],
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "full-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-1",
-        "background_media": "image",
-        "video_position": "cover",
-        "background_image": "shopify://shop_images/Gradient_05ea91ad-08c8-478a-b5d6-0b0e1d1fa82a.jpg",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 60
-      }
-    },
     "section_LVBqRr": {
       "type": "section",
       "blocks": {
@@ -869,7 +766,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>How the Magic Happens</h2>",
+            "text": "<h2>trusted by parents, loved by kids</h2>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -949,6 +846,110 @@
         "gradient_direction": "to top",
         "padding-block-start": 80,
         "padding-block-end": 0
+      }
+    },
+    "marquee_YTAjrt": {
+      "type": "marquee",
+      "blocks": {
+        "text_XGJHR4": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>See the Glow in Action</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_XGJHR4"
+      ],
+      "disabled": true,
+      "name": "t:names.marquee_section",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-1",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
+    "175695923294ed1ed4": {
+      "type": "_blocks",
+      "blocks": {
+        "moast_carousel_HzaaDQ": {
+          "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
+          "settings": {
+            "dynamic": false,
+            "feed": "",
+            "feed_usage": "back_up",
+            "header": "",
+            "slide_type": "cards",
+            "product_cards": "overlay",
+            "autoplay_mode": "sequential",
+            "autoscroll_duration": 0,
+            "slide_size": "300",
+            "border": 0,
+            "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
+            "slide_rounding": "20",
+            "slide_spacing": 16,
+            "padding_top": 40,
+            "pagination": "none",
+            "alignment": "center",
+            "click_action": "fullscreen",
+            "float_location": "bottom_right",
+            "float_size": "medium",
+            "show_captions": false,
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "moast_carousel_HzaaDQ"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "background_media": "image",
+        "video_position": "cover",
+        "background_image": "shopify://shop_images/Gradient_05ea91ad-08c8-478a-b5d6-0b0e1d1fa82a.jpg",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 60
       }
     },
     "section_WJ44Df": {
@@ -1627,6 +1628,95 @@
         "gradient_direction": "to top",
         "padding-block-start": 80,
         "padding-block-end": 80
+      }
+    },
+    "section_pHR3Bi": {
+      "type": "section",
+      "blocks": {
+        "text_JaeY68": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>How the Magic Happens</h2>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_cPR8w6": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>It only takes a board, a light pen, and your imagination</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 40,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_JaeY68",
+        "text_cPR8w6"
+      ],
+      "name": "t:names.icons_with_text",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 80,
+        "padding-block-end": 0
       }
     },
     "section_436JH6": {
@@ -4505,10 +4595,11 @@
   },
   "order": [
     "main",
+    "section_LVBqRr",
     "marquee_YTAjrt",
     "175695923294ed1ed4",
     "section_WJ44Df",
-    "section_LVBqRr",
+    "section_pHR3Bi",
     "section_436JH6",
     "section_9FnznG",
     "section_eiLhX4",
