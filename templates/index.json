@@ -378,6 +378,7 @@
             "text_nnM4VR": {
               "type": "text",
               "name": "t:names.heading",
+              "disabled": true,
               "settings": {
                 "text": "<h3>$24.99</h3>",
                 "width": "fit-content",
@@ -426,6 +427,21 @@
               },
               "blocks": {}
             },
+            "button_igJeU6": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "learn more",
+                "link": "shopify://products/draw-with-light-set",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
             "button_MUQN9K": {
               "type": "button",
               "disabled": true,
@@ -444,6 +460,7 @@
             "buy_buttons_9a3W3L": {
               "type": "buy-buttons",
               "name": "t:names.product_buy_buttons",
+              "disabled": true,
               "settings": {
                 "pdp_link": "draw-with-light-set",
                 "stacking": false,
@@ -485,6 +502,7 @@
             "judge_me_reviews_preview_badge_homepage_33tcHL",
             "text_nnM4VR",
             "text_QyyDLT",
+            "button_igJeU6",
             "button_MUQN9K",
             "buy_buttons_9a3W3L"
           ]
