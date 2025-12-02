@@ -4583,3 +4583,11 @@ div#ResultsList ul.product-grid li product-card.product-card span.buy-buttons-bl
     transform: translate(-1px, -1px) !important;
     box-shadow: none !important;
 }
+.cart-items-component.cst-cart .details-content .cart-discount__content button.button.cart-discount__button {
+    background: #592898 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    font-weight: 400 !important;
+    transition: none !important;
+    color: #fff !important;
+}
