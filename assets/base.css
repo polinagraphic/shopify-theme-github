@@ -4604,3 +4604,6 @@ div#ResultsList ul.product-grid li product-card.product-card span.buy-buttons-bl
     display: flex !important;
     align-items: center !important;
 }
+.cart-items-component.cst-cart .details-content .cart-discount__content button.button.cart-discount__button:hover {
+    transform: none !important;
+}
