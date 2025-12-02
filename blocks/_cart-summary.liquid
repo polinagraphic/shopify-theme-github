@@ -21,6 +21,9 @@
   style="{% render 'border-override', settings: block_settings %}"
   {{ block.shopify_attributes }}
 >
+  <div class="cart-drawer-tracker">
+             {% render "cart-drawer-tracker" %}
+          </div>
   <div class="{{ cart_summary_inner_class }}">
     {% render 'cart-summary' %}
   </div>
