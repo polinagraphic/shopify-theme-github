@@ -4611,3 +4611,6 @@ div#ResultsList ul.product-grid li product-card.product-card span.buy-buttons-bl
 .cart-items-component.cst-cart ul.cart-discount__codes li.cart-discount__pill button.cart-discount__pill-remove:hover {
     box-shadow: none !important;
 }
+.cart-items-component.cst-cart ul.cart-discount__codes li.cart-discount__pill {
+    background: #fff !important;
+}
