@@ -4574,3 +4574,8 @@ span.buy-buttons-block {
 div#ResultsList ul.product-grid li product-card.product-card span.buy-buttons-block {
     width: 100%;
 }
+.cart-items-component.cst-cart .cart-page__items td.cart-items__quantity button.button.button--tertiary.cart-items__remove {
+    background: transparent !important;
+    color: #592898 !important;
+    padding: 0 !important;
+}
