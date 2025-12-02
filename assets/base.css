@@ -4579,3 +4579,7 @@ div#ResultsList ul.product-grid li product-card.product-card span.buy-buttons-bl
     color: #592898 !important;
     padding: 0 !important;
 }
+.cart-items-component.cst-cart .cart-page__items td.cart-items__quantity button.button.button--tertiary.cart-items__remove:hover {
+    transform: translate(-1px, -1px) !important;
+    box-shadow: none !important;
+}
