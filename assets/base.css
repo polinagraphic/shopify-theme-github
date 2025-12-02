@@ -4603,3 +4603,8 @@ div#ResultsList ul.product-grid li product-card.product-card span.buy-buttons-bl
 .cart-items-component.cst-cart .details-content .cart-discount__content button.button.cart-discount__button:hover {
     transform: none !important;
 }
+.cart-items-component.cst-cart ul.cart-discount__codes li.cart-discount__pill button.cart-discount__pill-remove {
+    background: transparent !important;
+    color: #000 !important;
+    padding: 0 !important;
+}
