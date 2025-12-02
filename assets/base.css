@@ -4590,14 +4590,6 @@ div#ResultsList ul.product-grid li product-card.product-card span.buy-buttons-bl
     font-weight: 400 !important;
     transition: none !important;
     color: #fff !important;
-}
-.cart-items-component.cst-cart .details-content .cart-discount__content button.button.cart-discount__button {
-    background: #592898 !important;
-    border: 0 !important;
-    box-shadow: none !important;
-    font-weight: 400 !important;
-    transition: none !important;
-    color: #fff !important;
     text-transform: capitalize !important;
     font-family: 'Plus Jakarta Sans' !important;
     padding: 15px 30px !important;
