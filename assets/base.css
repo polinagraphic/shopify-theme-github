@@ -4617,3 +4617,6 @@ div#ResultsList ul.product-grid li product-card.product-card span.buy-buttons-bl
 cart-items-component.cart-items-component.cst-cart .cart-page.spacing-style .cart-page__summary {
     background: #f0fccd !important;
 }
+.cart-items-component.cst-cart .details-content .cart-discount__content input.cart-discount__input {
+    background: #fff;
+}
