@@ -4621,3 +4621,7 @@ cart-items-component.cart-items-component.cst-cart .cart-page.spacing-style .car
 .cart-items-component.cst-cart .details-content .cart-discount__content input.cart-discount__input {
     background: #fff;
 }
+.cart-items-component.cst-cart .cart-page__summary .cart__summary-container .cart-drawer-tracker .upsell-container {
+    margin: 0 !important;
+    padding: 50px 0 0;
+}
