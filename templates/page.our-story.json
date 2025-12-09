@@ -830,9 +830,9 @@
             "text_QTTQcG": {
               "type": "text",
               "settings": {
-                "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively</p>",
-                "width": "fit-content",
-                "max_width": "narrow",
+                "text": "<p>While kids draw in the dark, they’re also learning patience, control, and how to think creatively.</p>",
+                "width": "100%",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
