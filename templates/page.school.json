@@ -2028,8 +2028,8 @@
               "name": "t:names.heading",
               "settings": {
                 "text": "<h2>Turn the lights off and the music on</h2>",
-                "width": "100%",
-                "max_width": "normal",
+                "width": "fit-content",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "h3",
                 "font": "var(--font-body--family)",
@@ -2054,7 +2054,7 @@
               "settings": {
                 "text": "<p>Like quiet drawing time with a bit of music? We’ve got you covered.<br/><br/>Check out our instrumental playlists on YouTube — made to spark imagination and keep creativity glowing.</p>",
                 "width": "100%",
-                "max_width": "none",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
