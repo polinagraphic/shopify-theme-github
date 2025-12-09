@@ -406,7 +406,7 @@
               "type": "text",
               "settings": {
                 "text": "<p>A unique creative set for drawing with light in the dark — reusable, mess-free, and screen-free fun that’s perfect for bedtime, quiet play, or travel</p>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
