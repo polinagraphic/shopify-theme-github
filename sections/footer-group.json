@@ -180,8 +180,8 @@
                   "name": "t:names.heading",
                   "settings": {
                     "text": "<h2>Glow Updates, Just for You</h2>",
-                    "width": "100%",
-                    "max_width": "none",
+                    "width": "fit-content",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "h4",
                     "font": "var(--font-body--family)",
