@@ -2344,8 +2344,8 @@
               "name": "t:names.heading",
               "settings": {
                 "text": "<h3>This is a Women Owned Business</h3>",
-                "width": "100%",
-                "max_width": "narrow",
+                "width": "fit-content",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "h3",
                 "font": "var(--font-body--family)",
@@ -2370,7 +2370,7 @@
               "settings": {
                 "text": "<p>Glow Heroes was founded with a simple mission: to turn darkness into something magical that children can play with, not hide from.</p>",
                 "width": "100%",
-                "max_width": "none",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
