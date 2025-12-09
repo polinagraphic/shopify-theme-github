@@ -2370,7 +2370,7 @@
               "settings": {
                 "text": "<p>Glow Heroes was founded with a simple mission: to turn darkness into something magical that children can play with, not hide from.</p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
