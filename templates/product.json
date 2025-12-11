@@ -272,6 +272,7 @@
             "group_h6cf9C": {
               "type": "group",
               "name": "Free Shipping Info",
+              "disabled": true,
               "settings": {
                 "c_class": "",
                 "link": "",
