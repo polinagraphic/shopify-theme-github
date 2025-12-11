@@ -17,13 +17,13 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "⭐ FREE DOMESTIC SHIPPING ON ORDERS $40+ ⭐",
+            "text": "🎄 <strong>Order by 12/19 for holiday delivery</strong> 🎄",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
             "weight": "",
             "letter_spacing": "loose",
-            "case": "uppercase"
+            "case": "none"
           },
           "blocks": {}
         }
