@@ -1143,6 +1143,48 @@
         "padding-block-end": 80
       }
     },
+    "marquee_wPBwCA": {
+      "type": "marquee",
+      "blocks": {
+        "text_RJUg8d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🎄S<strong>ave 10% today with HOLIDAY10</strong>🎄</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#592898",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_RJUg8d"
+      ],
+      "disabled": true,
+      "name": "t:names.marquee_section",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-5",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
     "section_LVBqRr": {
       "type": "section",
       "blocks": {
@@ -4979,6 +5021,7 @@
   },
   "order": [
     "main",
+    "marquee_wPBwCA",
     "section_LVBqRr",
     "marquee_YTAjrt",
     "175695923294ed1ed4",
