@@ -3589,10 +3589,10 @@
         "padding-block-end": 80
       }
     },
-    "section_xEzdmJ": {
+    "section_JzXLWM": {
       "type": "section",
       "blocks": {
-        "group_rQ9pfB": {
+        "group_pX74hJ": {
           "type": "group",
           "settings": {
             "c_class": "",
@@ -3632,7 +3632,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_gzjiJ9": {
+            "text_RWX4Ly": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
@@ -3658,7 +3658,7 @@
               },
               "blocks": {}
             },
-            "group_XxWUxB": {
+            "group_NkPWTF": {
               "type": "group",
               "settings": {
                 "c_class": "",
@@ -3699,7 +3699,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "group_gVYpyR": {
+                "group_GnDP8N": {
                   "type": "group",
                   "name": "For kids",
                   "settings": {
@@ -3740,7 +3740,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_tybk8M": {
+                    "text_HDBKqi": {
                       "type": "text",
                       "settings": {
                         "text": "<h2>For kids</h2>",
@@ -3765,7 +3765,7 @@
                       },
                       "blocks": {}
                     },
-                    "spacer_e7tGm8": {
+                    "spacer_xJXKTm": {
                       "type": "spacer",
                       "name": "t:names.spacer",
                       "settings": {
@@ -3779,7 +3779,7 @@
                       },
                       "blocks": {}
                     },
-                    "text_jcrtxy": {
+                    "text_BhxXQK": {
                       "type": "text",
                       "settings": {
                         "text": "<p>It’s perfect for curious minds who love to explore, create, and discover new things. It turns playtime into an adventure, sparking imagination and keeping children engaged in fun, screen-free activities.</p>",
@@ -3806,12 +3806,12 @@
                     }
                   },
                   "block_order": [
-                    "text_tybk8M",
-                    "spacer_e7tGm8",
-                    "text_jcrtxy"
+                    "text_HDBKqi",
+                    "spacer_xJXKTm",
+                    "text_BhxXQK"
                   ]
                 },
-                "group_xBVrEC": {
+                "group_PWgcr8": {
                   "type": "group",
                   "name": "For parents",
                   "settings": {
@@ -3852,7 +3852,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_W6VAEH": {
+                    "text_mexidq": {
                       "type": "text",
                       "settings": {
                         "text": "<h2>For parents</h2>",
@@ -3877,7 +3877,7 @@
                       },
                       "blocks": {}
                     },
-                    "spacer_z7xqcN": {
+                    "spacer_p8XRTP": {
                       "type": "spacer",
                       "name": "t:names.spacer",
                       "settings": {
@@ -3891,7 +3891,7 @@
                       },
                       "blocks": {}
                     },
-                    "text_48WBLL": {
+                    "text_jWgJLG": {
                       "type": "text",
                       "settings": {
                         "text": "<p>It offers peace of mind with tools that are safe, reliable, and designed to foster creativity. It’s an easy way to encourage a child’s growth while giving them a playful outlet that supports learning and self-expression.</p>",
@@ -3918,12 +3918,12 @@
                     }
                   },
                   "block_order": [
-                    "text_W6VAEH",
-                    "spacer_z7xqcN",
-                    "text_48WBLL"
+                    "text_mexidq",
+                    "spacer_p8XRTP",
+                    "text_jWgJLG"
                   ]
                 },
-                "group_YyCxpA": {
+                "group_LcGg94": {
                   "type": "group",
                   "name": "For kids",
                   "settings": {
@@ -3964,7 +3964,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_hzYMmg": {
+                    "text_jjpeWy": {
                       "type": "text",
                       "settings": {
                         "text": "<h2>For teachers</h2>",
@@ -3989,7 +3989,7 @@
                       },
                       "blocks": {}
                     },
-                    "spacer_wEezVr": {
+                    "spacer_nHAU3K": {
                       "type": "spacer",
                       "name": "t:names.spacer",
                       "settings": {
@@ -4003,7 +4003,7 @@
                       },
                       "blocks": {}
                     },
-                    "text_X9V3T7": {
+                    "text_td8Xm6": {
                       "type": "text",
                       "settings": {
                         "text": "<p>It works as a classroom resource to help students focus, build confidence, and express themselves creatively. It’s more than just a toy—it’s a tool that supports emotional growth and makes learning interactive and fun.</p>",
@@ -4030,25 +4030,25 @@
                     }
                   },
                   "block_order": [
-                    "text_hzYMmg",
-                    "spacer_wEezVr",
-                    "text_X9V3T7"
+                    "text_jjpeWy",
+                    "spacer_nHAU3K",
+                    "text_td8Xm6"
                   ]
                 }
               },
               "block_order": [
-                "group_gVYpyR",
-                "group_xBVrEC",
-                "group_YyCxpA"
+                "group_GnDP8N",
+                "group_PWgcr8",
+                "group_LcGg94"
               ]
             }
           },
           "block_order": [
-            "text_gzjiJ9",
-            "group_XxWUxB"
+            "text_RWX4Ly",
+            "group_NkPWTF"
           ]
         },
-        "image_fLAXpM": {
+        "image_QM3M3H": {
           "type": "image",
           "settings": {
             "swipe_blocks": false,
@@ -4073,8 +4073,8 @@
         }
       },
       "block_order": [
-        "group_rQ9pfB",
-        "image_fLAXpM"
+        "group_pX74hJ",
+        "image_QM3M3H"
       ],
       "name": "t:names.image_with_text",
       "settings": {
@@ -5031,7 +5031,7 @@
     "section_9FnznG",
     "section_eiLhX4",
     "section_Xf8riN",
-    "section_xEzdmJ",
+    "section_JzXLWM",
     "hero_azkate",
     "section_RfLehW",
     "media_with_content_JKjfmc",
