@@ -17,7 +17,7 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "<strong>🎄 Order by 12/19 to get FREE Standard Shipping 🎄</strong>",
+            "text": "<strong>🎄 Order by 12/19 for FREE Standard Shipping 🎄</strong>",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
