@@ -272,7 +272,6 @@
             "group_h6cf9C": {
               "type": "group",
               "name": "Free Shipping Info",
-              "disabled": true,
               "settings": {
                 "c_class": "",
                 "link": "",
@@ -326,7 +325,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p><strong>Free Domestic Shipping on Orders $40+</strong></p>",
+                    "text": "<p><strong>FREE Shipping on All Orders</strong></p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
