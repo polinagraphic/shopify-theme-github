@@ -633,7 +633,7 @@
                     "text_Xn9kWV": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>All of our Draw with Light sets have been tested by a CPSC-accepted third-party laboratory and passed all required U.S. safety standards.</p><p>They meet ASTM F963 toy safety standards (covering mechanical safety, flammability, heavy metals, and phthalates) and comply with the CPSIA requirements for children’s products, including limits for lead, phthalates, and mandatory tracking labels.</p><p>The glowing effect is created through photoluminescence, which simply stores light and releases it in the dark.</p>",
+                        "text": "<p><strong>Safety you can trust</strong> — All Draw with Light sets are tested by a CPSC-accepted third-party laboratory and meet all required U.S. safety standards, including ASTM F963 and CPSIA compliance. The glow works through safe photoluminescence, storing light and releasing it in the dark.</p><p><a href=\"/pages/safety\" title=\"Safety\"><strong>View our Safety Guidelines </strong>👉</a></p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -1297,7 +1297,7 @@
             "max_width": 1100,
             "corner_styling": "soft",
             "quote_marks_style": "serif",
-            "card_color": "#F9F9F9",
+            "card_color": "#f9f9f9",
             "stars_and_quote_marks_color": "#00c05a",
             "text_color": "#592898",
             "arrows_color": "#592898",
