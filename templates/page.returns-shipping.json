@@ -249,7 +249,7 @@
             "text_kgeqmW": {
               "type": "text",
               "settings": {
-                "text": "<p>If your order arrives damaged, defective, or incorrect, contact info@glowheroes.com within 7 days of delivery with photos and your order number. We’ll review and provide next steps for a replacement or refund. Items marked “final sale,” as well as opened, used, or unsealed products, cannot be returned. If you need a different item, please place a new order and follow the return process for the original one if eligible.</p><p></p><p>Once we receive and inspect your authorized return, approved refunds will be issued to your original payment method. Processing times vary depending on your bank or card issuer.</p>",
+                "text": "<p>If your order arrives damaged, defective, or incorrect, contact info@glowheroes.com within 14 days of delivery with photos and your order number. We’ll review and provide next steps for a replacement or refund. Items marked “final sale,” as well as opened, used, or unsealed products, cannot be returned. If you need a different item, please place a new order and follow the return process for the original one if eligible.</p><p></p><p>Once we receive and inspect your authorized return, approved refunds will be issued to your original payment method. Processing times vary depending on your bank or card issuer.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
