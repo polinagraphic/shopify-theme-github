@@ -2261,7 +2261,7 @@
               "name": "t:names.image",
               "settings": {
                 "swipe_blocks": false,
-                "image": "shopify://shop_images/Kids_Image.png",
+                "image": "shopify://shop_images/Kids_03.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -2420,7 +2420,7 @@
         "color_scheme": "scheme-2",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/Gradient-1_0f522fb5-3efe-455e-85f2-f3d65207f5d3.jpg",
+        "background_image": "shopify://shop_images/Gradient_7ea838ea-1c96-4992-bc69-31576ce6c472.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
