@@ -2330,7 +2330,7 @@
               "name": "t:names.heading",
               "settings": {
                 "text": "<h2>Safety Standards & Testing</h2>",
-                "width": "100%",
+                "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
                 "type_preset": "h3",
