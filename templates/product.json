@@ -1289,7 +1289,7 @@
             "max_reviews": 4,
             "quote_marks_size": "hidden",
             "product_name_text_size": "hidden",
-            "verified_badge_style": "icon",
+            "verified_badge_style": "text",
             "card_height": "medium",
             "text_size": "small",
             "stars_size": "medium",
@@ -1306,7 +1306,7 @@
             "show_drop_shadow": false,
             "transition_speed": 4,
             "header_text": "Loved by kids, trusted by parents",
-            "show_average_rating": true
+            "show_average_rating": false
           }
         }
       },
