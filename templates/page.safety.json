@@ -2356,7 +2356,7 @@
               "settings": {
                 "text": "<ul><li><strong>Third-party tested and approved</strong> — All Glow Heroes Draw with Light sets are tested by a CPSC-accepted third-party laboratory and meet all required U.S. safety standards.<br/></li></ul><p></p><ul><li><strong>ASTM F963 compliant</strong> — Covering mechanical safety, flammability, and limits for heavy metals and phthalates.<br/></li></ul><p></p><ul><li><strong>CPSIA compliant</strong> — Meeting strict requirements for children’s products, including lead and phthalate limits and mandatory tracking labels.</li></ul>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -2508,7 +2508,7 @@
               "settings": {
                 "text": "<ul><li><strong>Non-toxic glow effect</strong> — The glowing effect is created through photoluminescence, which safely stores light and releases it in the dark.</li></ul><p></p><ul><li><strong>No heat or electricity</strong> — The set does not generate heat and does not require electricity.</li></ul><p></p><ul><li><strong>No chemicals or mess</strong> — No ink, paint, or liquid materials are used during play.</li></ul>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
