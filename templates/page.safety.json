@@ -393,7 +393,7 @@
               "settings": {
                 "text": "<p>We created Glow Heroes to give families a screen-free, calming way to spark creativity after dark. Our goal was simple, to turn nighttime into a moment of imagination, confidence, and connection, while giving parents peace of mind.<br/><br/>Glow Heroes encourages open-ended creativity, gentle routines, and independent play without noise, mess, or overstimulation. Every part of the set is designed to feel safe, intuitive, and comforting for young children.</p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
