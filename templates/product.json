@@ -474,7 +474,7 @@
                   "settings": {
                     "text": "<p>We stand behind Glow Heroes 100%. If your family isn’t happy, you can return or replace the set with no hassle.</p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "center",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
