@@ -531,7 +531,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p><strong>100% Happiness Guaranteed 🩷</strong></p>",
+                    "text": "<p><strong>Happiness Guaranteed </strong>🩷</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -557,7 +557,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We stand behind Glow Heroes. If your family isn’t happy, you can return or replace the set with no hassle.</p>",
+                    "text": "<p>We stand behind Glow Heroes 100%. If your family isn’t happy, you can return or replace the set with no hassle.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
