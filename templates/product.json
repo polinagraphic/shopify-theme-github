@@ -523,8 +523,8 @@
                 "gradient_direction": "to top",
                 "padding-block-start": 14,
                 "padding-block-end": 14,
-                "padding-inline-start": 20,
-                "padding-inline-end": 20
+                "padding-inline-start": 14,
+                "padding-inline-end": 14
               },
               "blocks": {
                 "text_QhKQrC": {
@@ -557,7 +557,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We stand behind Glow Heroes 100%. If your family isn’t happy with the set, you can return or replace it, no stress, no questions.</p>",
+                    "text": "<p>We stand behind Glow Heroes 100%. If your family isn’t happy, you can return or replace the set with no hassle.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
