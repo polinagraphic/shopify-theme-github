@@ -686,6 +686,7 @@
             "group_TyAEXd": {
               "type": "group",
               "name": "Icons Text",
+              "disabled": true,
               "settings": {
                 "c_class": "",
                 "link": "",
