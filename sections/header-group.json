@@ -17,7 +17,7 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "<strong>Up To 50% OFF on Bundles</strong>",
+            "text": "<strong>Up to 50% OFF on Bundles</strong>",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
