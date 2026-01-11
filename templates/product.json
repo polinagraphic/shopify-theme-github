@@ -368,7 +368,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>🚚 <strong>FREE Domestic Shipping</strong></p>",
+                        "text": "<p>🚚 <strong>FREE Shipping on Bundles</strong></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
