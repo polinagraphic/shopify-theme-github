@@ -152,7 +152,6 @@
                 },
                 "price_tVjtKg": {
                   "type": "price",
-                  "disabled": true,
                   "settings": {
                     "show_sale_price_first": true,
                     "show_installments": false,
@@ -1262,6 +1261,7 @@
         "text_gdAiM7",
         "text_b6zJhp"
       ],
+      "disabled": true,
       "name": "t:names.icons_with_text",
       "settings": {
         "content_direction": "column",
@@ -1366,6 +1366,7 @@
       "block_order": [
         "moast_carousel_HzaaDQ"
       ],
+      "disabled": true,
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -2043,6 +2044,7 @@
         "image_YGJ7qb",
         "group_89DwPw"
       ],
+      "disabled": true,
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -2133,6 +2135,7 @@
         "text_JaeY68",
         "text_cPR8w6"
       ],
+      "disabled": true,
       "name": "t:names.icons_with_text",
       "settings": {
         "content_direction": "column",
@@ -2193,6 +2196,7 @@
       "block_order": [
         "video_dFnHRr"
       ],
+      "disabled": true,
       "name": "t:names.rich_text_section",
       "settings": {
         "content_direction": "column",
@@ -2738,6 +2742,7 @@
         "text_AkzJLX",
         "text_h4eABx"
       ],
+      "disabled": true,
       "name": "t:names.icons_with_text",
       "settings": {
         "content_direction": "column",
@@ -3577,6 +3582,7 @@
         "group_dT4HND",
         "group_XWRq6U"
       ],
+      "disabled": true,
       "name": "t:names.icons_with_text",
       "settings": {
         "content_direction": "row",
@@ -4093,6 +4099,7 @@
         "group_pX74hJ",
         "image_QM3M3H"
       ],
+      "disabled": true,
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -4593,6 +4600,7 @@
         "text_hJpbFb",
         "group_cYbYAb"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "content_direction": "row",
