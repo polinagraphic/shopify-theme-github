@@ -417,19 +417,6 @@
                 "group_JQkCkD"
               ]
             },
-            "divider_VJhene": {
-              "type": "_divider",
-              "name": "t:names.divider",
-              "disabled": true,
-              "settings": {
-                "thickness": 1,
-                "corner_radius": "square",
-                "width_percent": 100,
-                "padding-block-start": 0,
-                "padding-block-end": 0
-              },
-              "blocks": {}
-            },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
@@ -610,6 +597,33 @@
               "block_order": [
                 "group_mWmzKL"
               ]
+            },
+            "moast_carousel_HNK6nU": {
+              "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
+              "disabled": true,
+              "settings": {
+                "dynamic": false,
+                "feed": "",
+                "feed_usage": "back_up",
+                "header": "",
+                "slide_type": "cards",
+                "product_cards": "none",
+                "autoplay_mode": "showcase",
+                "autoscroll_duration": 0,
+                "slide_size": "100",
+                "border": 0,
+                "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
+                "slide_rounding": "20",
+                "slide_spacing": 16,
+                "padding_top": 20,
+                "pagination": "below",
+                "alignment": "center",
+                "click_action": "fullscreen",
+                "float_location": "bottom_right",
+                "float_size": "small",
+                "show_captions": false,
+                "custom_css": ""
+              }
             },
             "group_87Uw9M": {
               "type": "group",
@@ -899,10 +913,10 @@
             "group_icgrde",
             "text_NQXUNW",
             "group_TyAEXd",
-            "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
             "group_h6cf9C",
+            "moast_carousel_HNK6nU",
             "group_87Uw9M",
             "accordion_mqjJGg"
           ]
