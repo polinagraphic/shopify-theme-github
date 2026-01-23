@@ -609,7 +609,7 @@
                 "product_cards": "none",
                 "autoplay_mode": "showcase",
                 "autoscroll_duration": 0,
-                "slide_size": "100",
+                "slide_size": "200",
                 "border": 0,
                 "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
                 "slide_rounding": "6",
