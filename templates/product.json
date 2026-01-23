@@ -600,10 +600,9 @@
             },
             "moast_carousel_HNK6nU": {
               "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
-              "disabled": true,
               "settings": {
                 "dynamic": false,
-                "feed": "",
+                "feed": "b52e7d19-41cd-4420-b3f5-34d234ce04d2",
                 "feed_usage": "back_up",
                 "header": "",
                 "slide_type": "cards",
