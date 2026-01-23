@@ -929,7 +929,7 @@
         "limit_details_width": true,
         "gap": 48,
         "color_scheme": "scheme-1",
-        "padding-block-start": 80,
+        "padding-block-start": 40,
         "padding-block-end": 80
       }
     },
@@ -1913,7 +1913,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 40,
-        "padding-block-end": 80
+        "padding-block-end": 40
       }
     },
     "section_pHR3Bi": {
