@@ -76,6 +76,39 @@
 }
 
   </style>
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const desktopBtn = document.querySelector('.desktop-normal');
+  const mobileSticky = document.querySelector('.mobile-sticky');
+
+  if (!desktopBtn || !mobileSticky) {
+    console.log('Sticky ATC: elements not found');
+    return;
+  }
+
+  console.log('Sticky ATC: initialized');
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          console.log('Desktop ATC in view → hide mobile sticky');
+          mobileSticky.classList.add('is-hidden');
+        } else {
+          console.log('Desktop ATC out of view → show mobile sticky');
+          mobileSticky.classList.remove('is-hidden');
+        }
+      });
+    },
+    {
+      threshold: 0.2
+    }
+  );
+
+  observer.observe(desktopBtn);
+});
+</script>
+
 {% schema %}
 {
   "name": "t:names.add_to_cart",
