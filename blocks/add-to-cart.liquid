@@ -13,7 +13,21 @@
   assign id = 'BuyButtons-ProductSubmitButton-' | append: block.id
 %}
 
+<span class="desktop-normal"
+  {{ block.shopify_attributes }}
+  style="--add-to-cart-font-case: {{ settings.button_text_case }};"
+>
+  {% render 'add-to-cart-button',
+    id: id,
+    class: class,
+    can_add_to_cart: can_add_to_cart,
+    product: closest.product,
+    add_to_cart_text: add_to_cart_text
+  %}
+</span>
+
 <span
+  class="mobile-sticky"
   {{ block.shopify_attributes }}
   style="--add-to-cart-font-case: {{ settings.button_text_case }};"
 >
