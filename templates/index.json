@@ -57,7 +57,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>A Glowing Holiday Starts Here</h2>",
+                "text": "<h2>Draw. Glow. Dream.</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -82,7 +82,7 @@
             "text_pCLL76": {
               "type": "text",
               "settings": {
-                "text": "<p>A peaceful way to play, unwind, and dream after dark.</p>",
+                "text": "<p>Meet the unique drawing set that makes time in the dark feel calm, creative, and fun.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -171,7 +171,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Turn Off the Lights & Watch the Glow</h2>",
+                "text": "<h2>Draw. Glow. Dream.</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -196,7 +196,7 @@
             "text_Lb8mWQ": {
               "type": "text",
               "settings": {
-                "text": "<p>A peaceful way to play, unwind, and dream after dark.</p>",
+                "text": "<p>Meet the unique drawing set that makes time in the dark feel calm, creative, and fun.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
