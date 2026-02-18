@@ -319,6 +319,34 @@
                       {% render 'unit-price', price: unit_price, measurement: item.unit_price_measurement %}
                     </div>
                   {%- endif -%}
+
+                  <div>
+                    {% if item.original_price != item.final_price %}
+                      <span class="visually-hidden">{{ 'content.price_sale' | t }}</span>
+                      {% comment %} <span>{{ item.final_price | money }}</span> {% endcomment %}
+                      <span class="visually-hidden">{{ 'content.price_regular' | t }}</span>
+                      <s class="compare-at-price">
+                        {% if item.variant.compare_at_price > item.original_price %}
+                          {{ item.variant.compare_at_price | times: item.quantity | money }}
+                        {% else %}
+                          {{ item.original_price | money }}
+                        {% endif %}
+                      </s>
+                    {% else %}
+                      {% if item.variant.compare_at_price > item.original_price %}
+                        <span class="visually-hidden">{{ 'content.price_sale' | t }}</span>
+                      {% else %}
+                        <span class="visually-hidden">{{ 'content.price' | t }}</span>
+                      {% endif %}
+
+                      {% comment %} <span>{{ item.original_price | money }}</span> {% endcomment %}
+
+                      {% if item.variant.compare_at_price > item.original_price %}
+                        <span class="visually-hidden">{{ 'content.price_regular' | t }}</span>
+                        <s class="compare-at-price">{{ item.variant.compare_at_price | times: item.quantity | money }}</s>
+                      {% endif %}
+                    {% endif %}
+                  </div>
                 </td>
               </tr>
             {% endfor %}
