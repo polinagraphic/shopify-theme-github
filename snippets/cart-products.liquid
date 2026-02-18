@@ -220,7 +220,7 @@
                     </ul>
                   {% endif %}
 
-                  <div>
+                  {% comment %} <div>
                     {% if item.original_price != item.final_price %}
                       <span class="visually-hidden">{{ 'content.price_sale' | t }}</span>
                       <span>{{ item.final_price | money }}</span>
@@ -246,7 +246,7 @@
                         <s class="compare-at-price">{{ item.variant.compare_at_price | money }}</s>
                       {% endif %}
                     {% endif %}
-                  </div>
+                  </div> {% endcomment %}
                 </td>
                 <td
                   class="cart-items__quantity"
