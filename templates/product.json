@@ -552,10 +552,10 @@
                     "icon_pnWD7W": {
                       "type": "icon",
                       "name": "t:names.icon",
-                      "disabled": true,
                       "settings": {
-                        "icon": "truck",
-                        "width": 24,
+                        "icon": "check_box",
+                        "image_upload": "shopify://shop_images/Checkmark.png",
+                        "width": 20,
                         "link": "",
                         "open_in_new_tab": false
                       },
@@ -565,7 +565,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>✅ <strong>FREE U.S. SHIPPING ON ALL ORDERS</strong></p>",
+                        "text": "<p><strong>FREE U.S. SHIPPING ON ALL ORDERS</strong></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
