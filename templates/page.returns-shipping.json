@@ -347,7 +347,7 @@
             "text_VTfizT": {
               "type": "text",
               "settings": {
-                "text": "<p>Currently, Glow Heroes ships to the USA only.</p><p>We offer free U.S. shipping on orders over $40. For orders under $40, we charge a flat rate of $7.<br/><br/>Processing time: 2-3 business days (Monday–Friday), but order processing times may take a little longer during holidays.</p>",
+                "text": "<p>Currently, Glow Heroes ships to the USA only.</p><p>We offer free U.S. shipping on orders over $25. For orders under $25, we charge a flat rate of $7.<br/><br/>Processing time: 2-3 business days (Monday–Friday), but order processing times may take a little longer during holidays.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
