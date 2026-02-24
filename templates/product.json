@@ -841,7 +841,7 @@
                     "text_qmcWQU": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>🌙 <strong>Makes the Dark Feel Safe</strong> — Turns nighttime fears into a calm, glowing activity that helps kids feel relaxed and in control when the lights go off.</p><p>🚫 <strong>Screen-Free Play</strong> — Offers a soothing alternative to screens, encouraging creativity without overstimulation before bed.</p><p>🤍 <strong>Supports Parent-Child Bonding</strong> — Makes it easy for parents and kids to slow down, create together, and share meaningful moments.</p><p>🎯 <strong>Builds Focus & Patience</strong> — The fading glow naturally teaches kids to slow down, stay present, and enjoy the process as they draw.</p><p>✨ <strong>Encourages Creative Thinking</strong> — Gives kids total freedom to decide what to draw, how to draw it, and what their creations mean.</p><p>✋ <strong>Develops Fine Motor Skills</strong> — Every glowing line strengthens hand control, coordination, and confidence through playful repetition.</p>",
+                        "text": "<ul><li><strong>Makes the Dark Feel Safe</strong> — Turns nighttime fears into a calm, glowing activity that helps kids feel relaxed and in control when the lights go off.</li></ul><p></p><ul><li><strong>Screen-Free Play</strong> — Offers a soothing alternative to screens, encouraging creativity without overstimulation before bed.</li></ul><p></p><ul><li><strong>Supports Parent-Child Bonding</strong> — Makes it easy for parents and kids to slow down, create together, and share meaningful moments.</li></ul><p></p><ul><li><strong>Builds Focus & Patience</strong> — The fading glow naturally teaches kids to slow down, stay present, and enjoy the process as they draw.</li></ul><p></p><ul><li><strong>Encourages Creative Thinking</strong> — Gives kids total freedom to decide what to draw, how to draw it, and what their creations mean.</li></ul><p></p><ul><li><strong>Develops Fine Motor Skills</strong> — Every glowing line strengthens hand control, coordination, and confidence through playful repetition.</li></ul>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -984,13 +984,53 @@
                   "block_order": [
                     "text_Xn9kWV"
                   ]
+                },
+                "accordion_row_eECWkY": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Shipping",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_z9jPf7": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<ul><li>FREE U.S. shipping on all orders</li><li>Orders are processed within 2–3 business days</li><li>You’ll receive tracking information as soon as your order ships</li></ul>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_z9jPf7"
+                  ]
                 }
               },
               "block_order": [
                 "accordion_row_mjzmwF",
                 "accordion_row_GkQwbL",
                 "accordion_row_QQUW3P",
-                "accordion_row_Dka8fD"
+                "accordion_row_Dka8fD",
+                "accordion_row_eECWkY"
               ]
             }
           },
