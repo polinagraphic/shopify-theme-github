@@ -713,6 +713,7 @@
             "group_87Uw9M": {
               "type": "group",
               "name": "t:names.group",
+              "disabled": true,
               "settings": {
                 "c_class": "",
                 "link": "",
