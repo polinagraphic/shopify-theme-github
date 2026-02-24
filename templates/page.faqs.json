@@ -1090,7 +1090,7 @@
                     "text_3KHTp3": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We offer free U.S. shipping on orders over $40. For orders under $40, we charge a flat rate of $7.</p>",
+                        "text": "<p>We offer free U.S. shipping on orders over $25. For orders under $25, we charge a flat rate of $7.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
