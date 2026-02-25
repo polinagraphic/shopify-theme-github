@@ -25,7 +25,7 @@
     add_to_cart_text: add_to_cart_text
   %}
 </span>
-{% if template.name == 'product' %}
+{% if template.name == 'product' and block.settings.show-sticky-button %}
 <span
   class="mobile-sticky"
   {{ block.shopify_attributes }}
