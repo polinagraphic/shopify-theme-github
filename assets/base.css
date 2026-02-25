@@ -4650,3 +4650,10 @@ span.cart-drawer__heading.h3{
   position: relative;
 }
 
+.shipping-progress::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #6b2dbd; /* purple */
+}
