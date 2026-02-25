@@ -38,7 +38,7 @@
 
       <div class="details-content">
 
-        {% if cart.items_subtotal_price <= 2500 %}
+      
         <div class="cart-discount__content">
           <form
             on:submit="/applyDiscount"
@@ -66,16 +66,7 @@
             </button>
           </form>
         </div>
-        {% endif %}
-
-        {% if cart.items_subtotal_price > 2500 %}
-
-          <div class="free-shipping-bar">
-            <p>You've unlocked <strong>FREE SHIPPING</strong></p>
-            <div class="shipping-progress"></div>
-          </div>
-
-        {% endif %}
+       
         
         <div
           class="cart-discount__error hidden"
