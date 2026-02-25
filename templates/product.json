@@ -434,6 +434,7 @@
               "type": "buy-buttons",
               "settings": {
                 "pdp_link": "draw-with-light-set",
+                "show-sticky-button": true,
                 "stacking": true,
                 "show_pickup_availability": false,
                 "gift_card_form": true,
