@@ -1060,12 +1060,13 @@
         "padding-block-end": 80
       }
     },
-    "hero_rBWrqX": {
+    "hero_4xJwmD": {
       "type": "hero",
       "blocks": {
-        "group_teQXT7": {
+        "group_BN4Q9T": {
           "type": "group",
           "name": "For Desktop",
+          "disabled": true,
           "settings": {
             "c_class": "show_on_desktop",
             "link": "",
@@ -1104,12 +1105,11 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_gH6NPf": {
+            "text_rk9kVy": {
               "type": "text",
               "name": "t:names.heading",
-              "disabled": true,
               "settings": {
-                "text": "<h2>Become a glow hero yourself</h2>",
+                "text": "<h2>Reviews</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1131,11 +1131,10 @@
               },
               "blocks": {}
             },
-            "text_y6hnaX": {
+            "text_VUFk67": {
               "type": "text",
-              "disabled": true,
               "settings": {
-                "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
+                "text": "<p>See what others are saying about Glow Heroes products!</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1157,7 +1156,7 @@
               },
               "blocks": {}
             },
-            "button_zrthBC": {
+            "button_frEDBB": {
               "type": "button",
               "name": "t:names.button",
               "disabled": true,
@@ -1175,14 +1174,15 @@
             }
           },
           "block_order": [
-            "text_gH6NPf",
-            "text_y6hnaX",
-            "button_zrthBC"
+            "text_rk9kVy",
+            "text_VUFk67",
+            "button_frEDBB"
           ]
         },
-        "group_MDjEew": {
+        "group_heVB94": {
           "type": "group",
           "name": "For Mobile",
+          "disabled": true,
           "settings": {
             "c_class": "show_on_mobile",
             "link": "",
@@ -1221,12 +1221,11 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_A8nDkV": {
+            "text_GkXxrH": {
               "type": "text",
               "name": "t:names.heading",
-              "disabled": true,
               "settings": {
-                "text": "<h2>Become a glow hero yourself</h2>",
+                "text": "<h2>Reviews</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1248,11 +1247,10 @@
               },
               "blocks": {}
             },
-            "text_NRLhQj": {
+            "text_ftRfGX": {
               "type": "text",
-              "disabled": true,
               "settings": {
-                "text": "<p>Draw with Light set transforms the dark into a glowing canvas where kids can doodle, imagine, and play — again and again.</p>",
+                "text": "<p>See what others are saying about Glow Heroes products!</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1274,7 +1272,7 @@
               },
               "blocks": {}
             },
-            "button_4U36Kf": {
+            "button_8baWVK": {
               "type": "button",
               "name": "t:names.button",
               "disabled": true,
@@ -1292,23 +1290,22 @@
             }
           },
           "block_order": [
-            "text_A8nDkV",
-            "text_NRLhQj",
-            "button_4U36Kf"
+            "text_GkXxrH",
+            "text_ftRfGX",
+            "button_8baWVK"
           ]
         }
       },
       "block_order": [
-        "group_teQXT7",
-        "group_MDjEew"
+        "group_BN4Q9T",
+        "group_heVB94"
       ],
+      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/GH_Quote_07_Desktop.jpg",
-        "video_1": "shopify://files/videos/About Us Video.mov",
-        "image_mob": "shopify://shop_images/GH_Quote_07_Mobile.jpg",
-        "video_mob": "shopify://files/videos/moast-Reel_004.mov",
+        "image_1": "shopify://shop_images/GH_Quote_07_Desktop_daf8547d-3567-4b93-891f-02d741b1f9a3.jpg",
+        "image_mob": "shopify://shop_images/GH_Quote_07_Mobile_45484b99-d364-43fe-801c-49eb8aa6684d.jpg",
         "media_type_2": "video",
         "link": "",
         "open_in_new_tab": false,
@@ -1321,7 +1318,7 @@
         "vertical_alignment_flex_direction_column": "center",
         "gap": 24,
         "section_width": "page-width",
-        "section_height": "large",
+        "section_height": "small",
         "section_height_custom": 50,
         "color_scheme": "scheme-1",
         "toggle_overlay": false,
@@ -5283,7 +5280,7 @@
   },
   "order": [
     "main",
-    "hero_rBWrqX",
+    "hero_4xJwmD",
     "1771977013dda33083",
     "marquee_wPBwCA",
     "section_LVBqRr",
