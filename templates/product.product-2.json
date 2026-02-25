@@ -235,7 +235,8 @@
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
-                "pdp_link": "draw-with-light-set",
+                "pdp_link": "magic-pen",
+                "show-sticky-button": false,
                 "stacking": true,
                 "show_pickup_availability": false,
                 "gift_card_form": true,
