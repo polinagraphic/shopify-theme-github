@@ -4634,18 +4634,19 @@ span.cart-drawer__heading.h3{
   font-family: 'BowlbyOne' !important;
 }
 
-
+/* Shipping Bar */
 .free-shipping-bar {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 14px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
 }
 
 .shipping-progress {
-    height: 6px;
-    background: #e5e5e5;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-top: 8px;
-    position: relative;
+  height: 6px;
+  background: #e5e5e5;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 8px;
+  position: relative;
 }
+
