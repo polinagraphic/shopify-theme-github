@@ -4627,3 +4627,9 @@ cart-items-component.cart-items-component.cst-cart .cart-page.spacing-style .car
 .cart-drawer-tracker {
     display: none;
 }
+
+/*change the cart title font*/ 
+span.cart-drawer__heading.h3{
+  text-transform: uppercase;
+  font-family: 'BowlbyOne' !important;
+}
