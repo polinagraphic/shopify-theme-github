@@ -4640,3 +4640,12 @@ span.cart-drawer__heading.h3{
     text-align: center;
     font-size: 14px;
 }
+
+.shipping-progress {
+    height: 6px;
+    background: #e5e5e5;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 8px;
+    position: relative;
+}
