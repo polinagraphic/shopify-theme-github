@@ -435,7 +435,7 @@
               "settings": {
                 "pdp_link": "draw-with-light-set",
                 "show-sticky-button": true,
-                "stacking": true,
+                "stacking": false,
                 "show_pickup_availability": false,
                 "gift_card_form": true,
                 "padding-block-start": 0,
