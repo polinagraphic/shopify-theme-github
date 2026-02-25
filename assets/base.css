@@ -4634,3 +4634,9 @@ span.cart-drawer__heading.h3{
   font-family: 'BowlbyOne' !important;
 }
 
+
+.free-shipping-bar {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
