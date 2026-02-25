@@ -69,6 +69,7 @@
 
         <p>Subtotal: {{ cart.items_subtotal_price | money }}</p>
         <p>Total: {{ cart.total_price | money }}</p>
+        
         {% assign free_shipping_threshold = 2500 %}
 
         {% if cart.items_subtotal_price >= free_shipping_threshold %}
