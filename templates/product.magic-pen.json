@@ -236,7 +236,7 @@
               "type": "buy-buttons",
               "settings": {
                 "pdp_link": "magic-pen",
-                "show-sticky-button": false,
+                "show-sticky-button": true,
                 "stacking": true,
                 "show_pickup_availability": false,
                 "gift_card_form": true,
