@@ -434,7 +434,7 @@
               "type": "buy-buttons",
               "settings": {
                 "pdp_link": "draw-with-light-set",
-                "stacking": false,
+                "stacking": true,
                 "show_pickup_availability": false,
                 "gift_card_form": true,
                 "padding-block-start": 0,
