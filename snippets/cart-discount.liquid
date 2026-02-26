@@ -68,13 +68,30 @@
         {% endif %}
 
         {% assign free_shipping_threshold = 2500 %}
+        {% assign remaining_amount = free_shipping_threshold | minus: cart.items_subtotal_price %}
 
-        {% if cart.items_subtotal_price >= free_shipping_threshold %}
-          <div class="free-shipping-bar">
-            <p>You've unlocked <strong>FREE SHIPPING</strong></p>
-            <div class="shipping-progress"></div>
+        <div class="free-shipping-bar">
+          {% if cart.items_subtotal_price >= free_shipping_threshold %}
+            <p>🎉 You've unlocked <strong>FREE SHIPPING</strong></p>
+          {% else %}
+            <p>
+              You're {{ remaining_amount | money }} away from 
+              <strong>FREE SHIPPING</strong>
+            </p>
+          {% endif %}
+
+          {% assign progress_percentage = cart.items_subtotal_price | times: 100 | divided_by: free_shipping_threshold %}
+          {% if progress_percentage > 100 %}
+            {% assign progress_percentage = 100 %}
+          {% endif %}
+
+          <div class="shipping-progress-wrapper">
+            <div 
+              class="shipping-progress" 
+              style="width: {{ progress_percentage }}%;"
+            ></div>
           </div>
-        {% endif %}
+        </div>
 
         <div
           class="cart-discount__error hidden"
