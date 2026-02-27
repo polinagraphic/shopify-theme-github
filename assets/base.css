@@ -4657,3 +4657,6 @@ span.cart-drawer__heading.h3{
   width: 100%;
   background: #6b2dbd; /* purple */
 }
+.cart-discount__content {
+    display: none;
+}
