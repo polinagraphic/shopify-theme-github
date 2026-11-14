@@ -22,7 +22,7 @@
             "large_first_image": true,
             "icons_style": "chevron",
             "slideshow_controls_style": "thumbnails",
-            "slideshow_mobile_controls_style": "hint",
+            "slideshow_mobile_controls_style": "dots",
             "thumbnail_position": "left",
             "thumbnail_width": 63,
             "aspect_ratio": "1",
@@ -696,7 +696,11 @@
                 "product_cards": "none",
                 "autoplay_mode": "showcase",
                 "autoscroll_duration": 0,
+                "slide_size_mode": "fixed",
                 "slide_size": "200",
+                "slides_in_view_desktop": 4,
+                "slides_in_view_mobile": 2,
+                "aspect_ratio": "vertical",
                 "border": 0,
                 "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
                 "slide_rounding": "6",
@@ -708,6 +712,7 @@
                 "float_location": "bottom_right",
                 "float_size": "small",
                 "show_captions": false,
+                "show_handles": false,
                 "custom_css": ""
               }
             },
@@ -1343,6 +1348,9 @@
             "products": [
               "draw-with-light-set"
             ],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
             "star_rating": "all",
             "max_reviews": 3,
             "quote_marks_size": "hidden",
@@ -1364,7 +1372,8 @@
             "show_drop_shadow": false,
             "transition_speed": 5,
             "header_text": "Loved by kids, trusted by parents",
-            "show_average_rating": false
+            "show_average_rating": false,
+            "rating_display": "default"
           }
         }
       },
@@ -1588,7 +1597,11 @@
             "product_cards": "overlay",
             "autoplay_mode": "sequential",
             "autoscroll_duration": 0,
+            "slide_size_mode": "fixed",
             "slide_size": "300",
+            "slides_in_view_desktop": 4,
+            "slides_in_view_mobile": 2,
+            "aspect_ratio": "vertical",
             "border": 0,
             "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
             "slide_rounding": "20",
@@ -1600,6 +1613,7 @@
             "float_location": "bottom_right",
             "float_size": "medium",
             "show_captions": false,
+            "show_handles": false,
             "custom_css": ""
           }
         }
