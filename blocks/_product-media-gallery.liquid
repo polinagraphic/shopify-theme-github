@@ -604,7 +604,9 @@
   </div>
 
   <!-- Thumbnails slider -->
+  {% if block.settings.show_pagination %}
   <div class="swiper-pagination for-mobile-only"></div>
+  {% endif %}
   <div class="swiper thumbs-slider for-desktop-only">
     <div class="swiper-wrapper">
       {% for media in product.media %}
@@ -653,7 +655,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
-{% stylesheet %}
+{% if block.settings.show_pagination %}
+<style>
 @media screen and (max-width: 749px) {
 .swiper.thumbs-slider.for-desktop-only {
     display: none !important;
@@ -671,6 +674,9 @@ document.addEventListener("DOMContentLoaded", () => {
 .swiper-pagination.for-mobile-only {
     display: none;
 }
+</style>
+{% endif %}
+{% stylesheet %}
 .mobile-gallery {
   max-width: 100%;
 }
