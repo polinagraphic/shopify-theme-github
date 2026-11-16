@@ -4660,3 +4660,9 @@ span.cart-drawer__heading.h3{
 .cart-discount__content {
     display: none;
 }
+.jdgm-rev-widg__body .jdgm-paginate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
