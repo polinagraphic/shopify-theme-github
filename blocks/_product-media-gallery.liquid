@@ -604,6 +604,7 @@
   </div>
 
   <!-- Thumbnails slider -->
+  <div class="swiper-pagination"></div>
   <div class="swiper thumbs-slider vvvvv">
     <div class="swiper-wrapper">
       {% for media in product.media %}
@@ -629,22 +630,28 @@
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const thumbsSwiper = new Swiper(".thumbs-slider", {
-      slidesPerView: 5,
-      spaceBetween: 10,
-      freeMode: true,
-      watchSlidesProgress: true,
-    });
-
-    const mainSwiper = new Swiper(".main-slider", {
-      spaceBetween: 10,
-      loop: true,
-      thumbs: {
-        swiper: thumbsSwiper,
-      },
-    });
+document.addEventListener("DOMContentLoaded", () => {
+  const thumbsSwiper = new Swiper(".thumbs-slider", {
+    slidesPerView: 5,
+    spaceBetween: 10,
+    freeMode: true,
+    watchSlidesProgress: true,
   });
+
+  const mainSwiper = new Swiper(".main-slider", {
+    spaceBetween: 10,
+    loop: true,
+
+    thumbs: {
+      swiper: thumbsSwiper,
+    },
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+});
 </script>
 {% stylesheet %}
 .mobile-gallery {
