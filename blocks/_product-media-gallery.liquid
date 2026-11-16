@@ -654,6 +654,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 {% stylesheet %}
+@media screen and (max-width: 749px) {
+.swiper-pagination.for-mobile-only {
+    display: none !important;
+}
+}
 .mobile-gallery {
   max-width: 100%;
 }
